@@ -1,0 +1,2783 @@
+{
+  "constituencywise": [
+    {
+      "Constituency": "Alandur",
+      "Const. No.": 28,
+      "Leading Candidate": "Anbarasan T.M.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "R.Murugan",
+      "Trailing Party": "AIADMK",
+      "Margin": 19169,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Alangudi",
+      "Const. No.": 182,
+      "Leading Candidate": "Meyyanathan .Siva .V",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Balakrishna Reddy P",
+      "Trailing Party": "AIADMK",
+      "Margin": 9941,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Alangulam",
+      "Const. No.": 223,
+      "Leading Candidate": "Dr. Poongothai Aladi Aruna",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Ramajeyalingam.J.K.N",
+      "Trailing Party": "AIADMK",
+      "Margin": 4754,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ambasamudram",
+      "Const. No.": 225,
+      "Leading Candidate": "R. Murugaiah Pandian",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Veeramani.K.C.",
+      "Trailing Party": "AIADMK",
+      "Margin": 13166,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ambattur",
+      "Const. No.": 8,
+      "Leading Candidate": "Alexander V",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Muhammed Abubacker.K.A.M",
+      "Trailing Party": "IUML",
+      "Margin": 17498,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ambur",
+      "Const. No.": 48,
+      "Leading Candidate": "Balasubramani",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Panneerselvam V",
+      "Trailing Party": "AIADMK",
+      "Margin": 28006,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Anaikattu",
+      "Const. No.": 44,
+      "Leading Candidate": "Nandakumar A P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Prabhu A",
+      "Trailing Party": "AIADMK",
+      "Margin": 8768,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Andipatti",
+      "Const. No.": 198,
+      "Leading Candidate": "Thangatamilselvam",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "C.V.M.P. Ezhilarasan",
+      "Trailing Party": "DMK",
+      "Margin": 30196,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Anna Nagar",
+      "Const. No.": 21,
+      "Leading Candidate": "Mohan M.K.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thaniyarasu U",
+      "Trailing Party": "AIADMK",
+      "Margin": 1687,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Anthiyur",
+      "Const. No.": 105,
+      "Leading Candidate": "Rajakrishnan.K.R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Austin. S",
+      "Trailing Party": "DMK",
+      "Margin": 5312,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Arakkonam",
+      "Const. No.": 38,
+      "Leading Candidate": "Ravi S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramasamy Kr",
+      "Trailing Party": "Congress",
+      "Margin": 4161,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Arani",
+      "Const. No.": 67,
+      "Leading Candidate": "Ramachandran S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vijayabhaskar .M.R",
+      "Trailing Party": "AIADMK",
+      "Margin": 7327,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Aranthangi",
+      "Const. No.": 183,
+      "Leading Candidate": "Rathinasabhapathy E",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Duraimurugan",
+      "Trailing Party": "DMK",
+      "Margin": 2291,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Arcot",
+      "Const. No.": 42,
+      "Leading Candidate": "Eswarappan J L",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Murugumaran.N",
+      "Trailing Party": "AIADMK",
+      "Margin": 11091,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ariyalur",
+      "Const. No.": 149,
+      "Leading Candidate": "Rajendran. S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Arukutty V.C.",
+      "Trailing Party": "AIADMK",
+      "Margin": 2043,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Aruppukkottai",
+      "Const. No.": 207,
+      "Leading Candidate": "Ramachandran.K.K.S.S.R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Rajesh Kumar S",
+      "Trailing Party": "Congress",
+      "Margin": 18054,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Athoor",
+      "Const. No.": 129,
+      "Leading Candidate": "Periyasamy I",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Pitchandi K",
+      "Trailing Party": "DMK",
+      "Margin": 27147,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Attur",
+      "Const. No.": 82,
+      "Leading Candidate": "Chinnathambi R M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Loganathan.G",
+      "Trailing Party": "AIADMK",
+      "Margin": 17334,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Avadi",
+      "Const. No.": 6,
+      "Leading Candidate": "Pandia Rajan K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mathivanan.U",
+      "Trailing Party": "DMK",
+      "Margin": 1395,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Avanashi (SC)",
+      "Const. No.": 112,
+      "Leading Candidate": "Dhanapal P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Shanmugam A.",
+      "Trailing Party": "AIADMK",
+      "Margin": 30674,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Bargur",
+      "Const. No.": 52,
+      "Leading Candidate": "V.Rajendran",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "M.K.Stalin",
+      "Trailing Party": "DMK",
+      "Margin": 982,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Bhavani",
+      "Const. No.": 104,
+      "Leading Candidate": "Karuppanan K C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "C. Kadambur Raju",
+      "Trailing Party": "AIADMK",
+      "Margin": 24887,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Bhavanisagar",
+      "Const. No.": 107,
+      "Leading Candidate": "Eswaran.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Senguttuvan.T",
+      "Trailing Party": "DMK",
+      "Margin": 13104,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Bhuvanagiri",
+      "Const. No.": 157,
+      "Leading Candidate": "Saravanan Durai K.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Geetha M.",
+      "Trailing Party": "AIADMK",
+      "Margin": 5488,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Bodinayakanur",
+      "Const. No.": 200,
+      "Leading Candidate": "O. Panneerselvam",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramar .E",
+      "Trailing Party": "DMK",
+      "Margin": 15608,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Chengalpattu",
+      "Const. No.": 32,
+      "Leading Candidate": "Varalakshmi.M",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thangamani P",
+      "Trailing Party": "AIADMK",
+      "Margin": 26292,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Chengam",
+      "Const. No.": 62,
+      "Leading Candidate": "Giri .M.P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "G.Anbalagan",
+      "Trailing Party": "DMK",
+      "Margin": 12691,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Chepauk-Thiruvallikeni",
+      "Const. No.": 19,
+      "Leading Candidate": "J.Anbazhagan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "R.T.Ramachandran",
+      "Trailing Party": "AIADMK",
+      "Margin": 14164,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Cheyyar",
+      "Const. No.": 68,
+      "Leading Candidate": "Mohan K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Panneerselvam Mrk",
+      "Trailing Party": "DMK",
+      "Margin": 8527,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Cheyyur",
+      "Const. No.": 34,
+      "Leading Candidate": "Arasu R T",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Soundarapandian A",
+      "Trailing Party": "DMK",
+      "Margin": 304,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Chidambaram",
+      "Const. No.": 158,
+      "Leading Candidate": "Pandian K A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Jayaramakrishnan R",
+      "Trailing Party": "DMK",
+      "Margin": 1506,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Coimbatore (North)",
+      "Const. No.": 118,
+      "Leading Candidate": "Arun Kumar P.R.G.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sudharsanam S",
+      "Trailing Party": "DMK",
+      "Margin": 7724,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Coimbatore (South)",
+      "Const. No.": 120,
+      "Leading Candidate": "Arjunan @ Amman Arjunan K.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Palanivel Thiagarajan",
+      "Trailing Party": "DMK",
+      "Margin": 17419,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Colachel",
+      "Const. No.": 231,
+      "Leading Candidate": "Prince J.G.",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Moorthy P",
+      "Trailing Party": "DMK",
+      "Margin": 26028,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Coonoor",
+      "Const. No.": 110,
+      "Leading Candidate": "Ramu A.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajan Chellappa V.V.",
+      "Trailing Party": "AIADMK",
+      "Margin": 3710,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Cuddalore",
+      "Const. No.": 155,
+      "Leading Candidate": "Sampath M C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Saravanan .S.S.",
+      "Trailing Party": "AIADMK",
+      "Margin": 24413,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Cumbum",
+      "Const. No.": 201,
+      "Leading Candidate": "S.T.K.Jakkaiyan",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Raju K",
+      "Trailing Party": "AIADMK",
+      "Margin": 11221,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Dharapuram (SC)",
+      "Const. No.": 101,
+      "Leading Candidate": "Kalimuthu. V.S",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "S.Pugazhenthi",
+      "Trailing Party": "DMK",
+      "Margin": 10017,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Dharmapuri",
+      "Const. No.": 59,
+      "Leading Candidate": "Subramani. P.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Benjamin P",
+      "Trailing Party": "AIADMK",
+      "Margin": 9676,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Dindigul",
+      "Const. No.": 132,
+      "Leading Candidate": "Sreenivasan C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Masilamani R",
+      "Trailing Party": "DMK",
+      "Margin": 20719,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Dr.Radhakrishnan Nagar",
+      "Const. No.": 11,
+      "Leading Candidate": "Jayalalithaa J",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Parameswari. M",
+      "Trailing Party": "AIADMK",
+      "Margin": 39545,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Edappadi",
+      "Const. No.": 86,
+      "Leading Candidate": "Palaniswami. K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mariappankennady S",
+      "Trailing Party": "AIADMK",
+      "Margin": 42022,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Egmore",
+      "Const. No.": 16,
+      "Leading Candidate": "Ravichandran K.S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Chandrasekar R",
+      "Trailing Party": "AIADMK",
+      "Margin": 10679,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Erode (East)",
+      "Const. No.": 98,
+      "Leading Candidate": "Thennarasu K S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajaa.T.R.B",
+      "Trailing Party": "DMK",
+      "Margin": 7794,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Erode (West)",
+      "Const. No.": 99,
+      "Leading Candidate": "Ramalingam K.V.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rathakrishnan.V",
+      "Trailing Party": "AIADMK",
+      "Margin": 4906,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gandharvakottai",
+      "Const. No.": 178,
+      "Leading Candidate": "Arumugam.B",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Periyapullan @ Selvam P",
+      "Trailing Party": "AIADMK",
+      "Margin": 3047,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gangavalli",
+      "Const. No.": 81,
+      "Leading Candidate": "Maruthamuthu.A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Chinnaraj.O.K",
+      "Trailing Party": "AIADMK",
+      "Margin": 2262,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gingee",
+      "Const. No.": 70,
+      "Leading Candidate": "Masthan K S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Semmalai.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 22057,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gobichettipalayam",
+      "Const. No.": 106,
+      "Leading Candidate": "Sengottaiyan K.A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sivasubramani V.P.",
+      "Trailing Party": "AIADMK",
+      "Margin": 11223,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gudalur",
+      "Const. No.": 109,
+      "Leading Candidate": "Thiravidamani M.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "S.Pandi",
+      "Trailing Party": "Congress",
+      "Margin": 13379,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gudiyattam",
+      "Const. No.": 46,
+      "Leading Candidate": "Jayanthi Padmanabhan .C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Selvarasu M",
+      "Trailing Party": "AIADMK",
+      "Margin": 11470,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Gummidipoondi",
+      "Const. No.": 1,
+      "Leading Candidate": "Vijayakumar K S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Nataraj R",
+      "Trailing Party": "AIADMK",
+      "Margin": 23395,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Harbour",
+      "Const. No.": 18,
+      "Leading Candidate": "Sekar Babu P K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thamimun Ansari.M",
+      "Trailing Party": "AIADMK",
+      "Margin": 4836,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Harur",
+      "Const. No.": 61,
+      "Leading Candidate": "R.Murugan",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Suresh Rajan N",
+      "Trailing Party": "DMK",
+      "Margin": 11421,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Hosur",
+      "Const. No.": 55,
+      "Leading Candidate": "Balakrishna Reddy P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Baskar. K.P.P",
+      "Trailing Party": "AIADMK",
+      "Margin": 22964,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Jayankondam",
+      "Const. No.": 150,
+      "Leading Candidate": "Ramajeyalingam.J.K.N",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vasanthakumar. H",
+      "Trailing Party": "Congress",
+      "Margin": 22934,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Jolarpet",
+      "Const. No.": 49,
+      "Leading Candidate": "Veeramani.K.C.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Kamaraj. R",
+      "Trailing Party": "AIADMK",
+      "Margin": 10991,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kadayanallur",
+      "Const. No.": 221,
+      "Leading Candidate": "Muhammed Abubacker.K.A.M",
+      "Leading Party": "IUML",
+      "Trailing Candidate": "Andi Ambalam M.A",
+      "Trailing Party": "DMK",
+      "Margin": 1194,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kalasapakkam",
+      "Const. No.": 65,
+      "Leading Candidate": "Panneerselvam V",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Saba.Rajendran",
+      "Trailing Party": "DMK",
+      "Margin": 26414,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kallakurichi",
+      "Const. No.": 80,
+      "Leading Candidate": "Prabhu A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thangathurai R",
+      "Trailing Party": "AIADMK",
+      "Margin": 4104,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kancheepuram",
+      "Const. No.": 37,
+      "Leading Candidate": "C.V.M.P. Ezhilarasan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sakkarapani R",
+      "Trailing Party": "DMK",
+      "Margin": 7548,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kangayam",
+      "Const. No.": 102,
+      "Leading Candidate": "Thaniyarasu U",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vetrivel.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 13135,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kanniyakumari",
+      "Const. No.": 229,
+      "Leading Candidate": "Austin. S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Ramchandran. M",
+      "Trailing Party": "DMK",
+      "Margin": 5912,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Karaikudi",
+      "Const. No.": 184,
+      "Leading Candidate": "Ramasamy Kr",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Sundararaj.R",
+      "Trailing Party": "AIADMK",
+      "Margin": 18283,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Karur",
+      "Const. No.": 135,
+      "Leading Candidate": "Vijayabhaskar .M.R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mano Thangaraj T",
+      "Trailing Party": "DMK",
+      "Margin": 441,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Katpadi",
+      "Const. No.": 40,
+      "Leading Candidate": "Duraimurugan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Anbalagan. K.P.",
+      "Trailing Party": "AIADMK",
+      "Margin": 23946,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kattumannarkoil(SC)",
+      "Const. No.": 159,
+      "Leading Candidate": "Murugumaran.N",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Senthilkumar I P",
+      "Trailing Party": "DMK",
+      "Margin": 87,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kavundampalayam",
+      "Const. No.": 117,
+      "Leading Candidate": "Arukutty V.C.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mohideen Khant.P.M",
+      "Trailing Party": "DMK",
+      "Margin": 8025,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Killiyoor",
+      "Const. No.": 234,
+      "Leading Candidate": "Rajesh Kumar S",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Natarajan. A",
+      "Trailing Party": "AIADMK",
+      "Margin": 46295,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kilpennathur",
+      "Const. No.": 64,
+      "Leading Candidate": "Pitchandi K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Karunanithi.I",
+      "Trailing Party": "DMK",
+      "Margin": 34666,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kilvaithinankuppam",
+      "Const. No.": 45,
+      "Leading Candidate": "Loganathan.G",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sathya.P",
+      "Trailing Party": "AIADMK",
+      "Margin": 9746,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kilvelur",
+      "Const. No.": 164,
+      "Leading Candidate": "Mathivanan.U",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Doraikkannu .R",
+      "Trailing Party": "AIADMK",
+      "Margin": 10170,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kinathukadavu",
+      "Const. No.": 122,
+      "Leading Candidate": "Shanmugam A.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Palaniyappan. P",
+      "Trailing Party": "AIADMK",
+      "Margin": 1332,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kolathur",
+      "Const. No.": 13,
+      "Leading Candidate": "M.K.Stalin",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Muthiah.S.Dr",
+      "Trailing Party": "AIADMK",
+      "Margin": 37730,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kovilpatti",
+      "Const. No.": 218,
+      "Leading Candidate": "C. Kadambur Raju",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Moorthiy K S",
+      "Trailing Party": "DMK",
+      "Margin": 428,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Krishnagiri",
+      "Const. No.": 53,
+      "Leading Candidate": "Senguttuvan.T",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sekar. V",
+      "Trailing Party": "AIADMK",
+      "Margin": 4891,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Krishnarayapuram",
+      "Const. No.": 136,
+      "Leading Candidate": "Geetha M.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Inbasekaran. P.N.P.",
+      "Trailing Party": "DMK",
+      "Margin": 35301,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kulithalai",
+      "Const. No.": 137,
+      "Leading Candidate": "Ramar .E",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "R.Thamizhselvan",
+      "Trailing Party": "AIADMK",
+      "Margin": 11896,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kumarapalayam",
+      "Const. No.": 97,
+      "Leading Candidate": "Thangamani P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "P Vetrivel",
+      "Trailing Party": "AIADMK",
+      "Margin": 47329,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kumbakonam",
+      "Const. No.": 171,
+      "Leading Candidate": "G.Anbalagan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Govindarasu M",
+      "Trailing Party": "AIADMK",
+      "Margin": 8457,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kunnam",
+      "Const. No.": 148,
+      "Leading Candidate": "R.T.Ramachandran",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Kathirkamu.K",
+      "Trailing Party": "AIADMK",
+      "Margin": 18796,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Kurinjipadi",
+      "Const. No.": 156,
+      "Leading Candidate": "Panneerselvam Mrk",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Venkatachalam.N.D",
+      "Trailing Party": "AIADMK",
+      "Margin": 28108,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Lalgudi",
+      "Const. No.": 143,
+      "Leading Candidate": "Soundarapandian A",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Pollachi V Jayaraman",
+      "Trailing Party": "AIADMK",
+      "Margin": 3837,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madathukulam",
+      "Const. No.": 126,
+      "Leading Candidate": "Jayaramakrishnan R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sekaran.K.V",
+      "Trailing Party": "DMK",
+      "Margin": 1667,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madavaram",
+      "Const. No.": 9,
+      "Leading Candidate": "Sudharsanam S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Anbarasan T.M.",
+      "Trailing Party": "DMK",
+      "Margin": 15253,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurai Central",
+      "Const. No.": 193,
+      "Leading Candidate": "Palanivel Thiagarajan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Meyyanathan .Siva .V",
+      "Trailing Party": "DMK",
+      "Margin": 5762,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurai East",
+      "Const. No.": 189,
+      "Leading Candidate": "Moorthy P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Dr. Poongothai Aladi Aruna",
+      "Trailing Party": "DMK",
+      "Margin": 32772,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurai North",
+      "Const. No.": 191,
+      "Leading Candidate": "Rajan Chellappa V.V.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "R. Murugaiah Pandian",
+      "Trailing Party": "AIADMK",
+      "Margin": 18839,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurai South",
+      "Const. No.": 192,
+      "Leading Candidate": "Saravanan .S.S.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Alexander V",
+      "Trailing Party": "AIADMK",
+      "Margin": 23763,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurai West",
+      "Const. No.": 194,
+      "Leading Candidate": "Raju K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Balasubramani",
+      "Trailing Party": "AIADMK",
+      "Margin": 16398,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Madurantakam",
+      "Const. No.": 35,
+      "Leading Candidate": "S.Pugazhenthi",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Nandakumar A P",
+      "Trailing Party": "DMK",
+      "Margin": 2957,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Maduravoyal",
+      "Const. No.": 7,
+      "Leading Candidate": "Benjamin P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thangatamilselvam",
+      "Trailing Party": "AIADMK",
+      "Margin": 8402,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mailam",
+      "Const. No.": 71,
+      "Leading Candidate": "Masilamani R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Mohan M.K.",
+      "Trailing Party": "DMK",
+      "Margin": 12306,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Manachanallur",
+      "Const. No.": 144,
+      "Leading Candidate": "Parameswari. M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajakrishnan.K.R",
+      "Trailing Party": "AIADMK",
+      "Margin": 7522,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Manamadurai",
+      "Const. No.": 187,
+      "Leading Candidate": "Mariappankennady S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ravi S",
+      "Trailing Party": "AIADMK",
+      "Margin": 14889,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Manapparai",
+      "Const. No.": 138,
+      "Leading Candidate": "Chandrasekar R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramachandran S",
+      "Trailing Party": "AIADMK",
+      "Margin": 18277,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mannargudi",
+      "Const. No.": 167,
+      "Leading Candidate": "Rajaa.T.R.B",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Rathinasabhapathy E",
+      "Trailing Party": "AIADMK",
+      "Margin": 9937,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mayiladuthurai",
+      "Const. No.": 161,
+      "Leading Candidate": "Rathakrishnan.V",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Eswarappan J L",
+      "Trailing Party": "DMK",
+      "Margin": 4778,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Melur",
+      "Const. No.": 188,
+      "Leading Candidate": "Periyapullan @ Selvam P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajendran. S",
+      "Trailing Party": "AIADMK",
+      "Margin": 19723,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mettuppalayam",
+      "Const. No.": 111,
+      "Leading Candidate": "Chinnaraj.O.K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramachandran.K.K.S.S.R",
+      "Trailing Party": "DMK",
+      "Margin": 16114,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mettur",
+      "Const. No.": 85,
+      "Leading Candidate": "Semmalai.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Periyasamy I",
+      "Trailing Party": "DMK",
+      "Margin": 6282,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Modakkurichi",
+      "Const. No.": 100,
+      "Leading Candidate": "Sivasubramani V.P.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Chinnathambi R M",
+      "Trailing Party": "AIADMK",
+      "Margin": 2222,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mudhukulathur",
+      "Const. No.": 212,
+      "Leading Candidate": "S.Pandi",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Pandia Rajan K",
+      "Trailing Party": "AIADMK",
+      "Margin": 13348,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Musiri",
+      "Const. No.": 145,
+      "Leading Candidate": "Selvarasu M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Dhanapal P",
+      "Trailing Party": "AIADMK",
+      "Margin": 32087,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Mylapore",
+      "Const. No.": 25,
+      "Leading Candidate": "Nataraj R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "V.Rajendran",
+      "Trailing Party": "AIADMK",
+      "Margin": 14728,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Nagapattinam",
+      "Const. No.": 163,
+      "Leading Candidate": "Thamimun Ansari.M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Karuppanan K C",
+      "Trailing Party": "AIADMK",
+      "Margin": 20550,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Nagercoil",
+      "Const. No.": 230,
+      "Leading Candidate": "Suresh Rajan N",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Eswaran.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 20956,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Namakkal",
+      "Const. No.": 94,
+      "Leading Candidate": "Baskar. K.P.P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Saravanan Durai K.",
+      "Trailing Party": "DMK",
+      "Margin": 13534,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Nanguneri",
+      "Const. No.": 227,
+      "Leading Candidate": "Vasanthakumar. H",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "O. Panneerselvam",
+      "Trailing Party": "AIADMK",
+      "Margin": 17315,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Nannilam",
+      "Const. No.": 169,
+      "Leading Candidate": "Kamaraj. R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Varalakshmi.M",
+      "Trailing Party": "DMK",
+      "Margin": 21276,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Natham",
+      "Const. No.": 131,
+      "Leading Candidate": "Andi Ambalam M.A",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Giri .M.P",
+      "Trailing Party": "DMK",
+      "Margin": 2110,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Neyveli",
+      "Const. No.": 153,
+      "Leading Candidate": "Saba.Rajendran",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "J.Anbazhagan",
+      "Trailing Party": "DMK",
+      "Margin": 17791,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Nilakkottai",
+      "Const. No.": 130,
+      "Leading Candidate": "Thangathurai R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mohan K",
+      "Trailing Party": "AIADMK",
+      "Margin": 14776,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Oddanchatram",
+      "Const. No.": 128,
+      "Leading Candidate": "Sakkarapani R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Arasu R T",
+      "Trailing Party": "DMK",
+      "Margin": 65727,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Omalur",
+      "Const. No.": 84,
+      "Leading Candidate": "Vetrivel.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Pandian K A",
+      "Trailing Party": "AIADMK",
+      "Margin": 19956,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Orathanadu",
+      "Const. No.": 175,
+      "Leading Candidate": "Ramchandran. M",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Arun Kumar P.R.G.",
+      "Trailing Party": "AIADMK",
+      "Margin": 3645,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ottapidaram",
+      "Const. No.": 217,
+      "Leading Candidate": "Sundararaj.R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Arjunan @ Amman Arjunan K.",
+      "Trailing Party": "AIADMK",
+      "Margin": 493,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Padmanabhapuram",
+      "Const. No.": 232,
+      "Leading Candidate": "Mano Thangaraj T",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Prince J.G.",
+      "Trailing Party": "Congress",
+      "Margin": 40905,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Palacode",
+      "Const. No.": 57,
+      "Leading Candidate": "Anbalagan. K.P.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramu A.",
+      "Trailing Party": "AIADMK",
+      "Margin": 5983,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Palani",
+      "Const. No.": 127,
+      "Leading Candidate": "Senthilkumar I P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sampath M C",
+      "Trailing Party": "AIADMK",
+      "Margin": 25586,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Palayamkottai",
+      "Const. No.": 226,
+      "Leading Candidate": "Mohideen Khant.P.M",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "S.T.K.Jakkaiyan",
+      "Trailing Party": "AIADMK",
+      "Margin": 15872,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Palladam",
+      "Const. No.": 115,
+      "Leading Candidate": "Natarajan. A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Kalimuthu. V.S",
+      "Trailing Party": "Congress",
+      "Margin": 32174,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pallavaram",
+      "Const. No.": 30,
+      "Leading Candidate": "Karunanithi.I",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Subramani. P.",
+      "Trailing Party": "DMK",
+      "Margin": 22165,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Panruti",
+      "Const. No.": 154,
+      "Leading Candidate": "Sathya.P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sreenivasan C",
+      "Trailing Party": "AIADMK",
+      "Margin": 3128,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Papanasam",
+      "Const. No.": 172,
+      "Leading Candidate": "Doraikkannu .R",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Jayalalithaa J",
+      "Trailing Party": "AIADMK",
+      "Margin": 24365,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pappireddippatti",
+      "Const. No.": 60,
+      "Leading Candidate": "Palaniyappan. P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Palaniswami. K",
+      "Trailing Party": "AIADMK",
+      "Margin": 12713,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Paramakudi",
+      "Const. No.": 209,
+      "Leading Candidate": "Muthiah.S.Dr",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ravichandran K.S",
+      "Trailing Party": "DMK",
+      "Margin": 11389,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Paramathi-Velur",
+      "Const. No.": 95,
+      "Leading Candidate": "Moorthiy K S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thennarasu K S",
+      "Trailing Party": "AIADMK",
+      "Margin": 818,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pattukkottai",
+      "Const. No.": 176,
+      "Leading Candidate": "Sekar. V",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramalingam K.V.",
+      "Trailing Party": "AIADMK",
+      "Margin": 12358,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pennagaram",
+      "Const. No.": 58,
+      "Leading Candidate": "Inbasekaran. P.N.P.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Arumugam.B",
+      "Trailing Party": "AIADMK",
+      "Margin": 18446,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Perambalur",
+      "Const. No.": 147,
+      "Leading Candidate": "R.Thamizhselvan",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Maruthamuthu.A",
+      "Trailing Party": "AIADMK",
+      "Margin": 6853,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Perambur",
+      "Const. No.": 12,
+      "Leading Candidate": "P Vetrivel",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Masthan K S",
+      "Trailing Party": "DMK",
+      "Margin": 519,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Peravurani",
+      "Const. No.": 177,
+      "Leading Candidate": "Govindarasu M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sengottaiyan K.A",
+      "Trailing Party": "AIADMK",
+      "Margin": 995,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Periyakulam",
+      "Const. No.": 199,
+      "Leading Candidate": "Kathirkamu.K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thiravidamani M.",
+      "Trailing Party": "DMK",
+      "Margin": 14350,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Perundurai",
+      "Const. No.": 103,
+      "Leading Candidate": "Venkatachalam.N.D",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Jayanthi Padmanabhan .C",
+      "Trailing Party": "AIADMK",
+      "Margin": 12771,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pollachi",
+      "Const. No.": 123,
+      "Leading Candidate": "Pollachi V Jayaraman",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vijayakumar K S",
+      "Trailing Party": "AIADMK",
+      "Margin": 13368,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Polur",
+      "Const. No.": 66,
+      "Leading Candidate": "Sekaran.K.V",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sekar Babu P K",
+      "Trailing Party": "DMK",
+      "Margin": 8273,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ponneri",
+      "Const. No.": 2,
+      "Leading Candidate": "Balaraman P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "R.Murugan",
+      "Trailing Party": "AIADMK",
+      "Margin": 19336,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Poompuhar",
+      "Const. No.": 162,
+      "Leading Candidate": "Pavunraj.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Balakrishna Reddy P",
+      "Trailing Party": "AIADMK",
+      "Margin": 19935,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Poonamallee",
+      "Const. No.": 5,
+      "Leading Candidate": "Elumalai T A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramajeyalingam.J.K.N",
+      "Trailing Party": "AIADMK",
+      "Margin": 11763,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Pudukkottai",
+      "Const. No.": 180,
+      "Leading Candidate": "Periyannan Arassu",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Veeramani.K.C.",
+      "Trailing Party": "AIADMK",
+      "Margin": 2084,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Radhapuram",
+      "Const. No.": 228,
+      "Leading Candidate": "I. S. Inbadurai",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Muhammed Abubacker.K.A.M",
+      "Trailing Party": "IUML",
+      "Margin": 49,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Rajapalayam",
+      "Const. No.": 202,
+      "Leading Candidate": "Thangappandian. S.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Panneerselvam V",
+      "Trailing Party": "AIADMK",
+      "Margin": 4802,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ramanathapuram",
+      "Const. No.": 211,
+      "Leading Candidate": "Manikandan.M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Prabhu A",
+      "Trailing Party": "AIADMK",
+      "Margin": 33222,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ranipet",
+      "Const. No.": 41,
+      "Leading Candidate": "Gandhi.R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "C.V.M.P. Ezhilarasan",
+      "Trailing Party": "DMK",
+      "Margin": 7896,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Rasipuram",
+      "Const. No.": 92,
+      "Leading Candidate": "Saroja V. Dr",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thaniyarasu U",
+      "Trailing Party": "AIADMK",
+      "Margin": 9631,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Rishivandiyam",
+      "Const. No.": 78,
+      "Leading Candidate": "Karthikeyan.K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Moorthy P",
+      "Trailing Party": "DMK",
+      "Margin": 20503,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Royapuram",
+      "Const. No.": 17,
+      "Leading Candidate": "Jayakumar D",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajan Chellappa V.V.",
+      "Trailing Party": "AIADMK",
+      "Margin": 8031,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Saidapet",
+      "Const. No.": 23,
+      "Leading Candidate": "Subramanian.Ma",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Saravanan .S.S.",
+      "Trailing Party": "AIADMK",
+      "Margin": 16255,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Salem (North)",
+      "Const. No.": 89,
+      "Leading Candidate": "Rajendran.R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Raju K",
+      "Trailing Party": "AIADMK",
+      "Margin": 9873,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Salem (South)",
+      "Const. No.": 90,
+      "Leading Candidate": "Sakthivel A B",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "S.Pugazhenthi",
+      "Trailing Party": "DMK",
+      "Margin": 30453,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Salem (West)",
+      "Const. No.": 88,
+      "Leading Candidate": "Venkatachalam.G",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Benjamin P",
+      "Trailing Party": "AIADMK",
+      "Margin": 7247,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sankarankovil",
+      "Const. No.": 219,
+      "Leading Candidate": "Rajalakshmi M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Masilamani R",
+      "Trailing Party": "DMK",
+      "Margin": 14489,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sankarapuram",
+      "Const. No.": 79,
+      "Leading Candidate": "Udhayasuriyan.T",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Parameswari. M",
+      "Trailing Party": "AIADMK",
+      "Margin": 14528,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sankari",
+      "Const. No.": 87,
+      "Leading Candidate": "Raja.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Mariappankennady S",
+      "Trailing Party": "AIADMK",
+      "Margin": 37374,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sattur",
+      "Const. No.": 204,
+      "Leading Candidate": "Subramanian S.G.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Chandrasekar R",
+      "Trailing Party": "AIADMK",
+      "Margin": 4427,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Senthamangalam",
+      "Const. No.": 93,
+      "Leading Candidate": "Chandrasekaran C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rajaa.T.R.B",
+      "Trailing Party": "DMK",
+      "Margin": 12333,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sholavandan",
+      "Const. No.": 190,
+      "Leading Candidate": "Manickam K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Rathakrishnan.V",
+      "Trailing Party": "AIADMK",
+      "Margin": 24857,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sholingur",
+      "Const. No.": 39,
+      "Leading Candidate": "Parthiban.N.G",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Periyapullan @ Selvam P",
+      "Trailing Party": "AIADMK",
+      "Margin": 9732,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Shozhinganallur",
+      "Const. No.": 27,
+      "Leading Candidate": "Aravind Ramesh S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Chinnaraj.O.K",
+      "Trailing Party": "AIADMK",
+      "Margin": 14913,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Singanallur",
+      "Const. No.": 121,
+      "Leading Candidate": "Karthik N.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Semmalai.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 5180,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sirkazhi",
+      "Const. No.": 160,
+      "Leading Candidate": "Bharathi.P.V",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sivasubramani V.P.",
+      "Trailing Party": "AIADMK",
+      "Margin": 9003,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sivaganga",
+      "Const. No.": 186,
+      "Leading Candidate": "Baskaran.G",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "S.Pandi",
+      "Trailing Party": "Congress",
+      "Margin": 6636,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sivakasi",
+      "Const. No.": 205,
+      "Leading Candidate": "Rajenthrabhalaji K.T",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Selvarasu M",
+      "Trailing Party": "AIADMK",
+      "Margin": 14748,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sriperumbudur",
+      "Const. No.": 29,
+      "Leading Candidate": "Palani.K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Nataraj R",
+      "Trailing Party": "AIADMK",
+      "Margin": 10716,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Srirangam",
+      "Const. No.": 139,
+      "Leading Candidate": "Valarmathi.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thamimun Ansari.M",
+      "Trailing Party": "AIADMK",
+      "Margin": 14409,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Srivaikuntam",
+      "Const. No.": 216,
+      "Leading Candidate": "Shanmuganathan S.P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Suresh Rajan N",
+      "Trailing Party": "DMK",
+      "Margin": 3531,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Srivilliputhur",
+      "Const. No.": 203,
+      "Leading Candidate": "Chandra Prabha. M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Baskar. K.P.P",
+      "Trailing Party": "AIADMK",
+      "Margin": 36673,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Sulur",
+      "Const. No.": 116,
+      "Leading Candidate": "Kanagaraj R.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vasanthakumar. H",
+      "Trailing Party": "Congress",
+      "Margin": 36631,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tambaram",
+      "Const. No.": 31,
+      "Leading Candidate": "S R Raja",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Kamaraj. R",
+      "Trailing Party": "AIADMK",
+      "Margin": 14445,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tenkasi",
+      "Const. No.": 222,
+      "Leading Candidate": "Selvamohandas Pandian S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Andi Ambalam M.A",
+      "Trailing Party": "DMK",
+      "Margin": 462,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thalli",
+      "Const. No.": 56,
+      "Leading Candidate": "Prakaash Y.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Saba.Rajendran",
+      "Trailing Party": "DMK",
+      "Margin": 6245,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiru-Vi-Ka-Nagar",
+      "Const. No.": 15,
+      "Leading Candidate": "Sivakumar P @ Thayagam Kavi",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thangathurai R",
+      "Trailing Party": "AIADMK",
+      "Margin": 3322,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thirumangalam",
+      "Const. No.": 196,
+      "Leading Candidate": "Udhayakumar.R.B",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sakkarapani R",
+      "Trailing Party": "DMK",
+      "Margin": 23590,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thirumayam",
+      "Const. No.": 181,
+      "Leading Candidate": "Regupathy S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Vetrivel.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 766,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruparankundram",
+      "Const. No.": 195,
+      "Leading Candidate": "Seenivel S M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ramchandran. M",
+      "Trailing Party": "DMK",
+      "Margin": 22992,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruporur",
+      "Const. No.": 33,
+      "Leading Candidate": "Kothandapani. M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Sundararaj.R",
+      "Trailing Party": "AIADMK",
+      "Margin": 950,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruthuraipoondi",
+      "Const. No.": 166,
+      "Leading Candidate": "Adalarasan. P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Mano Thangaraj T",
+      "Trailing Party": "DMK",
+      "Margin": 13250,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruvaiyaru",
+      "Const. No.": 173,
+      "Leading Candidate": "Durai.Chandrasekaran",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Anbalagan. K.P.",
+      "Trailing Party": "AIADMK",
+      "Margin": 14343,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruvallur",
+      "Const. No.": 4,
+      "Leading Candidate": "Raajendran V G",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Senthilkumar I P",
+      "Trailing Party": "DMK",
+      "Margin": 5138,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruvarur",
+      "Const. No.": 168,
+      "Leading Candidate": "Karunanidhi .M",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Mohideen Khant.P.M",
+      "Trailing Party": "DMK",
+      "Margin": 68366,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruverumbur",
+      "Const. No.": 142,
+      "Leading Candidate": "Anbil Mahesh Poyyamozhi",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Natarajan. A",
+      "Trailing Party": "AIADMK",
+      "Margin": 16695,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruvidaimarudur",
+      "Const. No.": 170,
+      "Leading Candidate": "Chezhiaan.Govi",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Karunanithi.I",
+      "Trailing Party": "DMK",
+      "Margin": 532,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiruvottiyur",
+      "Const. No.": 10,
+      "Leading Candidate": "Samy.K.P.P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sathya.P",
+      "Trailing Party": "AIADMK",
+      "Margin": 4863,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thiyagarayanagar",
+      "Const. No.": 24,
+      "Leading Candidate": "Sathyanarayanan.B",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Doraikkannu .R",
+      "Trailing Party": "AIADMK",
+      "Margin": 3155,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thondamuthur",
+      "Const. No.": 119,
+      "Leading Candidate": "Velumani S.P.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Palaniyappan. P",
+      "Trailing Party": "AIADMK",
+      "Margin": 64041,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thoothukkudi",
+      "Const. No.": 214,
+      "Leading Candidate": "Geetha Jeevan P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Muthiah.S.Dr",
+      "Trailing Party": "AIADMK",
+      "Margin": 20908,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thousand Lights",
+      "Const. No.": 20,
+      "Leading Candidate": "Selvam Ku. Ka",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Moorthiy K S",
+      "Trailing Party": "DMK",
+      "Margin": 8829,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Thuraiyur",
+      "Const. No.": 146,
+      "Leading Candidate": "Stalinkumar .S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sekar. V",
+      "Trailing Party": "AIADMK",
+      "Margin": 8068,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tindivanam",
+      "Const. No.": 72,
+      "Leading Candidate": "Seethapathy P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Inbasekaran. P.N.P.",
+      "Trailing Party": "DMK",
+      "Margin": 101,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruchendur",
+      "Const. No.": 215,
+      "Leading Candidate": "Anitha R Radhakrishnan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "R.Thamizhselvan",
+      "Trailing Party": "AIADMK",
+      "Margin": 26001,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruchengodu",
+      "Const. No.": 96,
+      "Leading Candidate": "Saraswathi Pon",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "P Vetrivel",
+      "Trailing Party": "AIADMK",
+      "Margin": 3390,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruchirappalli (East)",
+      "Const. No.": 141,
+      "Leading Candidate": "Natarajan .N.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Govindarasu M",
+      "Trailing Party": "AIADMK",
+      "Margin": 21894,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruchirappalli (West)",
+      "Const. No.": 140,
+      "Leading Candidate": "Nehru.K.N",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Kathirkamu.K",
+      "Trailing Party": "AIADMK",
+      "Margin": 28415,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruchuli",
+      "Const. No.": 208,
+      "Leading Candidate": "Thangam Thenarasu T.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Venkatachalam.N.D",
+      "Trailing Party": "AIADMK",
+      "Margin": 26577,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tirukkoyilur",
+      "Const. No.": 76,
+      "Leading Candidate": "Ponmudy K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Pollachi V Jayaraman",
+      "Trailing Party": "AIADMK",
+      "Margin": 41057,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tirunelveli",
+      "Const. No.": 224,
+      "Leading Candidate": "Lakshmanan A.L.S.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sekaran.K.V",
+      "Trailing Party": "DMK",
+      "Margin": 601,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tirupattur",
+      "Const. No.": 50,
+      "Leading Candidate": "Nallathambi. A",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Balaraman P",
+      "Trailing Party": "AIADMK",
+      "Margin": 7647,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruppattur",
+      "Const. No.": 185,
+      "Leading Candidate": "Periakaruppan Kr",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Pavunraj.S",
+      "Trailing Party": "AIADMK",
+      "Margin": 42004,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruppur (North)",
+      "Const. No.": 113,
+      "Leading Candidate": "Vijayakumar Kn",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Elumalai T A",
+      "Trailing Party": "AIADMK",
+      "Margin": 37774,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruppur (South)",
+      "Const. No.": 114,
+      "Leading Candidate": "Gunasekaran S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Periyannan Arassu",
+      "Trailing Party": "DMK",
+      "Margin": 15933,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruttani",
+      "Const. No.": 3,
+      "Leading Candidate": "Narasimhan P M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "I. S. Inbadurai",
+      "Trailing Party": "AIADMK",
+      "Margin": 23141,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruvadanai",
+      "Const. No.": 210,
+      "Leading Candidate": "Karunaas",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Geetha Jeevan P",
+      "Trailing Party": "DMK",
+      "Margin": 8696,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tiruvannamalai",
+      "Const. No.": 63,
+      "Leading Candidate": "Velu E.V.",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Selvam Ku. Ka",
+      "Trailing Party": "DMK",
+      "Margin": 50348,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Tittagudi (SC)",
+      "Const. No.": 151,
+      "Leading Candidate": "Ganesan V",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Stalinkumar .S",
+      "Trailing Party": "DMK",
+      "Margin": 2212,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Udhagamandalam",
+      "Const. No.": 108,
+      "Leading Candidate": "Ganesh R.",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Seethapathy P",
+      "Trailing Party": "DMK",
+      "Margin": 10418,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Udumalaipettai",
+      "Const. No.": 125,
+      "Leading Candidate": "Radhakrishnan K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Anitha R Radhakrishnan",
+      "Trailing Party": "DMK",
+      "Margin": 5687,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Ulundurpettai",
+      "Const. No.": 77,
+      "Leading Candidate": "Kumaraguru R.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Saraswathi Pon",
+      "Trailing Party": "AIADMK",
+      "Margin": 4164,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Usilampatti",
+      "Const. No.": 197,
+      "Leading Candidate": "Neethipathi P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Natarajan .N.",
+      "Trailing Party": "AIADMK",
+      "Margin": 32906,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Uthangarai",
+      "Const. No.": 51,
+      "Leading Candidate": "N.Manoranjitham",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Nehru.K.N",
+      "Trailing Party": "DMK",
+      "Margin": 2613,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Uthiramerur",
+      "Const. No.": 36,
+      "Leading Candidate": "Sundar.K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Thangam Thenarasu T.",
+      "Trailing Party": "DMK",
+      "Margin": 12156,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Valparai",
+      "Const. No.": 124,
+      "Leading Candidate": "Kasthuri Vasu V.",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ponmudy K",
+      "Trailing Party": "DMK",
+      "Margin": 8244,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vandavasi",
+      "Const. No.": 69,
+      "Leading Candidate": "Ambethkumar S",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Lakshmanan A.L.S.",
+      "Trailing Party": "DMK",
+      "Margin": 18068,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vaniyambadi",
+      "Const. No.": 47,
+      "Leading Candidate": "Nilofer",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Nallathambi. A",
+      "Trailing Party": "DMK",
+      "Margin": 14526,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vanur",
+      "Const. No.": 73,
+      "Leading Candidate": "Chakrapani M",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Periakaruppan Kr",
+      "Trailing Party": "DMK",
+      "Margin": 10223,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vasudevanallur",
+      "Const. No.": 220,
+      "Leading Candidate": "Manoharan A",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Vijayakumar Kn",
+      "Trailing Party": "AIADMK",
+      "Margin": 18758,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vedaranyam",
+      "Const. No.": 165,
+      "Leading Candidate": "Manian.O.S",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Gunasekaran S",
+      "Trailing Party": "AIADMK",
+      "Margin": 22998,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vedasandur",
+      "Const. No.": 133,
+      "Leading Candidate": "Paramasivam V.P.B",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Narasimhan P M",
+      "Trailing Party": "AIADMK",
+      "Margin": 19938,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Veerapandi",
+      "Const. No.": 91,
+      "Leading Candidate": "Manonmani.P",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Chezhiaan.Govi",
+      "Trailing Party": "DMK",
+      "Margin": 14481,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Velachery",
+      "Const. No.": 26,
+      "Leading Candidate": "Vagai Chanderasekar",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Samy.K.P.P",
+      "Trailing Party": "DMK",
+      "Margin": 8872,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vellore",
+      "Const. No.": 43,
+      "Leading Candidate": "Karthikeyan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Sathyanarayanan.B",
+      "Trailing Party": "AIADMK",
+      "Margin": 26210,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Veppanahalli",
+      "Const. No.": 54,
+      "Leading Candidate": "Murugan P",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Velumani S.P.",
+      "Trailing Party": "AIADMK",
+      "Margin": 5228,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vikravandi",
+      "Const. No.": 75,
+      "Leading Candidate": "Rathamani.K",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Geetha Jeevan P",
+      "Trailing Party": "DMK",
+      "Margin": 6912,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vilathikulam",
+      "Const. No.": 213,
+      "Leading Candidate": "Uma Maheswari K",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Selvam Ku. Ka",
+      "Trailing Party": "DMK",
+      "Margin": 18718,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vilavancode",
+      "Const. No.": 233,
+      "Leading Candidate": "Vijayadharani S",
+      "Leading Party": "Congress",
+      "Trailing Candidate": "Stalinkumar .S",
+      "Trailing Party": "DMK",
+      "Margin": 33143,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Villivakkam",
+      "Const. No.": 14,
+      "Leading Candidate": "B. Ranganathan",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Seethapathy P",
+      "Trailing Party": "DMK",
+      "Margin": 9321,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Villupuram",
+      "Const. No.": 74,
+      "Leading Candidate": "Shanmugam C Ve",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Anitha R Radhakrishnan",
+      "Trailing Party": "DMK",
+      "Margin": 22291,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Viralimalai",
+      "Const. No.": 179,
+      "Leading Candidate": "Vijaya Baskar C",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Saraswathi Pon",
+      "Trailing Party": "AIADMK",
+      "Margin": 8447,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Virudhunagar",
+      "Const. No.": 206,
+      "Leading Candidate": "Seenivasan A.R.R",
+      "Leading Party": "DMK",
+      "Trailing Candidate": "Natarajan .N.",
+      "Trailing Party": "AIADMK",
+      "Margin": 2870,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Virugampakkam",
+      "Const. No.": 22,
+      "Leading Candidate": "V.N.Virugai Ravi",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Nehru.K.N",
+      "Trailing Party": "DMK",
+      "Margin": 2333,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Vridhachalam",
+      "Const. No.": 152,
+      "Leading Candidate": "Kalaiselvan V T",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Thangam Thenarasu T.",
+      "Trailing Party": "DMK",
+      "Margin": 13777,
+      "Status": "Result Declared"
+    },
+    {
+      "Constituency": "Yercaud",
+      "Const. No.": 83,
+      "Leading Candidate": "Chitra.G",
+      "Leading Party": "AIADMK",
+      "Trailing Candidate": "Ponmudy K",
+      "Trailing Party": "DMK",
+      "Margin": 17394,
+      "Status": "Result Declared"
+    }
+  ],
+  "keycandidate": [
+    {
+      "constid": 12,
+      "constname": "Kallakurichi",
+      "candidatename": "Edappadi Karuppa Palaniswami",
+      "party": "AIADMK",
+      "leadortrail": "Leading",
+      "votes": 35567
+    },
+    {
+      "constid": 3,
+      "constname": "Chennai",
+      "candidatename": "Ottakarathevar Panneerselvam",
+      "party": "AIADMK",
+      "leadortrail": "Trailing",
+      "votes": 35567
+    },
+    {
+      "constid": 5,
+      "constname": "Madurai",
+      "candidatename": "T. T. V. Dhinakaran",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "leadortrail": "Trailing",
+      "votes": 35567
+    },
+    {
+      "constid": 6,
+      "constname": "Trichy",
+      "candidatename": "M. K. Stalin",
+      "party": "M. K. Stalin",
+      "leadortrail": "Leading",
+      "votes": 35567
+    },
+    {
+      "constid": 12,
+      "constname": "Kallakurichi",
+      "candidatename": "Vijayakanth",
+      "party": "Desiya Murpokku Dravida Kazhagam",
+      "leadortrail": "Leading",
+      "votes": 35567
+    },
+    {
+      "constid": 3,
+      "constname": "Chennai",
+      "candidatename": "Senthamizhan Seeman",
+      "party": "Naam Tamilar Katchi",
+      "leadortrail": "Trailing",
+      "votes": 35567
+    },
+    {
+      "constid": 12,
+      "constname": "Kallakurichi",
+      "candidatename": "Karupusamy Selvam",
+      "party": "Naam Tamilar Katchi",
+      "leadortrail": "Trailing",
+      "votes": 35567
+    }
+  ],
+  "partywise": [
+    {
+      "party": "AIADMK",
+      "won": 0,
+      "leading": 0,
+      "total": 0
+    },
+    {
+      "party": "DMK",
+      "won": 0,
+      "leading": 0,
+      "total": 0
+    },
+    {
+      "party": "AMMK",
+      "won": 0,
+      "leading": 0,
+      "total": 0
+    },
+    {
+      "party": "MMM",
+      "won": 0,
+      "leading": 0,
+      "total": 0
+    },
+    {
+      "party": "Other",
+      "won": 0,
+      "leading": 0,
+      "total": 0
+    }
+  ],
+  "tabledata": [ { "state": "State Unassigned", "statecode": "UN", "districtData": [ { "district": "Unassigned", "notes": "", "active": 0, "confirmed": 0, "deceased": 0, "recovered": 0, "delta": { "confirmed": 0, "deceased": 0, "recovered": 0 } } ] }, { "state": "Andaman and Nicobar Islands", "statecode": "AN", "districtData": [ { "district": "Nicobars", "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin", "active": 0, "confirmed": 0, "deceased": 0, "recovered": 0, "delta": { "confirmed": 0, "deceased": 0, "recovered": 0 } }, { "district": "North and Middle Andaman", "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin", "active": 0, "confirmed": 1, "deceased": 0, "recovered": 1, "delta": { "confirmed": 0, "deceased": 0, "recovered": 0 } }, { "district": "South Andaman", "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin", "active": 19, "confirmed": 51, "deceased": 0, "recovered": 32, "delta": { "confirmed": 0, "deceased": 0, "recovered": 0 } }, { "district": "Unknown", "notes": "", "active": -12, "confirmed": 4972, "deceased": 62, "recovered": 4922, "delta": { "confirmed": 0, "deceased": 0, "recovered": 0 }} ] }],
+  "wb-polling-day":  [
+    {
+      "phase": "I",
+      "constno": 240,
+      "constname": "Baghmundi",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.3,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 239,
+      "constname": "Balarampur",
+      "totalElectorate": 123333333,
+      "turnout2016": 82.4,
+      "turnout2021": 56,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 238,
+      "constname": "Bandwan",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.6,
+      "turnout2021": 60,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 214,
+      "constname": "Bhagabanpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 88.2,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 237,
+      "constname": "Binpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 81.7,
+      "turnout2021": 64,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 248,
+      "constname": "Chhatna",
+      "totalElectorate": 123333333,
+      "turnout2016": 77.7,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 219,
+      "constname": "Dantan",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.7,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 218,
+      "constname": "Egra",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.5,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 233,
+      "constname": "Garbeta",
+      "totalElectorate": 123333333,
+      "turnout2016": 89.3,
+      "turnout2021": 56,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 221,
+      "constname": "Gopiballavpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 85.9,
+      "turnout2021": 60,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 222,
+      "constname": "Jhargram",
+      "totalElectorate": 123333333,
+      "turnout2016": 82.3,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 241,
+      "constname": "Joypur",
+      "totalElectorate": 123333333,
+      "turnout2016": 80.8,
+      "turnout2021": 64,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 216,
+      "constname": "Kanthi Dakshin",
+      "totalElectorate": 123333333,
+      "turnout2016": 84.3,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 213,
+      "constname": "Kanthi Uttar",
+      "totalElectorate": 123333333,
+      "turnout2016": 87.5,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 244,
+      "constname": "Kashipur",
+      "totalElectorate": 123333333,
+      "turnout2016": 81.9,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 223,
+      "constname": "Keshiary",
+      "totalElectorate": 123333333,
+      "turnout2016": 88,
+      "turnout2021": 56,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 228,
+      "constname": "Kharagpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 87.8,
+      "turnout2021": 60,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 215,
+      "constname": "Khejuri",
+      "totalElectorate": 123333333,
+      "turnout2016": 88.8,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 243,
+      "constname": "Manbazar",
+      "totalElectorate": 123333333,
+      "turnout2016": 83,
+      "turnout2021": 64,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 236,
+      "constname": "Medinipur",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.6,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 220,
+      "constname": "Nayagram",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.5,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 245,
+      "constname": "Para",
+      "totalElectorate": 123333333,
+      "turnout2016": 80.4,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 212,
+      "constname": "Patashpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 88.6,
+      "turnout2021": 56,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 242,
+      "constname": "Purulia",
+      "totalElectorate": 123333333,
+      "turnout2016": 79.2,
+      "turnout2021": 60,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 246,
+      "constname": "Raghunathpur",
+      "totalElectorate": 123333333,
+      "turnout2016": 80.3,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 250,
+      "constname": "Raipur",
+      "totalElectorate": 123333333,
+      "turnout2016": 85.2,
+      "turnout2021": 64,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 217,
+      "constname": "Ramnagar",
+      "totalElectorate": 123333333,
+      "turnout2016": 83.9,
+      "turnout2021": 39,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 249,
+      "constname": "Ranibandh",
+      "totalElectorate": 123333333,
+      "turnout2016": 82.2,
+      "turnout2021": 78,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 234,
+      "constname": "Salboni",
+      "totalElectorate": 123333333,
+      "turnout2016": 89.5,
+      "turnout2021": 50,
+      "timeupdated": "7.00pm"
+    },
+    {
+      "phase": "I",
+      "constno": 247,
+      "constname": "Saltora",
+      "totalElectorate": 123333333,
+      "turnout2016": 84.2,
+      "turnout2021": 56,
+      "timeupdated": "7.00pm"
+    }
+  ],
+  "wb-keycandidate": [
+    {
+      "phase": "I",
+      "constno": 12,
+      "constname": "Chennai",
+      "candidatename": "Edappadi Karuppa Palaniswami",
+      "candidateparty": "AIADMK",
+      "age": 50,
+      "education": "graduate",
+      "networth2016": "2 crore",
+      "networth2021": "2 crore",
+      "liabilities": "2 crore",
+      "criminalcases": 2
+    },
+    {
+      "phase": "I",
+      "constno": 3,
+      "constname": "Chennai",
+      "candidatename": "Ottakarathevar Panneerselvam",
+      "candidateparty": "AIADMK",
+      "age": 40,
+      "education": "graduate",
+      "networth2016": "3 crore",
+      "networth2021": "3 crore",
+      "liabilities": "3 crore",
+      "criminalcases": 10
+    },
+    {
+      "phase": "I",
+      "constno": 5,
+      "constname": "Madurai",
+      "candidatename": "T. T. V. Dhinakaran",
+      "candidateparty": "Amma Makkal Munnettra Kazagam",
+      "age": 60,
+      "education": "graduate",
+      "networth2016": "4 crore",
+      "networth2021": "4 crore",
+      "liabilities": "4 crore",
+      "criminalcases": 3
+    },
+    {
+      "phase": "I",
+      "constno": 6,
+      "constname": "Trichy",
+      "candidatename": "M. K. Stalin",
+      "candidateparty": "M. K. Stalin",
+      "age": 60,
+      "education": "graduate",
+      "networth2016": "5 crore",
+      "networth2021": "5 crore",
+      "liabilities": "5 crore",
+      "criminalcases": 5
+    },
+    {
+      "phase": "I",
+      "constno": 12,
+      "constname": "Kallakurichi",
+      "candidatename": "Vijayakanth",
+      "candidateparty": "Desiya Murpokku Dravida Kazhagam",
+      "age": 60,
+      "education": "graduate",
+      "networth2016": "6 crore",
+      "networth2021": "6 crore",
+      "liabilities": "6 crore",
+      "criminalcases": 6
+    },
+    {
+      "phase": "I",
+      "constno": 3,
+      "constname": "Chennai",
+      "candidatename": "Senthamizhan Seeman",
+      "candidateparty": "Naam Tamilar Katchi",
+      "age": 40,
+      "education": "graduate",
+      "networth2016": "7 crore",
+      "networth2021": "7 crore",
+      "liabilities": "7 crore",
+      "criminalcases": 3
+    },
+    {
+      "phase": "I",
+      "constno": 12,
+      "constname": "Kallakurichi",
+      "candidatename": "Karupusamy Selvam",
+      "candidateparty": "Naam Tamilar Katchi",
+      "age": 35,
+      "education": "graduate",
+      "networth2016": "8 crore",
+      "networth2021": "8 crore",
+      "liabilities": "8 crore",
+      "criminalcases": 2
+    }
+  ]
+
+
+}
+
