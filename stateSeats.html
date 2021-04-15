@@ -9,6 +9,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <style>
+        .table table{ width: 100%;}
+        .table th:first-child{ width:40%;}
+        .table th:nth-child(2), .table th:nth-child(3), .table th:nth-child(4){ width:20%;}
+        .table th,.table td{ text-align: left; padding: 5px 10px; font-size: 14px;}
+        .table th{ text-transform: capitalize;}
+        .table td button{     
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            height: 16px;
+            width: 16px;
+            outline: none;
+            border: none;
+            line-height: 16px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-left: 10px;
+            padding: 1px;
+            transition: all 0.2s;
+        }
+        .table td button:hover{
+            background-color: red;
+        }
+        .partyRow{
+            border-bottom:  1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
     <div class="tf_wrap">
@@ -49,6 +77,10 @@
         var partycolors = {
             "AIADMK": "#FF9900",
             "DMK": "#9b59b6",
+        }
+        var allianceList = {
+            "aiadmk": ["1", "2", "3", "4"],
+            "dmk": ["5", "6", "7", "8"],
         }
         carouselWidget('data.json', "#owl-demo", "constituencywise")
         var testdata = [
@@ -132,7 +164,7 @@
         // console.log("constWiseData", constWiseData2016);
         drawParliamentaryChart(".parliamentseats", "2016", testdata)
         // drawAccTable(testdata2, "#partywise-table")
-        drawAccTable(indiaDistrictData, "#partywise-table")
+        drawAccTable(testdata2, "#partywise-table", ["party", "won", "leading", "total"])
 
         drawAssemblyMap("#tn", {
             statecode: 'S22',
