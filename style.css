@@ -256,7 +256,7 @@
   right: 0;
   top: -4px;
   width: 70px;
-  height: 154px;
+  height: 290px;
   background-image: linear-gradient(to right, transparent, #fff);
 }
 .owl-carousel#owl-demo2 .owl-wrapper-outer::after {
@@ -856,7 +856,7 @@ ul#letters-listing li.disabled a {
 .turnout-items .turnout-2016 .level {
   font-size: 14px;
   line-height: 15px;
-  color: #F59A13;
+  color: #f59a13;
   font-weight: 500;
 }
 .turnout-items .split-2 {
@@ -884,7 +884,7 @@ ul#letters-listing li.disabled a {
 .turnout-items .split-2 div h4 {
   font-weight: 500;
   margin: 0 0 5px 0;
-  color: #F59A13;
+  color: #f59a13;
   font-size: 14px;
   line-height: 16px;
 }

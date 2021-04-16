@@ -73,9 +73,9 @@
     top: -4px;
     width: 30px;
   }
-  .poll-candidate-items img {	
-    left: 0;	
-    overflow: hidden;	
+  .poll-candidate-items img {
+    left: 0;
+    overflow: hidden;
   }
   .poll-candidate-items .cand-meta li span {
     font-size: 12px;
@@ -89,7 +89,8 @@
   .const-carousel {
     margin-top: 20px;
   }
-  .tf_wrap .split-cand-total h2, .tf_wrap nav {
+  .tf_wrap .split-cand-total h2,
+  .tf_wrap nav {
     text-align: center;
   }
 }
@@ -141,7 +142,7 @@
     left: 0;
     top: -4px;
     width: 70px;
-    height: 154px;
+    height: 290px;
     z-index: 1;
     background-image: linear-gradient(to left, transparent, #fff);
   }
