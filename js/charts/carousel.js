@@ -1,4 +1,8 @@
-function carouselWidget(datasource, selector){
+function carouselWidget(datasource, selector, statename, filter) {
+    statename = typeof statename !== 'undefined' ? statename : 'all';
+	statename_fixed = statename;
+    
+    var filter_const = filter;
 
     $("#owl-demo").owlCarousel({
         itemsDesktop : [1199,4],
@@ -15,16 +19,27 @@ function carouselWidget(datasource, selector){
     
     function customDataSuccess(data){
         var content = "";
-        for(var i in data["constituencywise"]){
+        var matchingletter;
+        var statn = statename+"_constituencywise"; 
+        console.log(statn);
+        for(var i in data[statn]){
             
-            var constituencyname = data["constituencywise"][i].Constituency;
-            var leadingname = data["constituencywise"][i]["Leading Candidate"];
-            var leadingparty = data["constituencywise"][i]["Leading Party"];
-            var leadingmargin = data["constituencywise"][i]["Margin"];
-            var trailingname = data["constituencywise"][i]["Trailing Candidate"];
-            var trailingparty = data["constituencywise"][i]["Trailing Party"];
-            var trailingmargin = data["constituencywise"][i]["Margin"];
-    
+            var constituencyname = data[statn][i].Constituency;
+            var leadingname = data[statn][i]["Leading Candidate"];
+            var leadingparty = data[statn][i]["Leading Party"];
+            var leadingmargin = data[statn][i]["Margin"];
+            var trailingname = data[statn][i]["Trailing Candidate"];
+            var trailingparty = data[statn][i]["Trailing Party"];
+            var trailingmargin = data[statn][i]["Margin"];
+            
+            console.log(filter_const);
+            if(filter_const != statn && filter_const != '') { console.log('here');
+				var matchingletter = constname.charAt(0).toUpperCase();
+				if(matchingletter != filter_const) {
+					continue;
+				}
+			}
+
             html = '<div class="contituency-items">'
             html += '<h3> Tamil Nadu | <span>'+constituencyname+'</span> </h3>'
             html += '<span class="leadingindicator">Leading</span>'

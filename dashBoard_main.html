@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assembly Election Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="tf_wrap">
+        <header class="dash-header">
+            <h2>Assembly Elections 2021</h2>
+            <nav>
+                <button class="dashfilters active" value="West Bengal" data="wb">West Bengal  <span id="wb-total-percent">76.9%</span></button>
+                <button class="dashfilters" value="Assam" data="as">Assam <span id="as-total-percent">87%</span></button>
+                <button class="dashfilters" value="Tamil Nadu" data="tn">Tamil Nadu <span id="tn-total-percent">76.9%</span></button>
+                <button class="dashfilters" value="Kerala" data="kl">Kerala <span id="kl-total-percent">76.9%</span></button>
+                <button class="dashfilters" value="Puducherry" data="pu">Puducherry <span id="pd-total-percent">76.9%</span></button>
+		<input type="text" value="" class="searchField" />
+		<button class="searchBtn">Search</button>
+            </nav>
+        </header>
+        <div id="alphabetfilters">
+            <ul id="letters-listing">
+		        <li class="reset-filter"><a href="javascript:void(0)"><img src="img/reset-icon.svg" /></a></li>
+                <li id="a" class="clickable"><a href="javascript:void(0)">A</a></li>
+                <li id="b" class="clickable"><a href="javascript:void(0)">B</a></li>
+                <li id="c" class="clickable"><a href="javascript:void(0)">C</a></li>
+                <li id="d" class="clickable"><a href="javascript:void(0)">D</a></li>
+                <li id="e" class="clickable"><a href="javascript:void(0)">E</a></li>
+                <li id="f" class="clickable"><a href="javascript:void(0)">F</a></li>
+                <li id="g" class="clickable"><a href="javascript:void(0)">G</a></li>
+                <li id="h" class="clickable"><a href="javascript:void(0)">H</a></li>
+                <li id="i" class="clickable"><a href="javascript:void(0)">I</a></li>
+                <li id="j" class="clickable"><a href="javascript:void(0);">J</a></li>
+                <li id="k" class="clickable"><a href="javascript:void(0);">K</a></li>
+                <li id="l" class="clickable"><a href="javascript:void(0);">L</a></li>
+                <li id="m" class="clickable"><a href="javascript:void(0)">M</a></li>
+                <li id="n" class="clickable"><a href="javascript:void(0)">N</a></li>
+                <li id="o" class="clickable"><a href="javascript:void(0)">O</a></li>
+                <li id="p" class="clickable"><a href="javascript:void(0)">P</a></li>
+                <li id="q" class="clickable"><a href="javascript:void(0);">Q</a></li>
+                <li id="r"class="clickable"><a  href="javascript:void(0)">R</a></li>
+                <li id="s" class="clickable"><a href="javascript:void(0)">S</a></li>
+                <li id="t" class="clickable"><a href="javascript:void(0)">T</a></li>
+                <li id="u" class="clickable"><a href="javascript:void(0)">U</a></li>
+                <li id="v" class="clickable"><a href="javascript:void(0)">V</a></li>
+                <li id="w" class="clickable"><a href="javascript:void(0)">W</a></li>
+                <li id="x" class="clickable"><a href="javascript:void(0);">X</a></li>
+                <li id="y" class="clickable"><a href="javascript:void(0);">Y</a></li>
+                <li id="z" class="clickable"><a href="javascript:void(0)">Z</a></li>
+            </ul>
+        </div>
+        <section class="const-carousel">
+            <div id="owl-demo" class="owl-carousel"> </div>
+        </section>
+        <div class="row split-2">
+            <div class="split-2-left">
+                <section class="section-block partywise-data">
+                    <header>
+                        <h3><span class="state_name">Tamil Nadu |</span><span class="seatsHead">Seats</span></h3>
+                        <button class="dashfilters active">Toggle view</button>
+                        <span class="icon-span">
+                            <img src="img/minus.png" class="minus_icon" />
+                            <img src="img/square-menu.png" class="menu_icon" />
+                        </span>
+                    </header>
+                    <div class="partywisedata-charts">
+                        <svg class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin" ></svg>
+                        <div id="partywise-table" class="table"></div>
+                    </div>
+                </section>
+                <section class="section-block seatshare">
+                    <header>
+                        <h4>seatshare</h4>
+                        <span class="icon-span">
+                            <img src="img/square-menu.png" class="menu_icon" />
+                        </span>
+                    </header>
+                    <figure>
+                        <div class="graphic">
+                          <div class="row">
+                            <div class="chart" id="seatSharechart"></div>
+                            <ul class="legend" ></ul>
+                          </div>
+                        </div>
+                      </figure>
+                </section>
+                <section class="section-block partywise-voteshare">
+                    <header>
+                        <h4>partywise voteshare</h4>
+                        <span class="icon-span">
+                            <img src="img/square-menu.png" class="menu_icon" />
+                        </span>
+                    </header>
+                    <figure>
+                        <div class="graphic">
+                          <div class="row">
+                            <div class="chart" id="voteSharechart"></div>
+                            <ul class="legend"></ul>
+                          </div>
+                        </div>
+                      </figure>
+                </section>
+            </div>
+            <section class="section-block geo-data">
+                <header>
+                    <h3><span class="state_name">Tamil Nadu |</span><span class="seatsHead">Seats</span></h3>
+                    <button class="dashfilters">Toggle view</button>
+                    <span class="icon-span">
+                        <img src="img/minus.png" class="minus_icon" />
+                        <img src="img/square-menu.png" class="menu_icon" />
+                    </span>
+                </header>
+                <div class="row split-sub">
+                    <div class="left-map">
+                        <div class="assembly-map" id="tn"></div>
+                        <div class="const-filter">
+                            <p>Select Constituency</p>
+                            <Select id="const-list"> 
+                                <option value="Cochin">COCHIN</option>
+                            </Select>
+                            <div class="btn_filter">
+                                <button id="conts-2016" class="active">2016</button>
+                                <button id="conts-2021">2021</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-const">
+                        <div class="const-box">
+                            <h1>COCHIN <span>Result declared</span></h1>
+                            <div class="cand-desc">
+                                <div class="winningCand">
+                                    <p>Winning Candidate</p>
+                                    <h1>Aniruddha Prasad Yadav</h1>
+                                </div>
+                                <span>RJD</span>
+                                <div class="winningCand">
+                                    <p>Winning margin</p>
+                                    <h1 style="padding-bottom: 10px;">43922</h1>
+                                </div>
+                                <div class="trailingCand">
+                                    <p>Trailing Candidate</p>
+                                    <h1>Yadubansh Kumar Yadav  </h1>
+                                    <span>JDU</span>   
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="table-wrap">
+                            <table>
+                                <tr>
+                                    <th>Party</th>
+                                    <th>Won</th> 
+                                    <th>Lead</th>
+                                    <th>Total</th>
+                                </tr>
+                                <tr>
+                                    <td>LDF <span>+</span></td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>UDF <span>+</span></td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>BJP</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>CONG.</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>OTHERS</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <header class="dash-header">
+            <h2>Key Candidates</h2>
+            <nav>
+                <button class="dashfilters active">Tamil Nadu</button>
+                <button class="dashfilters">Kerala</button>
+                <button class="dashfilters">Assam</button>
+                <button class="dashfilters">Assam</button>
+                <button class="dashfilters">Puducherry</button>
+                <button class="dashfilters">West Bengal</button>
+            </nav>
+        </header>
+        <section class="const-carousel">
+            <div id="owl-demo2" class="owl-carousel"> </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src='https://thefederal.com/embed/common-js/underscore-min.js' ></script>
+    <script src='https://thefederal.com/embed/common-js/d3.v4.min.js' ></script>
+    <script src='https://d3js.org/topojson.v2.min.js'></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src='js/d3-cooltip.0.1.0.min.js'></script>
+    <script src="js/map.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/d3-parliament.js"></script>
+    <script src="js/charts/carousel.js"></script>
+    <script src="js/charts/parliament-chart.js"></script>
+    <script src="js/charts/accordion-table.js"></script>
+    <script src="js/charts/filter_seat.js"></script>
+    <script type="text/javascript">
+        var btn_data  = "tn", btn_Value;
+        seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
+        seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
+        jQuery("nav button.dashfilters").click(function() {
+            $('nav button').removeClass('active');
+            $(this).addClass('active');
+            btn_data = $(this).attr("data");
+            btn_Value = $(this).attr("value");
+            $(".section-block header h3 span.state_name").text(btn_Value + " |")
+            seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
+            seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
+            
+            $("#owl-demo").html('Loading...');
+            carouselWidget('data.json', "#owl-demo", btn_data, "")
+        })
+
+
+        jQuery("#letters-listing li.clickable").click(function() {
+            $('#letters-listing li').removeClass('active');
+            $(this).addClass('active');
+
+            find_let = $(this).text();
+            // $("#owl-demo").html('Loading...');
+           // carouselWidget('data.json', "#owl-demo", find_let,statename_fixed)
+        })
+        carouselWidget('data.json', "#owl-demo", "all", "")
+        var partycolors = {
+            "AIADMK": "#FF9900",
+            "DMK": "#9b59b6",
+        }
+        var testdata = [
+                
+            {
+                "id": "undeclared",
+                "legend": "Aam Aadmi Party",
+                "name": "Aam Aadmi Party",
+                "seats": 30
+            },
+            {
+                "id": "aap",
+                "legend": "Aam Aadmi Party",
+                "name": "Aam Aadmi Party",
+                "seats": 20
+            },
+            {
+                "id": "bjp",
+                "legend": "Bharatiya Janata Party",
+                "name": "Bharatiya Janata Party",
+                "seats": 20
+            }
+        ]
+        var testdata2 = [
+            {
+            "party": "AIADMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "DMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "AMMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "MMM",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "Other",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            }
+        ]
+
+        var constWiseData2016;
+
+        var indiaDistrictData = (function() {
+            var indiaDistrictData = null;
+            jQuery.ajax({
+                'async': false,
+                'global': false,
+                'dataType': 'json',
+                'url': 'data.json',
+                'success': function(data) {
+                    indiaDistrictData = data["tabledata"];
+                    constWiseData2016 = data["constituencywise"]
+                }
+            });
+            return indiaDistrictData;
+        })();
+
+        // let tnSettings = {
+        //     statecode: 'S22',
+        //     mapsource: 'maps/tamilnadu.json',
+        //     scale: 3400,
+        //     center: [78.6, 10.8]
+        //   }
+
+        // console.log("constWiseData", constWiseData2016);
+        drawParliamentaryChart(".parliamentseats", "2016", testdata)
+        // drawAccTable(testdata2, "#partywise-table")
+        drawAccTable(indiaDistrictData, "#partywise-table")
+
+        drawAssemblyMap("#tn", {
+            statecode: 'S22',
+            mapsource: 'maps/tamilnadu.json',
+            scale: 5100,
+            center: [78.3, 10.8]
+          })
+
+
+        jQuery('.value').each(function() {
+            var text = $(this).text();
+            jQuery(this).parent().css('width',  text);
+        });
+
+        jQuery('.block').tooltip();
+        
+        jQuery(document).ready(function(){
+            console.log("Height of html: " + jQuery(document).height());
+            var wb_tot_percent = null;
+            var as_tot_percent = null;
+            var tot_percent = (function () {
+                $.ajax({
+                'async': false,
+                'global': false, 
+                'url': 'https://thefederal.com/api/scraper.php?m=Election2021&t=constData',
+                'dataType' : 'json',
+                'success': function (data) {
+                    wb_tot_percent = data["wb_poll_total"][0]["totalturnout2021"];  
+                    as_tot_percent = data["as_poll_total"][0]["totalturnout2021"];     
+                    console.log(as_tot_percent);                    
+                }
+                });
+                return wb_tot_percent, as_tot_percent;
+            })();
+
+            $("#wb-total-percent").text("("+  wb_tot_percent+"%)");
+            $("#as-total-percent").text("("+  as_tot_percent+"%)");
+            
+        })
+    </script>
+
+</body>
+</html>
