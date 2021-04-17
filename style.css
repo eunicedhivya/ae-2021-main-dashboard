@@ -253,7 +253,7 @@
 .owl-carousel .owl-wrapper-outer::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: -30px;
   top: -4px;
   width: 70px;
   height: 290px;

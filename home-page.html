@@ -26,9 +26,16 @@
             margin: 20px 0;
         }
         
+        .hp-component h3{
+            margin: 5px 0;
+        }
         .hp-component .split-two{
             display: grid;
             grid-template-columns: 50% 50%;
+        }
+        
+        .hp-component .split-two .table{
+            margin-top: -20px;
         }
 
         .table table{ width: 100%;}
@@ -57,6 +64,15 @@
         .partyRow{
             border-bottom:  1px solid #ccc;
         }
+
+        @media screen and (max-width: 560px) {
+            .hp-component .split-two {
+                grid-template-columns: 100%;
+            }
+            .hp-component .split-two svg{
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -64,56 +80,46 @@
         <div class="home-panel owl-theme">
             <div class="item">
                 <section class="hp-component" id="hp-tn">
-                    <h3>Tamil Nadu |<span>Seats</span></h3>
+                    <h3>Tamil Nadu</h3>
                     <div class="split-two">
                         <svg id="tn-pie" class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin"></svg>
-                        <div id="tn-table" class="table">
-                            <table><thead><tr><th>party</th><th>won</th><th>leading</th><th>total</th></tr></thead><tbody><tr class="partyRow"><td>AIADMK<button class="alliance-list" data-party="aiadmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>DMK<button class="alliance-list" data-party="dmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>AMMK<button class="alliance-list" data-party="ammk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>MMM<button class="alliance-list" data-party="mmm"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>Other<button class="alliance-list" data-party="other"> + </button></td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
-                        </div>
+                        <div id="tn-table" class="table"></div>
                     </div>
                 </section>
             </div> <!--.item-->
             <div class="item">
-                <section class="hp-component" id="hp-tn">
-                    <h3>Kerala |<span>Seats</span></h3>
+                <section class="hp-component" id="hp-kl">
+                    <h3>Kerala</h3>
                     <div class="split-two">
                         <svg id="kl-pie" class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin"></svg>
-                        <div id="tn-table" class="table">
-                            <table><thead><tr><th>party</th><th>won</th><th>leading</th><th>total</th></tr></thead><tbody><tr class="partyRow"><td>AIADMK<button class="alliance-list" data-party="aiadmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>DMK<button class="alliance-list" data-party="dmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>AMMK<button class="alliance-list" data-party="ammk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>MMM<button class="alliance-list" data-party="mmm"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>Other<button class="alliance-list" data-party="other"> + </button></td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
-                        </div>
+                        <div id="kl-table" class="table"></div>
                     </div>
                 </section>
             </div>
             <div class="item">
-                <section class="hp-component" id="hp-tn">
-                    <h3>West Bengal |<span>Seats</span></h3>
+                <section class="hp-component" id="hp-wb">
+                    <h3>West Bengal</h3>
                     <div class="split-two">
                         <svg id="wb-pie" class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin"></svg>
-                        <div id="tn-table" class="table">
-                            <table><thead><tr><th>party</th><th>won</th><th>leading</th><th>total</th></tr></thead><tbody><tr class="partyRow"><td>AIADMK<button class="alliance-list" data-party="aiadmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>DMK<button class="alliance-list" data-party="dmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>AMMK<button class="alliance-list" data-party="ammk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>MMM<button class="alliance-list" data-party="mmm"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>Other<button class="alliance-list" data-party="other"> + </button></td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
-                        </div>
+                        <div id="wb-table" class="table"></div>
                     </div>
                 </section>
             </div>
             <div class="item">
-                <section class="hp-component" id="hp-tn">
-                    <h3>Assam |<span>Seats</span></h3>
+                <section class="hp-component" id="hp-as">
+                    <h3>Assam</h3>
                     <div class="split-two">
                         <svg id="as-pie" class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin"></svg>
-                        <div id="tn-table" class="table">
-                            <table><thead><tr><th>party</th><th>won</th><th>leading</th><th>total</th></tr></thead><tbody><tr class="partyRow"><td>AIADMK<button class="alliance-list" data-party="aiadmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>DMK<button class="alliance-list" data-party="dmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>AMMK<button class="alliance-list" data-party="ammk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>MMM<button class="alliance-list" data-party="mmm"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>Other<button class="alliance-list" data-party="other"> + </button></td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
-                        </div>
+                        <div id="as-table" class="table"></div>
                     </div>
                 </section>
             </div>
             <div class="item">
-                <section class="hp-component" id="hp-tn">
-                    <h3>Puducherry |<span>Seats</span></h3>
+                <section class="hp-component" id="hp-pd">
+                    <h3>Puducherry</h3>
                     <div class="split-two">
                         <svg id="pd-pie" class="parliamentseats" viewBox="0 0 375 200" preserveAspectRatio="xMinYMin"></svg>
-                        <div id="tn-table" class="table">
-                            <table><thead><tr><th>party</th><th>won</th><th>leading</th><th>total</th></tr></thead><tbody><tr class="partyRow"><td>AIADMK<button class="alliance-list" data-party="aiadmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>DMK<button class="alliance-list" data-party="dmk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>AMMK<button class="alliance-list" data-party="ammk"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>MMM<button class="alliance-list" data-party="mmm"> + </button></td><td>0</td><td>0</td><td>0</td></tr><tr class="partyRow"><td>Other<button class="alliance-list" data-party="other"> + </button></td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
-                        </div>
+                        <div id="pd-table" class="table"></div>
                     </div>
                 </section>
             </div>
@@ -141,41 +147,35 @@
             pagination: true,
             navigation : true,
             navigationText : ['<i class="arrow left"></i>','<i class="arrow right"></i>'],
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:2
-                },
-                1400:{
-                    items:3
-                }
-            }
+            itemsDesktop : [1199,2],
+            itemsDesktopSmall : [980,2],
+            itemsTablet: [768,1],
+            itemsTabletSmall: false,
+            itemsMobile : [479,1]
         })
         
 
         var tntestdata = [
             {
-                "id": "aiadmk",
+                "id": "AIADMK",
                 "legend": "All India Anna Dravida Munnetra Kazhagam",
                 "name": "All India Anna Dravida Munnetra Kazhagam",
                 "seats": 134
             },
             {
-                "id": "dmk",
+                "id": "DMK",
                 "legend": "Dravida Munnetra Kazhagam",
                 "name": "Dravida Munnetra Kazhagam",
                 "seats": 89
             },
             {
-                "id": "inc",
+                "id": "INC",
                 "legend": "Congress",
                 "name": "Congress",
                 "seats": 8
             },
             {
-                "id": "iml",
+                "id": "IML",
                 "legend": "IML",
                 "name": "IML",
                 "seats": 1
@@ -183,49 +183,207 @@
         ];
         var kltestdata = [
             {
-                "id": "cpim",
+                "id": "CPIM",
                 "legend": "Communist Party Of India (Marxist)",
                 "name": "Communist Party Of India (Marxist)",
                 "seats": 58
             },
             {
-                "id": "inc",
+                "id": "INC",
                 "legend": "Indian National Congress",
                 "name": "Indian National Congress",
                 "seats": 22
             },
             {
-                "id": "cpim",
+                "id": "CPI",
                 "legend": "Communist Party Of India",
                 "name": "Communist Party Of India",
                 "seats": 19
             },
             {
-                "id": "iuml",
+                "id": "IUML",
                 "legend": "Indian Union Muslim League",
                 "name": "Indian Union Muslim League",
                 "seats": 18
             },
             {
-                "id": "ind",
+                "id": "IND",
                 "legend": "Independent",
                 "name": "Independent",
                 "seats": 6
             },
             {
-                "id": "others",
+                "id": "Others",
                 "legend": "Others",
                 "name": "Others",
                 "seats": 17
             }
         ];
+        var wbtestdata = [
+            {
+                "id": "AITC",
+                "legend": "Communist Party Of India (Marxist)",
+                "name": "Communist Party Of India (Marxist)",
+                "seats": 211
+            },
+            {
+                "id": "INC",
+                "legend": "Indian National Congress",
+                "name": "Indian National Congress",
+                "seats": 44
+            },
+            {
+                "id": "CPIM",
+                "legend": "Communist Party Of India",
+                "name": "Communist Party Of India",
+                "seats": 26
+            },
+            {
+                "id": "BJP",
+                "legend": "Indian Union Muslim League",
+                "name": "Indian Union Muslim League",
+                "seats": 3
+            },
+            {
+                "id": "RCP",
+                "legend": "Independent",
+                "name": "Independent",
+                "seats": 3
+            },
+            {
+                "id": "IND",
+                "legend": "Others",
+                "name": "Others",
+                "seats": 1
+            },
+            {
+                "id": "Others",
+                "legend": "Others",
+                "name": "Others",
+                "seats": 6
+            }
+        ];
+        var astestdata = [
+            {
+                "id": "BJP",
+                "legend": "Bharatiya Janta Party",
+                "name": "Bharatiya Janta Party",
+                "seats": 60
+            },
+            {
+                "id": "INC",
+                "legend": "Indian National Congress",
+                "name": "Indian National Congress",
+                "seats": 26
+            },
+            {
+                "id": "AGP",
+                "legend": "Asom Gana Parisad",
+                "name": "Asom Gana Parisad",
+                "seats": 14
+            },
+            {
+                "id": "AIUDF",
+                "legend": "All India United Democratic",
+                "name": "All India United Democratic",
+                "seats": 13
+            },
+            {
+                "id": "BOPF",
+                "legend": "Bodaland Peoples Front",
+                "name": "Bodaland Peoples Front",
+                "seats": 12
+            },
+            {
+                "id": "IND",
+                "legend": "Independent",
+                "name": "Independent",
+                "seats": 1
+            }
+        ];
+        var pdtestdata =  [
+            {
+                "id": "INC",
+                "legend": "Indian National Congress",
+                "name": "Bharatiya Janta Party",
+                "seats": 15
+            },
+            {
+                "id": "AINRC",
+                "legend": "All India N.R. Congress",
+                "name": "Indian National Congress",
+                "seats": 8
+            },
+            {
+                "id": "AIADMK",
+                "legend": "All India Anna Dravida Munnetra Kazhagam",
+                "name": "All India Anna Dravida Munnetra Kazhagam",
+                "seats": 4
+            },
+            {
+                "id": "DMK",
+                "legend": "Dravida Munetra Kazhagam",
+                "name": "Dravida Munetra Kazhagam",
+                "seats": 2
+            },
+            {
+                "id": "IND",
+                "legend": "Independent",
+                "name": "Independent",
+                "seats": 1
+            }
+        ];
+
+        var testdata2 = [
+            {
+            "party": "AIADMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "DMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "AMMK",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "MMM",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            },
+            {
+            "party": "Other",
+            "won": 0,
+            "leading": 0,
+            "total": 0
+            }
+        ]
 
 
         drawParliamentaryChart("#tn-pie", "2016", tntestdata)
+        drawAccTable(testdata2, "#tn-table", ["party", "won", "leading", "total"])
+        
         drawParliamentaryChart("#kl-pie", "2016", kltestdata)
-        drawParliamentaryChart("#wb-pie", "2016", tntestdata)
-        drawParliamentaryChart("#as-pie", "2016", tntestdata)
-        drawParliamentaryChart("#pd-pie", "2016", tntestdata)
+        drawAccTable(testdata2, "#kl-table", ["party", "won", "leading", "total"])
+
+        drawParliamentaryChart("#wb-pie", "2016", wbtestdata)
+        drawAccTable(testdata2, "#wb-table", ["party", "won", "leading", "total"])
+
+        drawParliamentaryChart("#as-pie", "2016", astestdata)
+        drawAccTable(testdata2, "#as-table", ["party", "won", "leading", "total"])
+
+        drawParliamentaryChart("#pd-pie", "2016", pdtestdata)
+        drawAccTable(testdata2, "#pd-table", ["party", "won", "leading", "total"])
+
+
 
     </script>
 
