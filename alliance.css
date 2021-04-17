@@ -1,0 +1,72 @@
+/* 2021 alliances */
+
+/* Tamil Nadu */
+/* NDA */
+
+#tn-pie .AIADMK,
+#tn-pie .PMK,
+#tn-pie .BJP,
+#tn-pie .TMCM,
+#tn-pie .PTMK,
+#tn-pie .TMMK,
+#tn-pie .MMK,
+#tn-pie .AIMMK,
+#tn-pie .PBK,
+#tn-pie .PDK {
+  background-color: orange;
+  fill: orange;
+}
+
+/* SPA */
+
+#tn-pie .DMK,
+#tn-pie .INC,
+#tn-pie .CPI,
+#tn-pie .CPIM,
+#tn-pie .VCK,
+#tn-pie .MDMK,
+#tn-pie .IUML,
+#tn-pie .IML,
+#tn-pie .KMDK,
+#tn-pie .MMK,
+#tn-pie .AIFB,
+#tn-pie .TVK,
+#tn-pie .MVK,
+#tn-pie .ATP {
+  background-color: green;
+  fill: green;
+}
+
+/* AMMK+ */
+
+#tn-pie .AMMK,
+#tn-pie .DMDK,
+#tn-pie .SDPI,
+#tn-pie .AIMIM,
+#tn-pie .GMK,
+#tn-pie .MSS,
+#tn-pie .VTPK,
+#tn-pie .MAK {
+  background-color: red;
+  fill: red;
+}
+
+/* MNM */
+
+#tn-pie .MNM,
+#tn-pie .IJK,
+#tn-pie .AISMK,
+#tn-pie .TMJK,
+#tn-pie .JDS {
+  background-color: blue;
+  fill: blue;
+}
+
+/* Others */
+#tn-pie .NTK,
+#tn-pie .BSP,
+#tn-pie .PTK,
+#tn-pie .CPIMLL {
+  background-color: grey;
+  fill: grey;
+}
