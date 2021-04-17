@@ -1,0 +1,15 @@
+{
+    "kl_share": [
+        { "Party": "CPIM", "votes": 58, "votes%": 26.7, "status": "lead" },
+        { "Party": "INC", "votes": 22, "votes%": 23.8, "status": "lead" },
+        { "Party": "CPI", "votes": 19, "votes%": 8.2, "status": "lead" },
+        { "Party": "IUML", "votes": 18, "votes%": 7.4, "status": "lead" },
+        { "Party": "Independent", "votes": 6, "votes%": 5.3, "status": "lead" },
+        { "Party": "Others", "votes": 17, "votes%": 28.6, "status": "lead" }
+    ], "tn_share": [
+            { "Party": "AIADMK", "won": 0, "leading": 134, "votes%": 57.758620689655174, "status": "lead" },
+            { "Party": "DMK", "won": 0, "leading": 89, "votes%": 38.36206896551724, "status": "lead" },
+            { "Party": "Congress", "won": 0, "leading": 8, "votes%": 3.4482758620689653, "status": "lead" },
+            { "Party": "IML", "won": 0, "leading": 1, "votes%": 0.43103448275862066, "status": "lead" }
+        ]    
+}

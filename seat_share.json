@@ -1,0 +1,18 @@
+{
+    "kl_share": [
+        { "Party": "CPIM", "seats": 58, "seat%": 41.42857142857143, "status": "lead" },
+        { "Party": "INC", "seats": 22, "seat%": 15.714285714285714, "status": "lead" },
+        { "Party": "CPI", "seats": 19, "seat%": 13.571428571428571, "status": "lead" },
+        { "Party": "IUML", "seats": 18, "seat%": 12.857142857142858, "status": "lead" },
+        { "Party": "Independent", "seats": 6, "seat%": 4.285714285714286, "status": "lead" },
+        { "Party": "Others", "seats": 17, "seat%": 12.142857142857142, "status": "lead" }
+    ],
+    "tn_share": [
+        { "Party": "CPIM", "seats": 28, "seat%":13.571428571428571 , "status": "lead" },
+        { "Party": "INC", "seats": 42, "seat%":4.285714285714286 , "status": "lead" },
+        { "Party": "CPI", "seats": 19, "seat%": 41.42857142857143, "status": "lead" },
+        { "Party": "IUML", "seats": 6, "seat%": 12.857142857142858, "status": "lead" },
+        { "Party": "Independent", "seats": 18, "seat%": 15.714285714285714 , "status": "lead" },
+        { "Party": "Others", "seats": 17, "seat%": 12.142857142857142, "status": "lead" }
+    ]
+}
