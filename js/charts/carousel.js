@@ -1,8 +1,9 @@
-function carouselWidget(datasource, selector, statename, filter) {
+function carouselWidget(datasource, selector, statename, filter, letterFilter, stName) {
     statename = typeof statename !== 'undefined' ? statename : 'all';
 	statename_fixed = statename;
     
     var filter_const = filter;
+    var filter_const2 = letterFilter;
 
     $("#owl-demo").owlCarousel({
         itemsDesktop : [1199,4],
@@ -21,7 +22,9 @@ function carouselWidget(datasource, selector, statename, filter) {
         var content = "";
         var matchingletter;
         var statn = statename+"_constituencywise"; 
-        console.log(statn);
+        console.log(stName);
+       
+        
         for(var i in data[statn]){
             
             var constituencyname = data[statn][i].Constituency;
@@ -33,15 +36,21 @@ function carouselWidget(datasource, selector, statename, filter) {
             var trailingmargin = data[statn][i]["Margin"];
             
             console.log(filter_const);
-            if(filter_const != statn && filter_const != '') { console.log('here');
-				var matchingletter = constname.charAt(0).toUpperCase();
+            if(filter_const !=  'wb-polling-day' && filter_const != '') { console.log('here', data[statn]);
+				var matchingletter = constituencyname.charAt(0).toUpperCase();
 				if(matchingletter != filter_const) {
+					continue;
+				}
+			}
+            if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { console.log('here', data[statn]);
+				var matchingletter = constituencyname;
+				if(matchingletter != filter_const2) {
 					continue;
 				}
 			}
 
             html = '<div class="contituency-items">'
-            html += '<h3> Tamil Nadu | <span>'+constituencyname+'</span> </h3>'
+            html += '<h3> '+ stName +' | <span>'+constituencyname+'</span> </h3>'
             html += '<span class="leadingindicator">Leading</span>'
             html += '<div class="leadingcand">'
             html += '<h4>'+leadingname+'<span>'+leadingparty+'</span></h4>'

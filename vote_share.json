@@ -6,10 +6,89 @@
         { "Party": "IUML", "votes": 18, "votes%": 7.4, "status": "lead" },
         { "Party": "Independent", "votes": 6, "votes%": 5.3, "status": "lead" },
         { "Party": "Others", "votes": 17, "votes%": 28.6, "status": "lead" }
-    ], "tn_share": [
-            { "Party": "AIADMK", "won": 0, "leading": 134, "votes%": 57.758620689655174, "status": "lead" },
-            { "Party": "DMK", "won": 0, "leading": 89, "votes%": 38.36206896551724, "status": "lead" },
-            { "Party": "Congress", "won": 0, "leading": 8, "votes%": 3.4482758620689653, "status": "lead" },
-            { "Party": "IML", "won": 0, "leading": 1, "votes%": 0.43103448275862066, "status": "lead" }
-        ]    
+    ], 
+    "tn_share": [
+        { "Party": "AIADMK", "won": 0, "leading": 134, "votes%": 57.758620689655174, "status": "lead" },
+        { "Party": "DMK", "won": 0, "leading": 89, "votes%": 38.36206896551724, "status": "lead" },
+        { "Party": "Congress", "won": 0, "leading": 8, "votes%": 3.4482758620689653, "status": "lead" },
+        { "Party": "IML", "won": 0, "leading": 1, "votes%": 0.43103448275862066, "status": "lead" }
+    ],
+    "wb_share": [
+        {
+        "Party": "AIADMK",
+        "leading": 134,
+        "votes%": 57.758620689655174,
+        "status": "lead"
+        },
+        {
+        "Party": "DMK",
+        "leading": 89,
+        "votes%": 38.36206896551724,
+        "status": "lead"
+        },
+        {
+        "Party": "Congress",
+        "leading": 8,
+        "votes%": 3.4482758620689653,
+        "status": "lead"
+        },
+        {
+        "Party": "IML",
+        "leading": 1,
+        "votes%": 0.43103448275862066,
+        "status": "lead"
+        }
+    ],
+    "as_share": [
+        {
+        "Party": "AIADMK",
+        "leading": 134,
+        "votes%": 57.758620689655174,
+        "status": "lead"
+        },
+        {
+        "Party": "DMK",
+        "leading": 89,
+        "votes%": 38.36206896551724,
+        "status": "lead"
+        },
+        {
+        "Party": "Congress",
+        "leading": 8,
+        "votes%": 3.4482758620689653,
+        "status": "lead"
+        },
+        {
+        "Party": "IML",
+        "leading": 1,
+        "votes%": 0.43103448275862066,
+        "status": "lead"
+        }
+    ],
+    "pd_share": [
+        {
+        "Party": "AIADMK",
+        "leading": 134,
+        "votes%": 57.758620689655174,
+        "status": "lead"
+        },
+        {
+        "Party": "DMK",
+        "leading": 89,
+        "votes%": 38.36206896551724,
+        "status": "lead"
+        },
+        {
+        "Party": "Congress",
+        "leading": 8,
+        "votes%": 3.4482758620689653,
+        "status": "lead"
+        },
+        {
+        "Party": "IML",
+        "leading": 1,
+        "votes%": 0.43103448275862066,
+        "status": "lead"
+        }
+    ]
 }

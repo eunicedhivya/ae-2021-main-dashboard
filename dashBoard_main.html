@@ -9,19 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://thefederal.com/embed/common-css/bootstrap-fullscreen-select.css">
 </head>
 <body>
     <div class="tf_wrap">
         <header class="dash-header">
             <h2>Assembly Elections 2021</h2>
             <nav>
-                <button class="dashfilters active" value="West Bengal" data="wb">West Bengal  <span id="wb-total-percent">76.9%</span></button>
+                <button class="dashfilters" value="West Bengal" data="wb">West Bengal  <span id="wb-total-percent">76.9%</span></button>
                 <button class="dashfilters" value="Assam" data="as">Assam <span id="as-total-percent">87%</span></button>
-                <button class="dashfilters" value="Tamil Nadu" data="tn">Tamil Nadu <span id="tn-total-percent">76.9%</span></button>
+                <button class="dashfilters active" value="Tamil Nadu" data="tn">Tamil Nadu <span id="tn-total-percent">76.9%</span></button>
                 <button class="dashfilters" value="Kerala" data="kl">Kerala <span id="kl-total-percent">76.9%</span></button>
-                <button class="dashfilters" value="Puducherry" data="pu">Puducherry <span id="pd-total-percent">76.9%</span></button>
-		<input type="text" value="" class="searchField" />
-		<button class="searchBtn">Search</button>
+                <button class="dashfilters" value="Puducherry" data="pd">Puducherry <span id="pd-total-percent">76.9%</span></button>
+                <div class="autocomplete">
+                    <input type="text" value="" id = "automplete-6" class="searchField" onfocus="this.value=''" placeholder="Constituency" />
+                </div>
+		        <button class="searchBtn" id="searchBtn">Search</button>
             </nav>
         </header>
         <div id="alphabetfilters">
@@ -118,10 +121,10 @@
                 </header>
                 <div class="row split-sub">
                     <div class="left-map">
-                        <div class="assembly-map" id="tn"></div>
+                        <div class="assembly-map" id="state_map"></div>
                         <div class="const-filter">
                             <p>Select Constituency</p>
-                            <Select id="const-list"> 
+                            <Select id="const-list" onchange="showStateData()"> 
                                 <option value="Cochin">COCHIN</option>
                             </Select>
                             <div class="btn_filter">
@@ -222,33 +225,11 @@
     <script src="js/charts/parliament-chart.js"></script>
     <script src="js/charts/accordion-table.js"></script>
     <script src="js/charts/filter_seat.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://thefederal.com/embed/common-js/bootstrap-fullscreen-select.js"></script>
+    <script src="js/charts/scripts.js"></script>
     <script type="text/javascript">
-        var btn_data  = "tn", btn_Value;
-        seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-        seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
-        jQuery("nav button.dashfilters").click(function() {
-            $('nav button').removeClass('active');
-            $(this).addClass('active');
-            btn_data = $(this).attr("data");
-            btn_Value = $(this).attr("value");
-            $(".section-block header h3 span.state_name").text(btn_Value + " |")
-            seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-            seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
-            
-            $("#owl-demo").html('Loading...');
-            carouselWidget('data.json', "#owl-demo", btn_data, "")
-        })
-
-
-        jQuery("#letters-listing li.clickable").click(function() {
-            $('#letters-listing li').removeClass('active');
-            $(this).addClass('active');
-
-            find_let = $(this).text();
-            // $("#owl-demo").html('Loading...');
-           // carouselWidget('data.json', "#owl-demo", find_let,statename_fixed)
-        })
-        carouselWidget('data.json', "#owl-demo", "all", "")
+    
         var partycolors = {
             "AIADMK": "#FF9900",
             "DMK": "#9b59b6",
@@ -318,7 +299,7 @@
                 'url': 'data.json',
                 'success': function(data) {
                     indiaDistrictData = data["tabledata"];
-                    constWiseData2016 = data["constituencywise"]
+                    constWiseData2016 = data["all_constituencywise"]
                 }
             });
             return indiaDistrictData;
@@ -336,7 +317,7 @@
         // drawAccTable(testdata2, "#partywise-table")
         drawAccTable(indiaDistrictData, "#partywise-table")
 
-        drawAssemblyMap("#tn", {
+        drawAssemblyMap("#state_map", {
             statecode: 'S22',
             mapsource: 'maps/tamilnadu.json',
             scale: 5100,

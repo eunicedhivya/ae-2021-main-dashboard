@@ -14,5 +14,137 @@
         { "Party": "IUML", "seats": 6, "seat%": 12.857142857142858, "status": "lead" },
         { "Party": "Independent", "seats": 18, "seat%": 15.714285714285714 , "status": "lead" },
         { "Party": "Others", "seats": 17, "seat%": 12.142857142857142, "status": "lead" }
+    ], 
+    "wb_share": [
+        {
+            "Party": "AITC",
+            "legend": "All India Trinamool Congress",
+            "name": "All India Trinamool Congress",
+            "seats": 211,
+            "seat%": 20
+        },
+        {
+            "Party": "INC",
+            "legend": "Indian National Congress",
+            "name": "Indian National Congress",
+            "seats": 44,
+            "seat%": 10
+        },
+        {
+            "Party": "CPI(M)",
+            "legend": "Communist Party Of India (Marxist)",
+            "name": "Communist Party Of India (Marxist)",
+            "seats": 26,
+            "seat%": 5
+        },
+        {
+            "Party": "BJP",
+            "legend": "Bharatiya Janta Party",
+            "name": "Bharatiya Janta Party",
+            "seats": 3,
+            "seat%": 20
+        },
+        {
+            "Party": "RCP",
+            "legend": "Revolutionary Socialist Party",
+            "name": "Revolutionary Socialist Party",
+            "seats": 3,
+            "seat%": 15
+        },
+        {
+            "Party": "IND",
+            "legend": "Independent",
+            "name": "Independent",
+            "seats": 1,
+            "seat%": 16
+        },
+        {
+            "Party": "Others",
+            "legend": "Others",
+            "name": "Others",
+            "seats": 6,
+            "seat%": 14
+        }
+    ],
+    "as_share": [
+        {
+        "Party": "BJP",
+        "legend": "Bharatiya Janta Party",
+        "name": "Bharatiya Janta Party",
+        "seats": 60,
+        "seat%": 14
+        },
+        {
+        "Party": "INC",
+        "legend": "Indian National Congress",
+        "name": "Indian National Congress",
+        "seats": 26,
+        "seat%":26
+        },
+        {
+        "Party": "AGP",
+        "legend": "Asom Gana Parisad",
+        "name": "Asom Gana Parisad",
+        "seats": 14,
+        "seat%": 20
+        },
+        {
+        "Party": "AIUDF",
+        "legend": "All India United Democratic",
+        "name": "All India United Democratic",
+        "seats": 13,
+        "seat%": 15
+        },
+        {
+        "Party": "BOPF",
+        "legend": "Bodaland Peoples Front",
+        "name": "Bodaland Peoples Front",
+        "seats": 12,
+        "seat%": 5
+        },
+        {
+        "Party": "IND",
+        "legend": "Independent",
+        "name": "Independent",
+        "seats": 1,
+        "seat%": 20
+        }
+    ],
+    "pd_share": [
+        {
+        "Party": "INC",
+        "legend": "Indian National Congress",
+        "name": "Bharatiya Janta Party",
+        "seats": 15,
+        "seat%": 15
+        },
+        {
+        "Party": "AINRC",
+        "legend": "All India N.R. Congress",
+        "name": "Indian National Congress",
+        "seats": 8,
+        "seat%": 20
+        },
+        {
+        "Party": "AIADMK",
+        "legend": "All India Anna Dravida Munnetra Kazhagam",
+        "name": "All India Anna Dravida Munnetra Kazhagam",
+        "seats": 4,
+        "seat%": 40
+        },
+        {
+        "Party": "DMK",
+        "legend": "Dravida Munetra Kazhagam",
+        "name": "Dravida Munetra Kazhagam",
+        "seats": 2,
+        "seat%": 20
+        },
+        {
+        "Party": "IND",
+        "legend": "Independent",
+        "name": "Independent",
+        "seats": 1,
+        "seat%": 5
+        }
     ]
 }
