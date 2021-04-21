@@ -9,7 +9,7 @@ function drawAssemblyMap(selector, settings){
 
     var svg = d3.select(selector)
     .append("svg")
-    .attr("class", "asmap")
+    .attr("class", settings.vhcode+"map")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("preserveAspectRatio", "xMinYMin")
     .append("g")
