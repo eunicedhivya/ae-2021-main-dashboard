@@ -16,11 +16,11 @@
         <header class="dash-header">
             <h2>Assembly Elections 2021</h2>
             <nav>
-                <button class="dashfilters" value="West Bengal" data="wb">West Bengal  <span id="wb-total-percent">76.9%</span></button>
-                <button class="dashfilters" value="Assam" data="as">Assam <span id="as-total-percent">87%</span></button>
-                <button class="dashfilters active" value="Tamil Nadu" data="tn">Tamil Nadu <span id="tn-total-percent">76.9%</span></button>
-                <button class="dashfilters" value="Kerala" data="kl">Kerala <span id="kl-total-percent">76.9%</span></button>
-                <button class="dashfilters" value="Puducherry" data="pd">Puducherry <span id="pd-total-percent">76.9%</span></button>
+                <button class="dashfilters" value="West Bengal" data="wb">West Bengal </button>
+                <button class="dashfilters" value="Assam" data="as">Assam</button>
+                <button class="dashfilters active" value="Tamil Nadu" data="tn">Tamil Nadu</button>
+                <button class="dashfilters" value="Kerala" data="kl">Kerala</button>
+                <button class="dashfilters" value="Puducherry" data="pd">Puducherry</button>
                 <div class="autocomplete">
                     <input type="text" value="" id = "automplete-6" class="searchField" onfocus="this.value=''" placeholder="Constituency" />
                 </div>
@@ -304,25 +304,14 @@
             });
             return indiaDistrictData;
         })();
-
-        // let tnSettings = {
-        //     statecode: 'S22',
-        //     mapsource: 'maps/tamilnadu.json',
-        //     scale: 3400,
-        //     center: [78.6, 10.8]
-        //   }
-
-        // console.log("constWiseData", constWiseData2016);
         drawParliamentaryChart(".parliamentseats", "2016", testdata)
-        // drawAccTable(testdata2, "#partywise-table")
-        drawAccTable(indiaDistrictData, "#partywise-table")
 
         drawAssemblyMap("#state_map", {
             statecode: 'S22',
             mapsource: 'maps/tamilnadu.json',
             scale: 5100,
             center: [78.3, 10.8]
-          })
+        })
 
 
         jQuery('.value').each(function() {
@@ -332,29 +321,7 @@
 
         jQuery('.block').tooltip();
         
-        jQuery(document).ready(function(){
-            console.log("Height of html: " + jQuery(document).height());
-            var wb_tot_percent = null;
-            var as_tot_percent = null;
-            var tot_percent = (function () {
-                $.ajax({
-                'async': false,
-                'global': false, 
-                'url': 'https://thefederal.com/api/scraper.php?m=Election2021&t=constData',
-                'dataType' : 'json',
-                'success': function (data) {
-                    wb_tot_percent = data["wb_poll_total"][0]["totalturnout2021"];  
-                    as_tot_percent = data["as_poll_total"][0]["totalturnout2021"];     
-                    console.log(as_tot_percent);                    
-                }
-                });
-                return wb_tot_percent, as_tot_percent;
-            })();
-
-            $("#wb-total-percent").text("("+  wb_tot_percent+"%)");
-            $("#as-total-percent").text("("+  as_tot_percent+"%)");
-            
-        })
+       
     </script>
 
 </body>
