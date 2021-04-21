@@ -17,33 +17,33 @@ jQuery("nav button.dashfilters").click(function() {
     carouselWidget('data.json', "#owl-demo", btn_data, "", "", btn_Value)
     
     var mapData = 'maps/tamilnadu.json'
-    if(btn_data  = "pd") {
+    if(btn_data  === "pd") {
         drawAssemblyMap("#state_map", {
-        statecode: 'S22',
-        mapsource: 'maps/puducherry.json',
-        scale: 10100,
-        center: [80.3, 11.8]
-      })
-    } else if(btn_data  = "kl") {
+            statecode: 'U07',
+            mapsource: 'maps/puducherry.json',
+            scale: 21500,
+            center: [79.8, 11.5]
+        })
+    } else if(btn_data  === "kl") {
         drawAssemblyMap("#state_map", {
-            statecode: 'S22',
+            statecode: 'S11',
             mapsource: 'maps/kerala.json',
             scale: 5100,
-            center: [78.3, 10.8]
-          })
-    } else if(btn_data  = "as") {
+            center: [76.3, 10.8]
+        })
+    } else if(btn_data  === "as") {
         drawAssemblyMap("#state_map", {
-            statecode: 'S22',
+            statecode: 'S03',
             mapsource: 'maps/assam.json',
-            scale: 5100,
-            center: [78.3, 10.8]
-          })
-    } else if(btn_data  = "wb") {
+            scale: 3500,
+            center: [92.9, 26.2]
+        })
+    } else if(btn_data  === "wb") {
         drawAssemblyMap("#state_map", {
-            statecode: 'S22',
+            statecode: 'S25',
             mapsource: 'maps/west-bengal.json',
-            scale: 5100,
-            center: [78.3, 10.8]
+            scale: 4400,
+            center: [87.8, 24]
           })
     } else {
         drawAssemblyMap("#state_map", {
