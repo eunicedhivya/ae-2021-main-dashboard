@@ -419,6 +419,7 @@
   margin: 0 auto;
   max-width: 1100px;
   position: relative;
+  min-height: 80px;
 }
 
 @keyframes expand {
@@ -442,18 +443,19 @@
   animation-delay: 0.4s;
 }
 .block {
-  display: block;
-  height: 30px;
-  color: #fff;
-  font-size: 0.75em;
-  float: left;
-  background-color: #ff7b02;
-  position: relative;
-  overflow: hidden;
-  opacity: 1;
-  transition: opacity, 0.3s ease;
-  cursor: pointer;
-  margin-bottom: 5px;
+  display: flex;
+    height: 30px;
+    color: #fff;
+    font-size: 0.75em;
+    float: left;
+    background-color: #ff7b02;
+    /* position: relative; */
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 1;
+    transition: opacity, 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
 .block:nth-of-type(2) {
   background-color: #b96601;
@@ -474,9 +476,15 @@
 .value {
   display: block;
   line-height: 1em;
+  padding-left: 5%;
+}
+.label {
   position: absolute;
-  top: 25%;
-  left: 5%;
+    font-size: 13px;
+    line-height: 20px;
+    bottom: 15%;
+    color: #000;
+    padding-right: 5px;
 }
 
 .legend {
