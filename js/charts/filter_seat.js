@@ -19,21 +19,13 @@ function seatShare(stname, dataSource, selector, keyElem) {
 
                 html = '<span class="block" title="'+party_name +'" style="width: '+ seat_percent +'%">'
                 html += '<span class="value">'+ seat_percent +'% </span>'
+                html += '<span class="label">'+ party_name +'</span>'
                 html += '</span>'
                 content += html
             } 
             
             $(selector).html(content);
-            
-            for(var j in data[datafil]) {
-                var party_name = data[datafil][j]["Party"]
-                
-                html =  '<li>'+party_name +'</li>'
-                
-                legends += html
-            }
-            $(".legend").html(legends);
-            
+                        
         }
         });
         return kl_seatshare;
