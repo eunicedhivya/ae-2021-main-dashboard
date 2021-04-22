@@ -1,6 +1,6 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
 seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
+seatShare(btn_data, 'vote_share.json', "#voteSharechart", "leading%")
 // State button filter
 jQuery("nav button.dashfilters").click(function() {
     $('nav button').removeClass('active');
@@ -10,7 +10,7 @@ jQuery("nav button.dashfilters").click(function() {
     btn_Value = $(this).attr("value");
     $(".section-block header h3 span.state_name").text(btn_Value + " |")
     seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-    seatShare(btn_data, 'vote_share.json', "#voteSharechart", "votes%")
+    seatShare(btn_data, 'vote_share.json', "#voteSharechart", "leading%")
     searchFilter(btn_data)
     console.log(const_list)
     $("#owl-demo").html('Loading...');
