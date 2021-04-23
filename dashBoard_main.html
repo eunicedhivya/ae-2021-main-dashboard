@@ -153,45 +153,8 @@
                                 </div>                            
                             </div>
                         </div>
-                        <div class="table-wrap">
-                            <table>
-                                <tr>
-                                    <th>Party</th>
-                                    <th>Won</th> 
-                                    <th>Lead</th>
-                                    <th>Total</th>
-                                </tr>
-                                <tr>
-                                    <td>LDF <span>+</span></td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>UDF <span>+</span></td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>BJP</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>CONG.</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>OTHERS</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                            </table>
+                        <div id="map-table" class="table">
+                            
                         </div>
                     </div>
                 </div>
@@ -321,6 +284,10 @@
         });
 
         jQuery('.block').tooltip();
+
+        drawAccTable(testdata2, "#map-table", ["party", "won","leading","total"])
+
+        drawAccTable(testdata2, "#partywise-table", ["party", "won","leading","total"])
         
        
     </script>
