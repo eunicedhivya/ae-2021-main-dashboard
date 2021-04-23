@@ -17,10 +17,16 @@ function seatShare(stname, dataSource, selector, keyElem) {
                 var seat_percent = parseInt(data[datafil][i][keyElem])
                 var party_name = data[datafil][i]["Party"]
 
-                html = '<span class="block" title="'+party_name +'" style="width: '+ seat_percent +'%">'
-                html += '<span class="value">'+ seat_percent +'% </span>'
-                html += '<span class="label">'+ party_name +'</span>'
-                html += '</span>'
+                if(seat_percent > 5) {
+                    html = '<span class="block" title="'+party_name +'" style="width: '+ seat_percent +'%">'
+                    html += '<span class="value">'+ seat_percent +'% </span>'
+                    html += '<span class="label" data="'+seat_percent +'">'+ party_name +'</span>'
+                    html += '</span>'
+                } else {
+                    html = '<span class="block" title="'+party_name +'" style="width: '+ seat_percent +'%">'
+                    html += '<span class="value">'+ seat_percent +'% </span>'
+                    html += '</span>'
+                }
                 content += html
             } 
             
