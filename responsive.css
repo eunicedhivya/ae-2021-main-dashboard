@@ -12,16 +12,32 @@
     font-size: 19px;
     text-align: center;
   }
-  .tf_wrap button.dashfilters {
+  .tf_wrap button.dashfilters, .tf_wrap button.searchBtn {
     font-size: 11px;
-    margin: 0 0;
+    margin: 6px 4px;;
     padding: 3px 5px;
     line-height: 13px;
   }
+  ul#letters-listing li {
+    padding: 0 10px 5px 0;
+  }
+  ul#letters-listing li.clickable a {
+    font-size: 16px;
+  }
+  ul#letters-listing li.reset-filter a img {
+    width: 14px;
+    height: 14px;
+    padding: 4px;
+    bottom: -5px;
+  }
+  #alphabetfilters {
+    margin: 10px 0;
+  }
   .contituency-items {
-    width: 84%;
+    width: 90%;
     max-width: 350px;
     min-width: 280px;
+    margin: 0 auto;
   }
   .contituency-items .leadingcand,
   .contituency-items .trailingcand {
@@ -32,9 +48,10 @@
     grid-template-columns: none;
   }
   .candidate-items {
-    width: 83%;
+    width: 90%;
     max-width: 350px;
     min-width: 250px;
+    margin: 0 auto;
   }
   .legend {
     font-size: 10px;
@@ -42,6 +59,7 @@
 
   #owl-demo .owl-item {
     margin: 5px auto;
+    max-width: 100%;
   }
   .owl-carousel .owl-wrapper-outer {
     padding-left: 0;
@@ -89,8 +107,30 @@
   .const-carousel {
     margin-top: 20px;
   }
-  .tf_wrap .split-cand-total h2, .tf_wrap nav {
+  .tf_wrap .split-cand-total h2 {
     text-align: center;
+  }
+  .partywisedata-charts {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 20px;
+  }
+  #partywise-table {
+    margin: 10px auto;
+    width: 95%;
+  }
+  .tf_wrap .btn_filter button {
+    margin: 10px 0 10px 0;
+  }
+  .const-filter #const-list {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .const-filter p {
+    margin: 0;
+  }
+  .table {
+    margin: 10px auto;
   }
 }
 @media (min-width: 1000px) {
