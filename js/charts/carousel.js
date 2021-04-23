@@ -79,7 +79,7 @@ function carouselWidget(datasource, selector, statename, filter, letterFilter, s
         pagination: true,
         navigation : true,
         navigationText : ['<i class="arrow left"></i>','<i class="arrow right"></i>'],
-        jsonPath : 'data.json',
+        jsonPath : 'data/data.json',
         jsonSuccess : customDataSuccess1
     });
 

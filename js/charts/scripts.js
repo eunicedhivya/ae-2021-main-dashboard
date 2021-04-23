@@ -1,6 +1,6 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
-seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-seatShare(btn_data, 'vote_share.json', "#voteSharechart", "leading%")
+seatShare(btn_data, 'data/seat_share.json', "#seatSharechart", "seat%")
+seatShare(btn_data, 'data/vote_share.json', "#voteSharechart", "leading%")
 // State button filter
 jQuery("nav button.dashfilters").click(function() {
     $('nav button').removeClass('active');
@@ -9,12 +9,12 @@ jQuery("nav button.dashfilters").click(function() {
     btn_data = $(this).attr("data");
     btn_Value = $(this).attr("value");
     $(".section-block header h3 span.state_name").text(btn_Value + " |")
-    seatShare(btn_data, 'seat_share.json', "#seatSharechart", "seat%")
-    seatShare(btn_data, 'vote_share.json', "#voteSharechart", "leading%")
+    seatShare(btn_data, 'data/seat_share.json', "#seatSharechart", "seat%")
+    seatShare(btn_data, 'data/vote_share.json', "#voteSharechart", "leading%")
     searchFilter(btn_data)
     console.log(const_list)
     $("#owl-demo").html('Loading...');
-    carouselWidget('data.json', "#owl-demo", btn_data, "", "", btn_Value)
+    carouselWidget('data/data.json', "#owl-demo", btn_data, "", "", btn_Value)
     
     var mapData = 'maps/tamilnadu.json'
     if(btn_data  === "pd") {
@@ -65,7 +65,7 @@ jQuery("nav button.dashfilters").click(function() {
 jQuery(".reset-filter").click(function() {
     $('#letters-listing li').removeClass('active');
     $("#owl-demo").html('Loading...');
-    carouselWidget('data.json', "#owl-demo", btn_data, "", "", btn_Value)
+    carouselWidget('data/data.json', "#owl-demo", btn_data, "", "", btn_Value)
 })
 // Alphabetic filter
 jQuery("#letters-listing li.clickable").click(function() {
@@ -74,10 +74,10 @@ jQuery("#letters-listing li.clickable").click(function() {
 
     find_let = $(this).text();
     $("#owl-demo").html('Loading...');
-    carouselWidget('data.json', "#owl-demo", btn_data, find_let, "", btn_Value)
+    carouselWidget('data/data.json', "#owl-demo", btn_data, find_let, "", btn_Value)
 })
 // Carousel initial call
-carouselWidget('data.json', "#owl-demo", "all", "", "", btn_Value)
+carouselWidget('data/data.json', "#owl-demo", "all", "", "", btn_Value)
 
 // Search button filter
 jQuery("#searchBtn").click(function(){
@@ -85,7 +85,7 @@ jQuery("#searchBtn").click(function(){
     console.log(searchTxt)
     searchFilter(btn_data)
     $("#owl-demo").html('Loading...');
-    carouselWidget('data.json', "#owl-demo", btn_data, "", searchTxt, btn_Value)
+    carouselWidget('data/data.json', "#owl-demo", btn_data, "", searchTxt, btn_Value)
 })
 var const_list = [];
 searchFilter(btn_data)
@@ -98,7 +98,7 @@ function searchFilter(statename) {
         $.ajax({
         'async': false,
         'global': false, 
-        'url': 'data.json',
+        'url': 'data/data.json',
         'dataType' : 'json',
         'success': function (data) {
             var dataList = data[statn]
