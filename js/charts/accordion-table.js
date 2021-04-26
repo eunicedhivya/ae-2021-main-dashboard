@@ -27,7 +27,7 @@ function drawAccTable(data, selector, labels){
           .enter()
           .append('td')
           .html(function (d) { 
-              console.log(d.column === "party")
+              //console.log(d.column === "party")
 
               if(d.column === "party"){
                 return d.value + "<button class='alliance-list' data-party='"+d.value.toLowerCase()+"'> + </button>";
@@ -52,7 +52,7 @@ $(document).ready(function(){
 
   $('.alliance-list').click(function(){
     var selectedparty = $(this).data();
-    console.log(selectedparty['party']);
+    //console.log(selectedparty['party']);
   })
   // $('.stateRow').click(function(){
   //           $(this).nextUntil('tr.stateRow').slideToggle(200);

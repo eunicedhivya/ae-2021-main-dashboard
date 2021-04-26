@@ -22,7 +22,7 @@ function carouselWidget(datasource, selector, statename, filter, letterFilter, s
         var content = "";
         var matchingletter;
         var statn = statename+"_constituencywise"; 
-        console.log(stName);
+        //console.log(stName);
        
         
         for(var i in data[statn]){
@@ -35,14 +35,14 @@ function carouselWidget(datasource, selector, statename, filter, letterFilter, s
             var trailingparty = data[statn][i]["Trailing Party"];
             var trailingmargin = data[statn][i]["Margin"];
             
-            console.log(filter_const);
-            if(filter_const !=  'wb-polling-day' && filter_const != '') { console.log('here', data[statn]);
+            //console.log(filter_const);
+            if(filter_const !=  'wb-polling-day' && filter_const != '') { //console.log('here', data[statn]);
 				var matchingletter = constituencyname.charAt(0).toUpperCase();
 				if(matchingletter != filter_const) {
 					continue;
 				}
 			}
-            if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { console.log('here', data[statn]);
+            if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { //console.log('here', data[statn]);
 				var matchingletter = constituencyname;
 				if(matchingletter != filter_const2) {
 					continue;

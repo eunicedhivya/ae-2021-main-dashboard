@@ -27,7 +27,7 @@ if ( typeof Object.create !== "function" ) {
 			base.$elem = $elem;
 			base.loadContent();
 
-			console.log(base.options);
+			//console.log(base.options);
 		},
 
 		loadContent : function(){

@@ -7,7 +7,9 @@ function drawParliamentaryChart(selector, year, data){
     
     parliament.exit.toCenter(true).bigToSmall(true);
     
-    parliament.on("click", function(e) { console.log(e); });
+    parliament.on("click", function(e) { 
+        //console.log(e); 
+    });
     
     d3.select(selector).datum(data).call(parliament);
 

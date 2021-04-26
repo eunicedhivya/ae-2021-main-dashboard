@@ -10,7 +10,7 @@ function drawHorizontalStackChart(selection, stackdata, props) {
     hordivcont.html(null)
 
     stackdata = stackdata.filter(function(obj1){
-        console.log("test", obj1.party !== "");
+        //console.log("test", obj1.party !== "");
         return obj1.party !== "";
     })
 

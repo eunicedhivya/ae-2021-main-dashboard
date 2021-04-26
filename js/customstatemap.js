@@ -81,7 +81,7 @@ function drawCustomMap(selector, boundary, years, device){
                     jQuery("#statelevelbtn button").removeClass("active");
                     d3.select("#stateBtn2019").classed("active", true);
 
-                    console.log("d.properties.ST_CODE", d.properties.ST_CODE);
+                    //console.log("d.properties.ST_CODE", d.properties.ST_CODE);
                     
 
                     fetchStateData("2019", d.properties.ST_CODE);
@@ -208,7 +208,7 @@ function drawCustomMap(selector, boundary, years, device){
                         return obj.stateCode === d.statecode && obj.pcno === d.pccode;
                         }); 
 
-                        console.log("fdcandidate_2019", fd);
+                        //console.log("fdcandidate_2019", fd);
                         
                     fetchConstituencyData("2019", d.statecode, d.pccode);           
                 })
@@ -259,7 +259,7 @@ function drawCustomMap(selector, boundary, years, device){
                     return d['properties']['ST_CODE'];
                 })
                 .on("click", function(d, i){
-                    console.log(d["properties"]["ST_CODE"]);
+                    //console.log(d["properties"]["ST_CODE"]);
 
                     d3.select(".data-map").style("display", "none")
                     
