@@ -56,7 +56,7 @@ function drawAssemblyMap(selector, settings){
                         })
                         .on("click", function(d, i){
                             //console.log(i, d.properties.AC_NAME)
-                            constFilter(d.properties.AC_NAME);
+                            constFilter(d.properties.AC_NO);
                             //var fd = constWiseData2016.filter(function(obj){
                                 // console.log(obj);
                             //    return obj["Const. No."] === d.properties.AC_NO;

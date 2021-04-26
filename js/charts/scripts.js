@@ -169,7 +169,7 @@ function createDropDown() {
         .data(dataList).enter()
         .append('option')
         .attr("value", function (d) { 
-            return d.Constituency; 
+            return d.constNo; 
         })
         .attr("data-id", function (d) { 
             return d.constNo; 
@@ -207,7 +207,7 @@ function constFilter(filter_const2) {
 
                 if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { 
                     //console.log('here', data[datafil]);
-                    var matchingletter = constituencyname;
+                    var matchingletter = constNo;
                     if(matchingletter != filter_const2) {
                         continue;
                     }
