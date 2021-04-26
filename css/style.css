@@ -515,7 +515,7 @@
   box-sizing: border-box;
   position: relative;
 }
-.const-box h1 {
+.const-box h1, .const-box h1 .const_name {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
@@ -524,12 +524,13 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
-.const-box > h1 span {
+.const-box > h1 span.resStatus {
   font-size: 7px;
   background: green;
   color: #fff;
   text-transform: uppercase;
   padding: 3px 5px;
+  margin-left: 5px;
 }
 
 .const-box p {

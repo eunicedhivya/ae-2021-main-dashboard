@@ -1,6 +1,9 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
 seatShare(btn_data, 'data/seat_share.json', "#seatSharechart", "seat%")
 seatShare(btn_data, 'data/vote_share.json', "#voteSharechart", "leading%")
+var consName = $('#const-list').find(":selected").text();
+constFilter(consName);
+
 // State button filter
 jQuery("nav button.dashfilters").click(function() {
     $('nav button').removeClass('active');
@@ -12,7 +15,7 @@ jQuery("nav button.dashfilters").click(function() {
     seatShare(btn_data, 'data/seat_share.json', "#seatSharechart", "seat%")
     seatShare(btn_data, 'data/vote_share.json', "#voteSharechart", "leading%")
     searchFilter(btn_data)
-    console.log(const_list)
+    //console.log(const_list)
     $("#owl-demo").html('Loading...');
     carouselWidget('data/data.json', "#owl-demo", btn_data, "", "", btn_Value)
     
@@ -58,7 +61,10 @@ jQuery("nav button.dashfilters").click(function() {
             center: [78.3, 10.8]
         })
     }
-    
+
+    createDropDowns("#const-list", const_list)
+    consName = $('#const-list').find(":selected").text();
+    constFilter(consName)
 })
 
 // Reset button function
@@ -82,7 +88,7 @@ carouselWidget('data/data.json', "#owl-demo", "all", "", "", btn_Value)
 // Search button filter
 jQuery("#searchBtn").click(function(){
     var searchTxt = jQuery(".searchField").val();
-    console.log(searchTxt)
+    //console.log(searchTxt)
     searchFilter(btn_data)
     $("#owl-demo").html('Loading...');
     carouselWidget('data/data.json', "#owl-demo", btn_data, "", searchTxt, btn_Value)
@@ -126,14 +132,13 @@ function searchFilter(statename) {
     };                
 }
 var test_txt = $(".ui-helper-hidden-accessible").text;
-console.log(test_txt)
+//console.log(test_txt)
 $( "document" ).on('click', '#automplete-6', function() {
-    console.log(test_txt)
+    //console.log(test_txt)
 })
 
 createDropDowns("#const-list", const_list)
 function createDropDowns(selector, dropdowndata){
-     console.log("dropdowndata", dropdowndata);
 
     var select = d3.select(selector)
     select.html(null);
@@ -155,4 +160,52 @@ function createDropDowns(selector, dropdowndata){
     })
    .remove();
    
+}
+
+$('#const-list').on('change', function() {
+    filValue = $(this).val()
+    constFilter(filValue)
+})
+
+function constFilter(filter_const2) {
+    var stname  = btn_data, btn_Value = "Tamil Nadu";
+    var constWise = (function () {
+        $.ajax({
+        'async': false,
+        'global': false, 
+        'url': "data/data.json",
+        'dataType' : 'json',
+        'success': function (data) {
+            var datafil = stname + "_constituencywise"
+            for(var i in data[datafil]) {
+                var constituencyname = data[datafil][i].Constituency;
+                var leadingname = data[datafil][i]["Leading Candidate"];
+                var leadingparty = data[datafil][i]["Leading Party"];
+                var leadingmargin = data[datafil][i]["Margin"];
+                var trailingname = data[datafil][i]["Trailing Candidate"];
+                var trailingparty = data[datafil][i]["Trailing Party"];
+                var trailingmargin = data[datafil][i]["Margin"];
+                var resultStatus = data[datafil][i]["status"];
+    
+                if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { 
+                    //console.log('here', data[datafil]);
+                    var matchingletter = constituencyname;
+                    if(matchingletter != filter_const2) {
+                        continue;
+                    }
+                }
+
+                $(".const-box h1 .const_name").html(constituencyname);
+                $(".const-box h1 .resStatus").html(resultStatus);
+                $(".const-box .candName").html(leadingname);
+                $(".const-box .trailingcandName").html(trailingname);
+                $(".const-box .winParty").html(leadingparty);
+                $(".const-box .trailParty").html(trailingparty);
+                $(".const-box .winMargin").html(leadingmargin);
+                
+            } 
+        }
+        });
+        return kl_seatshare;
+    })();
 }
