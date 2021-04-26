@@ -79,27 +79,29 @@ function carouselWidget(datasource, selector, statename, filter, letterFilter, s
         pagination: true,
         navigation : true,
         navigationText : ['<i class="arrow left"></i>','<i class="arrow right"></i>'],
-        jsonPath : 'data/data.json',
+        jsonPath : datasource,
         jsonSuccess : customDataSuccess1
     });
 
     function customDataSuccess1(data) {
             var cand = "";
-            for(var j in data["keycandidate"]){
-                
-                // var img = data["keycandidate"][j].["img/profile.png"];
-                var keycandidatename = data["keycandidate"][j].candidatename;
-                var keycandidateplace = data["keycandidate"][j].constname;
-                var keycandidateparty = data["keycandidate"][j].party;
-                var keycandidateleading = data["keycandidate"][j].leadortrail;
-                var keycandidatevotes = data["keycandidate"][j].votes
+            var statn1 = statename+"-keycandidate"; 
+            //var statn = "tn-keycandidate"; 
+            for(var j in data[statn1]){
+                console.log(statename)
+                // var img = data[statn][j].["img/profile.png"];
+                var keycandidatename = data[statn1][j].candidatename;
+                var keycandidateplace = data[statn1][j].constname;
+                var keycandidateparty = data[statn1][j].candidateparty;
+                var keycandidateleading = data[statn1][j].age;
+                var keycandidatevotes = data[statn1][j].education
                 
                 html = '<div class="candidate-items">'
                 html += '<img src="img/profile.png" alt="">'
                 html += '<div class="cand-info">'
                 html += '<h4>'+ keycandidatename +'<span>'+ keycandidateparty +'</span></h4>'
                 html += '<p class="cand-cont">'+ keycandidateplace +'</p>'
-                html += '<p class="cand-votes"><span>'+keycandidateleading +'</span> '+keycandidatevotes.toLocaleString('en-IN') +'</p>'
+                html += '<p class="cand-votes"><span>'+keycandidateleading +'</span> '+keycandidatevotes +'</p>'
                 html += '</div>'
                 html += '</div>'
                 cand += html
