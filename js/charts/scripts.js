@@ -62,7 +62,7 @@ jQuery("nav button.dashfilters").click(function() {
         })
     }
 
-    createDropDowns("#const-list", const_list)
+    createDropDown();
     consName = $('#const-list').find(":selected").text();
     constFilter(consName)
 })
@@ -93,7 +93,7 @@ jQuery("#searchBtn").click(function(){
     $("#owl-demo").html('Loading...');
     carouselWidget('data/data.json', "#owl-demo", btn_data, "", searchTxt, btn_Value)
 })
-var const_list = [];
+var const_list = [], const_no= [];
 searchFilter(btn_data)
 // Autocomplete function
 function searchFilter(statename) {
@@ -109,8 +109,10 @@ function searchFilter(statename) {
         'success': function (data) {
             var dataList = data[statn]
             const_list= [];
+            const_no= [];
             dataList.forEach(function(key, value) {
                 const_list.push(key["Constituency"]);
+                const_no.push(key["constNo"]);
             });
         }
     });
@@ -136,39 +138,54 @@ var test_txt = $(".ui-helper-hidden-accessible").text;
 $( "document" ).on('click', '#automplete-6', function() {
     //console.log(test_txt)
 })
+createDropDown();
 
-createDropDowns("#const-list", const_list)
-function createDropDowns(selector, dropdowndata){
-
-    var select = d3.select(selector)
+function createDropDown() {
+    var stname  = btn_data;
+    var  const_list1= [], const_no1= [];
+    var datafil = stname + "_constituencywise"
+    var dataList;
+    var tot_data = (function () {
+        $.ajax({
+        'async': false,
+        'global': false, 
+        'url': 'data/data.json',
+        'dataType' : 'json',
+        'success': function (data) {
+            dataList = data[datafil]
+            const_list1= [];
+            const_no1= [];
+            dataList.forEach(function(key, value) {
+                const_list1.push(key["Constituency"]);
+                const_no1.push(key["constNo"]);
+            });
+        }
+    });
+        return const_list1, const_no1;
+    })();
+    var select = d3.select("#const-list")
     select.html(null);
-      var options = select.selectAll('option')
-            .data(dropdowndata).enter()
-            .append('option')
-            .attr("value", function (d) { 
-                return d; 
-            })
-			.attr("data-id", function (d) { 
-                return d; 
-            })
-            .text(function (d) { return d; });  
-
-        // document.querySelector(selector).selectedIndex = "24";
-    $('#const-list option')
-    .filter(function() {
-        return !this.value || this.value == 'NULL' || $.trim(this.value).length == 0;
-    })
-   .remove();
-   
+        var options = select.selectAll('option')
+        .data(dataList).enter()
+        .append('option')
+        .attr("value", function (d) { 
+            return d.Constituency; 
+        })
+        .attr("data-id", function (d) { 
+            return d.constNo; 
+        })
+        .text(function (d) { return d.Constituency; });  
 }
+
 
 $('#const-list').on('change', function() {
     filValue = $(this).val()
     constFilter(filValue)
+    $('#my-dropdown').val(filValue).trigger('change')
 })
 
 function constFilter(filter_const2) {
-    var stname  = btn_data, btn_Value = "Tamil Nadu";
+    var stname  = btn_data;
     var constWise = (function () {
         $.ajax({
         'async': false,
@@ -186,7 +203,8 @@ function constFilter(filter_const2) {
                 var trailingparty = data[datafil][i]["Trailing Party"];
                 var trailingmargin = data[datafil][i]["Margin"];
                 var resultStatus = data[datafil][i]["status"];
-    
+                var constNo = data[datafil][i]["constNo"];
+
                 if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { 
                     //console.log('here', data[datafil]);
                     var matchingletter = constituencyname;
@@ -202,7 +220,6 @@ function constFilter(filter_const2) {
                 $(".const-box .winParty").html(leadingparty);
                 $(".const-box .trailParty").html(trailingparty);
                 $(".const-box .winMargin").html(leadingmargin);
-                
             } 
         }
         });

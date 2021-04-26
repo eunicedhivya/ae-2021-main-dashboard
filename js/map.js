@@ -28,7 +28,7 @@ function drawAssemblyMap(selector, settings){
 
             var stateconst = topojson.feature(stateShape, stateShape.objects.collection).features;
 
-            console.log("stateboundary", stateconst);
+            //console.log("stateboundary", stateconst);
 
             svg.selectAll(".state")
                         .data(stateconst).enter().append("path")
@@ -42,7 +42,7 @@ function drawAssemblyMap(selector, settings){
                                 return obj["Const. No."] === d.properties.AC_NO;
                             })
 
-                            console.log("fd", fd[0]["Leading Party"]);
+                            //console.log("fd", fd[0]["Leading Party"]);
             
                             if(fd[0] !== undefined){
                                 return partycolors[fd[0]["Leading Party"]];
@@ -55,21 +55,21 @@ function drawAssemblyMap(selector, settings){
                             return d['properties']['ST_CODE'];
                         })
                         .on("click", function(d, i){
-                            console.log(i, d.properties)
-
-                            var fd = constWiseData2016.filter(function(obj){
+                            //console.log(i, d.properties.AC_NAME)
+                            constFilter(d.properties.AC_NAME);
+                            //var fd = constWiseData2016.filter(function(obj){
                                 // console.log(obj);
-                                return obj["Const. No."] === d.properties.AC_NO;
-                            })
+                            //    return obj["Const. No."] === d.properties.AC_NO;
+                            //})
 
-                            console.log("fd", fd[0]["Leading Party"]);
+                           // console.log("fd", fd[0]["Leading Party"]);
             
-                            if(fd[0] !== undefined){
-                                return partycolors[fd[0]["Leading Party"]];
+                            //if(fd[0] !== undefined){
+                               // return partycolors[fd[0]["Leading Party"]];
                                 // return partycolors[partyAbbrList[fd[0]['leadingParty']]];
-                            }else{
-                                return "#FFFFFF";
-                            }
+                           // }else{
+                            //    return "#FFFFFF";
+                            //}
 
                             // d3.select("#aseconstleveldata").style("display", "none")
                             // d3.select("#asestateleveldata").style("display", "block")
