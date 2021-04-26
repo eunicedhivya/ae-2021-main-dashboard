@@ -181,7 +181,6 @@ function createDropDown() {
 $('#const-list').on('change', function() {
     filValue = $(this).val()
     constFilter(filValue)
-    $('#my-dropdown').val(filValue).trigger('change')
 })
 
 function constFilter(filter_const2) {
