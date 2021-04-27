@@ -56,7 +56,11 @@ function drawAssemblyMap(selector, settings){
                         })
                         .on("click", function(d, i){
                             //console.log(i, d.properties.AC_NAME)
-                            constFilter(d.properties.AC_NO);
+                            if($("#conts-2016").hasClass("active")) {
+                                constFilter(d.properties.AC_NO, "data/data.json");
+                            } else {
+                                constFilter(d.properties.AC_NO, "data/data2021.json");
+                            }
                             $('#const-list').val(d.properties.AC_NO).trigger('change')
                             //var fd = constWiseData2016.filter(function(obj){
                                 // console.log(obj);

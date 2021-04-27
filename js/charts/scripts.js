@@ -1,8 +1,8 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
 seatShare(btn_data, 'data/seat_share.json', "#seatSharechart", "seat%")
 seatShare(btn_data, 'data/vote_share.json', "#voteSharechart", "leading%")
-var consName = $('#const-list').find(":selected").text();
-constFilter(consName);
+var consName = $('#const-list').find(":selected").val();
+constFilter(consName, "data/data.json");
 
 // State button filter
 jQuery("nav button.dashfilters").click(function() {
@@ -63,8 +63,8 @@ jQuery("nav button.dashfilters").click(function() {
     }
 
     createDropDown();
-    consName = $('#const-list').find(":selected").text();
-    constFilter(consName)
+    consName = $('#const-list').find(":selected").val();
+    constFilter(consName, "data/data.json")
 })
 
 // Reset button function
@@ -177,19 +177,35 @@ function createDropDown() {
         .text(function (d) { return d.Constituency; });  
 }
 
+$(".yearBtn").on("click", function(){
+    $('.yearBtn').removeClass('active');
+    $(this).addClass('active');
+    consName = $('#const-list').find(":selected").val();
+    if($("#conts-2016").hasClass("active")) {
+        constFilter(consName, "data/data.json");
+    } else {
+        constFilter(consName, "data/data2021.json");
+    }
+})
+
+
 
 $('#const-list').on('change', function() {
     filValue = $(this).val()
-    constFilter(filValue)
+    if($("#conts-2016").hasClass("active")) {
+        constFilter(filValue, "data/data.json");
+    } else {
+        constFilter(filValue, "data/data2021.json");
+    }
 })
 
-function constFilter(filter_const2) {
+function constFilter(filter_const2, dataSource) {
     var stname  = btn_data;
     var constWise = (function () {
         $.ajax({
         'async': false,
         'global': false, 
-        'url': "data/data.json",
+        'url': dataSource,
         'dataType' : 'json',
         'success': function (data) {
             var datafil = stname + "_constituencywise"
