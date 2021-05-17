@@ -51,10 +51,16 @@ function drawAssemblyMap(selector, settings){
                             }
                         })
                         .attr('stroke-opacity', "1")
+						.attr("data-constcode", function(d,i){
+                            return d.properties.AC_NO;
+                        })
                         .attr("data-statecode", function(d,i){
                             return d['properties']['ST_CODE'];
                         })
-                        .on("click", function(d, i){
+                        .on("click", function(d, i){ 
+						//alert("CONST:"+d3.select(this).attr("data-statecode"));
+						//d3.selectAll('.state').classed("focused", false);
+						//d3.select(this).classed("focused", true);
                             //console.log(i, d.properties.AC_NAME)
                             if($("#conts-2016").hasClass("active")) {
                                 constFilter(d.properties.AC_NO, "data/data.json");
