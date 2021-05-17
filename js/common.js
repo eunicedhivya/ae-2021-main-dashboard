@@ -19,6 +19,11 @@ jQuery("nav button.dashfilters").click(function() {
 	$('#letters-listing li').removeClass('active');
 	loadAllData();
 });
+// Reset button function
+jQuery(".reset-filter").click(function() {
+    $('#letters-listing li').removeClass('active');
+    loadConstituencyCarousal(btn_data,btn_Value,'','');
+})
 // Alphabetic filter
 jQuery("#letters-listing li.clickable").click(function() {
     $('#letters-listing li').removeClass('active');
