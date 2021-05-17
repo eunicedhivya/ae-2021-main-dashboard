@@ -2,7 +2,9 @@
   width: 100%;
   max-width: 400px;
 }
-
+.fa-search{
+	/*background: #000;color: #ffff;*/padding: 4px 4px;font-size: 13px;
+}
 .barlevel {
   transition: all 0.5s;
 }
@@ -22,10 +24,11 @@
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
+.assembly-map .focused {fill:red;}
 .tf_wrap .dash-header {
   /*padding: 10px 5px;*/
   padding: 0;
-  display: flex;
+ /* display: flex;*/
   align-items: center;
   /* display: none; */
 }
@@ -90,12 +93,13 @@
   border: none;
   font-weight: 800;
   font-size: 10px;
-  padding: 1px 10px;
+  padding: 5px 10px;
   line-height: 15px;
   text-transform: uppercase;
 }
 .tf_wrap .btn_filter button.active {
-  background-color: #ff650b;
+  /*background-color: #ff650b;*/
+  background-color: #f00;
   color: #fff;
 }
 
@@ -283,7 +287,7 @@
   max-width: 80px;
   position: absolute;
   bottom: 0;
-  left: 12px;
+  left: 0;
 }
 .candidate-items .cand-info {
   width: 75%;
@@ -307,7 +311,7 @@
   font-weight: 400;
   color: #999;
 }
-.candidate-items .cand-votes {
+.candidate-items .cand-votes, .candidate-items .cand-age {
   font-family: "Rubik", sans-serif;
   display: block;
   font-size: 11px;
@@ -315,9 +319,10 @@
   color: #008000;
   margin: 5px 0;
   position: relative;
-  padding: 0 8px;
+  padding: 0 16px;
 }
-.candidate-items .cand-votes span {
+.candidate-items .cand-age {  padding: 0; }
+.candidate-items .cand-votes span, .candidate-items .cand-age span {
   display: inline-block;
   margin-right: 10px;
   text-transform: uppercase;
@@ -330,7 +335,7 @@
   position: absolute;
   top: 3px;
   border-radius: 50%;
-  left: 0;
+  left: 6px;
 }
 .candidate-items .cand-cont {
   font-family: "Rubik", sans-serif;
@@ -506,7 +511,6 @@
 }
 .const-box {
   background: #f8f8f8;
-  border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0px 1px 5px 2px rgba(94, 94, 94, 0.1);
   -webkit-box-shadow: 0px 1px 5px 2px rgba(94, 94, 94, 0.1);
@@ -524,9 +528,11 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
+.const-box > h1 span.resStatus.declared {background: green;}
+.const-box > h1 span.resStatus.leading {background: #ff650b;}
 .const-box > h1 span.resStatus {
-  font-size: 7px;
-  background: green;
+  font-size: 10px;
+  /*background: green;*/
   color: #fff;
   text-transform: uppercase;
   padding: 3px 5px;
@@ -550,15 +556,16 @@
 .const-box .cand-desc h1 {
   font-weight: 700;
   max-width: 220px;
+    margin: 5px 0;
 }
 
 .const-box .cand-desc span {
   position: absolute;
-  right: 5%;
   bottom: 50%;
+    right: 0;
   font-size: 12px;
   line-height: 16px;
-  font-weight: 600;
+    margin: 6px 0;
 }
 
 .const-box .cand-desc .trailingCand span {
@@ -569,9 +576,13 @@
   width: 100%;
   display: block;
 }
+.tf_wrap .btn_filter {
+  width: 50%;
+  margin: 0 auto;
+}
 .tf_wrap .btn_filter button {
-  width: 47%;
-  float: left;
+  width: 25%;
+  /*float: left;*/
 }
 .tf_wrap .btn_filter button#conts-2016 {
   margin-right: 8px;
@@ -605,7 +616,25 @@
   fill: #4c9b7a;
   color: #4c9b7a;
 }
-
+.AIADMK {
+  fill: #006837;
+  color: #006837;
+}
+.DMK {
+  fill: #b71c24;
+  color: #b71c24;
+  stroke: #b71c24;
+}
+.AMMK {
+  fill: #00a2ab;
+  color: #00a2ab;
+  stroke: #00a2ab;
+}
+.MNM {
+  fill: #ffaa2e;
+  color: #ffaa2e;
+  stroke: #ffaa2e;
+}
 .undeclared {
   fill: #fff;
   color: #fff;
@@ -616,6 +645,21 @@
   color: #fa8601;
   stroke: #fa8601;
 }
+.INC {
+  fill: #945a19;
+  color: #945a19;
+  stroke: #945a19;
+}
+.IML {
+  fill: #194ab4;
+  color: #194ab4;
+  stroke: #194ab4;
+}
+.Others {
+  fill: #797979;
+  color: #797979;
+  stroke: #797979;
+}
 
 /*Poll-Dashboard styles*/
 .tf_wrap.pollDash-wrap header h2 span {
@@ -625,11 +669,14 @@
 #alphabetfilters {
   margin-bottom: 20px;
 }
-
+.dash-header nav {text-align:center;}
+.dash-header h2{text-align:center}
+.allcon {font-size:15px;    text-transform: uppercase;font-weight:bold}
 ul#letters-listing {
   overflow-wrap: break-word;
   padding: 0;
   margin: 0;
+  text-align:center;
 }
 
 ul#letters-listing li {
@@ -990,15 +1037,252 @@ ul#letters-listing li.disabled a {
   width: 20%;
 }
 .table td button {
-  width: 20px;
+  /*width: 20px;
   height: 20px;
   background-color: #000;
   border-radius: 50%;
   color: #fff;
   margin-left: 10px;
   line-height: 20px;
+  border: none;*/
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  padding-bottom: 2px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  /* margin-left: 10px; */
+  line-height: 16px;
   border: none;
 }
 .table td button:hover {
   background-color: #666;
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: center;			
+  width: 60px;					
+  height: 28px;					
+  padding: 2px;				
+  font: 12px sans-serif;		
+  background: lightsteelblue;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
+
+/*Chart color code*/
+.block.AIADMK-color {
+  background: #006837;	
+}
+.block.DMK-color {
+  background: #b71c24;	
+}
+.block.AMMK-color {
+  background: #00a2ab;	
+}
+.block.MNM-color {
+  background: #ffaa2e;	
+}
+
+
+/* 2021 alliances */
+
+/* Tamil Nadu */
+/* NDA */
+
+.seat.AIADMK,
+.seat.PMK,
+.seat.BJP,
+.seat.TMCM,
+.seat.PTMK,
+.seat.TMMK,
+.seat.MMK,
+.seat.AIMMK,
+.seat.PBK,
+.seat.PDK {
+  background-color: #006837;
+  fill: #006837;
+}
+
+/* SPA */
+
+.seat.DMK,
+.seat.INC,
+.seat.CPI,
+.seat.CPIM,
+.seat.VCK,
+.seat.MDMK,
+.seat.IUML,
+.seat.IML,
+.seat.KMDK,
+.seat.MMK,
+.seat.AIFB,
+.seat.TVK,
+.seat.MVK,
+.seat.ATP {
+  background-color: #b71c24;
+  fill: #b71c24;
+}
+
+/* AMMK+ */
+
+.seat.AMMK,
+.seat.DMDK,
+.seat.SDPI,
+.seat.AIMIM,
+.seat.GMK,
+.seat.MSS,
+.seat.VTPK,
+.seat.MAK {
+  background-color: #00a2ab;
+  fill: #00a2ab;
+}
+
+/* MNM */
+
+.seat.MNM,
+.seat.IJK,
+.seat.AISMK,
+.seat.TMJK,
+.seat.JDS {
+  background-color: blue;
+  fill: blue;
+}
+
+/* Others */
+.seat.Others {
+  background-color: #797979;
+  fill: #797979;
+}
+
+/*LDF*/
+
+.seat.CPI, 
+.seat.KCM,
+.seat.JDS,
+.seat.NCP, 
+.seat.LJD,
+.seat.INL,
+.seat.CS,
+.seat.KSB,
+.seat.JK {
+  background-color: #b71c24;
+  fill: #b71c24;
+}
+
+/*UDF*/
+
+.seat.INC, 
+.seat.AIUDF,
+.seat.IUML,
+.seat.RSP,
+.seat.NCK, 
+.seat.KCJ,
+.seat.CMP,
+.seat.RMPS,
+.seat.IND {
+  background-color: #006837;
+  fill: #006837;
+}
+
+/*NDA*/
+
+.seat.BJP, 
+.seat.BDJS,
+.seat.KKC,
+.seat.JRS, 
+.seat.DSJP {
+  background-color: #ffaa2e;
+  fill: #ffaa2e;
+}
+
+/*NEDA*/
+
+.seat.BJP,
+.seat.AGP,
+.seat.UPPL {
+  background-color: #ffaa2e;
+  fill: #ffaa2e;
+}
+
+/*Congress*/
+
+.seat.AIUDF,
+.seat.BPF,
+.seat.CPI,
+.seat.RJD,
+.seat.NCP,
+.seat.CPIML,
+.seat.CPI, 
+.seat.AIFB,
+.seat.RSP,
+.seat.ISF {
+  background-color: #b71c24;
+  fill: #b71c24;
+}
+
+/*AJP*/
+
+.seat.AJP,
+.seat.RD {
+  background-color: #00a2ab;
+  fill: #00a2ab;
+}
+
+/*UPA*/
+
+.seat.CPI,
+.seat.VCK,
+.seat.IND,
+.seat.TMC,
+.seat.GJM {
+  background-color: #006837;
+  fill: #006837;
+}
+
+
+/*NDA*/
+
+.seat.AINRC,
+.seat.BJP, 
+.seat.AJSU {
+  background-color: #ffaa2e;
+  fill: #ffaa2e;
+}
+
+.seat.AITC {
+  background-color: #a87b39;
+  fill: #a87b39;
+}
+
+.colorBox {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.totSeats {
+  display: inline;
+  position: absolute;
+  top: 60%;
+  left: 21%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.alliance-list {
+  display: none;
+}
+
+.seat.Undeclared,
+.seat.Undeclared,
+.seat.Undeclared,
+.seat.Undeclared
+.seat.Undeclared {
+  fill: #fff;
+  color: #fff;
+  stroke: #7c7c7c;
 }
