@@ -1,0 +1,180 @@
+{
+  "tn_conswise": [
+    {
+      "id": "AIADMK",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 134
+    },
+    {
+      "id": "DMK",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 89
+    },
+    {
+      "id": "INC",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 8
+    },
+    {
+      "id": "IML",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 1
+    }
+  ],
+  "kl_conswise": [
+    {
+      "id": "CPIM",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 58
+    },
+    {
+      "id": "INC",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 22
+    },
+    {
+      "id": "CPI",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 19
+    },
+    {
+      "id": "IUML",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 18
+    },
+    {
+      "id": "IND",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 6
+    },
+    {
+      "id": "Others",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 17
+    }
+  ],
+  "wb_conswise": [
+    {
+      "id": "AITC",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 211
+    },
+    {
+      "id": "INC",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 44
+    },
+    {
+      "id": "CPI(M)",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 26
+    },
+    {
+      "id": "BJP",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 3
+    },
+    {
+      "id": "RCP",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 3
+    },
+    {
+      "id": "IND",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 1
+    },
+    {
+      "id": "Others",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 6
+    }
+  ],
+  "as_conswise": [
+    {
+      "id": "BJP",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 60
+    },
+    {
+      "id": "INC",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 26
+    },
+    {
+      "id": "AGP",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 14
+    },
+    {
+      "id": "AIUDF",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 13
+    },
+    {
+      "id": "BOPF",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 12
+    },
+    {
+      "id": "IND",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 1
+    }
+  ],
+  "pd_conswise": [
+    {
+      "id": "INC",
+      "legend": "Aam Aadmi Party",
+      "name": "Aam Aadmi Party",
+      "seats": 15
+    },
+    {
+      "id": "AINRC",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 8
+    },
+    {
+      "id": "AIADMK",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 4
+    },
+    {
+      "id": "DMK",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 2
+    },
+    {
+      "id": "IND",
+      "legend": "Bharatiya Janata Party",
+      "name": "Bharatiya Janata Party",
+      "seats": 1
+    }
+  ]
+}
