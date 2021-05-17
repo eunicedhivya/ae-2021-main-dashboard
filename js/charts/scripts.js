@@ -138,7 +138,7 @@ var test_txt = $(".ui-helper-hidden-accessible").text;
 $( "document" ).on('click', '#automplete-6', function() {
     //console.log(test_txt)
 })
-createDropDown();
+
 
 function createDropDown() {
     var stname  = btn_data;
@@ -219,7 +219,7 @@ function constFilter(filter_const2, dataSource) {
                 var trailingmargin = data[datafil][i]["Margin"];
                 var resultStatus = data[datafil][i]["status"];
                 var constNo = data[datafil][i]["constNo"];
-
+				//alert(constNo);
                 if(filter_const2 !=  'wb-polling-day' && filter_const2 != '') { 
                     //console.log('here', data[datafil]);
                     var matchingletter = constNo;
@@ -227,8 +227,26 @@ function constFilter(filter_const2, dataSource) {
                         continue;
                     }
                 }
-
+				d3.selectAll('.state').classed("focused", false);
+				d3.selectAll(".state").filter(function() { 
+					if(d3.select(this).attr("data-constcode") == constNo) { //alert("CONST"+constNo);
+						d3.select(this).classed("focused", true);
+					}
+				});
                 $(".const-box h1 .const_name").html(constituencyname);
+				if(resultStatus == 'Result Declared') {
+					$(".const-box h1 .resStatus").removeClass('leading');
+					$(".const-box h1 .resStatus").addClass('declared');
+					$(".const-box .winningCand .ct").html('Winning Candidate');
+					$(".const-box .winningCand .ctm").html('Winning Margin');
+				} else {
+					$(".const-box h1 .resStatus").addClass('leading');
+					$(".const-box h1 .resStatus").removeClass('declared');
+					$(".const-box .winParty").html(leadingparty);
+					$(".const-box .winningCand .ct").html('Leading Candidate');
+					$(".const-box .winningCand .ctm").html('Winning Margin');
+					resultStatus =  'Counting';
+				}
                 $(".const-box h1 .resStatus").html(resultStatus);
                 $(".const-box .candName").html(leadingname);
                 $(".const-box .trailingcandName").html(trailingname);
