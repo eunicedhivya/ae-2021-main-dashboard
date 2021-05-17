@@ -4,6 +4,7 @@ function seatShare(stname, dataSource, selector, keyElem) {
     var kl_share = null;
     var content = "";
     var legends = "";
+	$(selector).html('Loading...'); 
     var tot_percent = (function () {
         $.ajax({
         'async': false,
@@ -35,6 +36,7 @@ function seatShare(stname, dataSource, selector, keyElem) {
         }
         });
         return kl_seatshare;
+		$(selector).html('Loaded');
     })();
 }
     

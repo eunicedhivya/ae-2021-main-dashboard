@@ -1,5 +1,5 @@
 function drawAccTable(data, selector, labels){
-
+	d3.select(selector).html('');
     var table = d3.select(selector).append('table')
     var thead = table.append('thead')
     var	tbody = table.append('tbody')
@@ -19,6 +19,7 @@ function drawAccTable(data, selector, labels){
 
       var partyCell = partyRow.selectAll('td')
           .data(function (row) {
+			 console.log("Row:"+JSON.stringify(row));
             return labels.map(function (column) {
               // console.log(column)
               return {column: column, value: row[column]};
@@ -28,9 +29,13 @@ function drawAccTable(data, selector, labels){
           .append('td')
           .html(function (d) { 
               //console.log(d.column === "party")
-
+			  //console.log("Column:"+JSON.stringify(d));
               if(d.column === "party"){
-                return d.value + "<button class='alliance-list' data-party='"+d.value.toLowerCase()+"'> + </button>";
+				if(d.value != 'Other') {
+					return "<button class='alliance-list' data-party='"+d.value+"'> + </button> "+d.value;
+				} else {
+					return "<span style='margin-left:18px'>"+d.value+"</span>";
+				}
               }else{
                 return d.value;
               }
