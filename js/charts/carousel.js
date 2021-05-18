@@ -43,15 +43,15 @@ function carouselWidget(datasource, selector, statename, filter, letterFilter, s
 			}
             html = '<div class="contituency-items">'
             html += '<h3> '+ stName +' | <span>'+constituencyname+'</span> </h3>'
-            html += '<span class="leadingindicator">Leading</span>'
+            html += '<span class="leadingindicator">Winning</span>'
             html += '<div class="leadingcand">'
             html += '<h4>'+leadingname+'<span>'+leadingparty+'</span></h4>'
             html += '<p>'+leadingmargin.toLocaleString('en-IN')+'</p>'
             html += '</div>'
-            html += '<span class="trailingindicator">Leading</span>'        
+            html += '<span class="trailingindicator">Trailing</span>'        
             html += '<div class="trailingcand">'
             html += '<h4>'+trailingname+' <span>'+trailingparty+'</span></h4>'
-            html += '<p>'+trailingmargin.toLocaleString('en-IN')+'</p>'
+            //html += '<p>'+trailingmargin.toLocaleString('en-IN')+'</p>'
             html += '</div>'
             html += '</div>'        
             content += html
