@@ -102,6 +102,10 @@
   background-color: #f00;
   color: #fff;
 }
+.tf_wrap button.dashfilters:hover, .tf_wrap button.searchBtn:hover, .tf_wrap .btn_filter button:hover, path.state:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
 
 /* ++++++++++++++++++++++++++ */
 /* Carousel Section */
@@ -161,6 +165,7 @@
 .contituency-items h3 span.seatsHead {
   font-weight: 600;
 }
+
 .contituency-items .leadingcand,
 .contituency-items .trailingcand {
   padding: 0 15px;
@@ -169,6 +174,9 @@
   align-items: baseline;
   /* margin-bottom: 10px; */
   margin-top: -18px;
+}
+.contituency-items .trailingcand {
+    margin-top: 0;
 }
 .contituency-items .leadingcand p,
 .contituency-items .trailingcand p {
@@ -556,16 +564,14 @@
 .const-box .cand-desc h1 {
   font-weight: 700;
   max-width: 220px;
-    margin: 5px 0;
 }
 
 .const-box .cand-desc span {
   position: absolute;
   bottom: 50%;
-    right: 0;
+  right: 5%;
   font-size: 12px;
   line-height: 16px;
-    margin: 6px 0;
 }
 
 .const-box .cand-desc .trailingCand span {
@@ -1024,9 +1030,15 @@ ul#letters-listing li.disabled a {
   font-size: 14px;
   text-align: left;
 }
-
+.table#map-table {
+    margin-top: 15px;
+}
 .table th {
   text-transform: capitalize;
+  padding: 5px;
+}
+.table td {
+  padding: 5px;
 }
 .table th:first-child {
   width: 40%;
@@ -1085,204 +1097,4 @@ div.tooltip {
 }
 .block.MNM-color {
   background: #ffaa2e;	
-}
-
-
-/* 2021 alliances */
-
-/* Tamil Nadu */
-/* NDA */
-
-.seat.AIADMK,
-.seat.PMK,
-.seat.BJP,
-.seat.TMCM,
-.seat.PTMK,
-.seat.TMMK,
-.seat.MMK,
-.seat.AIMMK,
-.seat.PBK,
-.seat.PDK {
-  background-color: #006837;
-  fill: #006837;
-}
-
-/* SPA */
-
-.seat.DMK,
-.seat.INC,
-.seat.CPI,
-.seat.CPIM,
-.seat.VCK,
-.seat.MDMK,
-.seat.IUML,
-.seat.IML,
-.seat.KMDK,
-.seat.MMK,
-.seat.AIFB,
-.seat.TVK,
-.seat.MVK,
-.seat.ATP {
-  background-color: #b71c24;
-  fill: #b71c24;
-}
-
-/* AMMK+ */
-
-.seat.AMMK,
-.seat.DMDK,
-.seat.SDPI,
-.seat.AIMIM,
-.seat.GMK,
-.seat.MSS,
-.seat.VTPK,
-.seat.MAK {
-  background-color: #00a2ab;
-  fill: #00a2ab;
-}
-
-/* MNM */
-
-.seat.MNM,
-.seat.IJK,
-.seat.AISMK,
-.seat.TMJK,
-.seat.JDS {
-  background-color: blue;
-  fill: blue;
-}
-
-/* Others */
-.seat.Others {
-  background-color: #797979;
-  fill: #797979;
-}
-
-/*LDF*/
-
-.seat.CPI, 
-.seat.KCM,
-.seat.JDS,
-.seat.NCP, 
-.seat.LJD,
-.seat.INL,
-.seat.CS,
-.seat.KSB,
-.seat.JK {
-  background-color: #b71c24;
-  fill: #b71c24;
-}
-
-/*UDF*/
-
-.seat.INC, 
-.seat.AIUDF,
-.seat.IUML,
-.seat.RSP,
-.seat.NCK, 
-.seat.KCJ,
-.seat.CMP,
-.seat.RMPS,
-.seat.IND {
-  background-color: #006837;
-  fill: #006837;
-}
-
-/*NDA*/
-
-.seat.BJP, 
-.seat.BDJS,
-.seat.KKC,
-.seat.JRS, 
-.seat.DSJP {
-  background-color: #ffaa2e;
-  fill: #ffaa2e;
-}
-
-/*NEDA*/
-
-.seat.BJP,
-.seat.AGP,
-.seat.UPPL {
-  background-color: #ffaa2e;
-  fill: #ffaa2e;
-}
-
-/*Congress*/
-
-.seat.AIUDF,
-.seat.BPF,
-.seat.CPI,
-.seat.RJD,
-.seat.NCP,
-.seat.CPIML,
-.seat.CPI, 
-.seat.AIFB,
-.seat.RSP,
-.seat.ISF {
-  background-color: #b71c24;
-  fill: #b71c24;
-}
-
-/*AJP*/
-
-.seat.AJP,
-.seat.RD {
-  background-color: #00a2ab;
-  fill: #00a2ab;
-}
-
-/*UPA*/
-
-.seat.CPI,
-.seat.VCK,
-.seat.IND,
-.seat.TMC,
-.seat.GJM {
-  background-color: #006837;
-  fill: #006837;
-}
-
-
-/*NDA*/
-
-.seat.AINRC,
-.seat.BJP, 
-.seat.AJSU {
-  background-color: #ffaa2e;
-  fill: #ffaa2e;
-}
-
-.seat.AITC {
-  background-color: #a87b39;
-  fill: #a87b39;
-}
-
-.colorBox {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  margin-right: 6px;
-}
-
-.totSeats {
-  display: inline;
-  position: absolute;
-  top: 60%;
-  left: 21%;
-  font-size: 20px;
-  font-weight: 600;
-}
-.alliance-list {
-  display: none;
-}
-
-.seat.Undeclared,
-.seat.Undeclared,
-.seat.Undeclared,
-.seat.Undeclared
-.seat.Undeclared {
-  fill: #fff;
-  color: #fff;
-  stroke: #7c7c7c;
 }
