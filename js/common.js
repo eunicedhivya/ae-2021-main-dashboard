@@ -1,5 +1,5 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
-var defaultYear = '2016';
+var defaultYear = '2021';
 var const_list = [], const_no= [];
 var partycolors = {
             "AIADMK": "#006837",
@@ -19,11 +19,6 @@ jQuery("nav button.dashfilters").click(function() {
 	$('#letters-listing li').removeClass('active');
 	loadAllData();
 });
-// Reset button function
-jQuery(".reset-filter").click(function() {
-    $('#letters-listing li').removeClass('active');
-    loadConstituencyCarousal(btn_data,btn_Value,'','');
-})
 // Alphabetic filter
 jQuery("#letters-listing li.clickable").click(function() {
     $('#letters-listing li').removeClass('active');
@@ -53,6 +48,7 @@ jQuery("#searchBtn").click(function(){
 function loadAllData() { 
 	loadConstituencyCarousal(btn_data,btn_Value,'',''); 
 	searchFilter(btn_data);
+	candidatesCarousal();
 	var seatsource = getYearData('seat_share');  
 	var votesource = getYearData('vote_share');  
 	seatShare(btn_data, seatsource, "#seatSharechart", "seat%")
