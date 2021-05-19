@@ -2,8 +2,10 @@
   width: 100%;
   max-width: 400px;
 }
-.fa-search{
-	/*background: #000;color: #ffff;*/padding: 4px 4px;font-size: 13px;
+.fa-search {
+  /*background: #000;color: #ffff;*/
+  padding: 4px 4px;
+  font-size: 13px;
 }
 .barlevel {
   transition: all 0.5s;
@@ -24,11 +26,13 @@
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
-.assembly-map .focused {fill:red;}
+.assembly-map .focused {
+  fill: red;
+}
 .tf_wrap .dash-header {
   /*padding: 10px 5px;*/
   padding: 0;
- /* display: flex;*/
+  /* display: flex;*/
   align-items: center;
   /* display: none; */
 }
@@ -102,9 +106,12 @@
   background-color: #f00;
   color: #fff;
 }
-.tf_wrap button.dashfilters:hover, .tf_wrap button.searchBtn:hover, .tf_wrap .btn_filter button:hover, path.state:hover {
-    opacity: 0.7;
-    cursor: pointer;
+.tf_wrap button.dashfilters:hover,
+.tf_wrap button.searchBtn:hover,
+.tf_wrap .btn_filter button:hover,
+path.state:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /* ++++++++++++++++++++++++++ */
@@ -176,7 +183,7 @@
   margin-top: -18px;
 }
 .contituency-items .trailingcand {
-    margin-top: 0;
+  margin-top: 0;
 }
 .contituency-items .leadingcand p,
 .contituency-items .trailingcand p {
@@ -319,7 +326,8 @@
   font-weight: 400;
   color: #999;
 }
-.candidate-items .cand-votes, .candidate-items .cand-age {
+.candidate-items .cand-votes.won,
+.candidate-items .cand-age {
   font-family: "Rubik", sans-serif;
   display: block;
   font-size: 11px;
@@ -329,15 +337,39 @@
   position: relative;
   padding: 0 16px;
 }
-.candidate-items .cand-age {  padding: 0; }
-.candidate-items .cand-votes span, .candidate-items .cand-age span {
+.candidate-items .cand-votes.lost,
+.candidate-items .cand-age {
+  font-family: "Rubik", sans-serif;
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  color: red;
+  margin: 5px 0;
+  position: relative;
+  padding: 0 16px;
+}
+.candidate-items .cand-age {
+  padding: 0;
+}
+.candidate-items .cand-votes span,
+.candidate-items .cand-age span {
   display: inline-block;
   margin-right: 10px;
   text-transform: uppercase;
 }
-.candidate-items .cand-votes::before {
+.candidate-items .cand-votes.won::before {
   content: "";
   background-color: #008000;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 3px;
+  border-radius: 50%;
+  left: 6px;
+}
+.candidate-items .cand-votes.lost::before {
+  content: "";
+  background-color: red;
   width: 6px;
   height: 6px;
   position: absolute;
@@ -527,7 +559,8 @@
   box-sizing: border-box;
   position: relative;
 }
-.const-box h1, .const-box h1 .const_name {
+.const-box h1,
+.const-box h1 .const_name {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
@@ -536,8 +569,12 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
-.const-box > h1 span.resStatus.declared {background: green;}
-.const-box > h1 span.resStatus.leading {background: #ff650b;}
+.const-box > h1 span.resStatus.declared {
+  background: green;
+}
+.const-box > h1 span.resStatus.leading {
+  background: #ff650b;
+}
 .const-box > h1 span.resStatus {
   font-size: 10px;
   /*background: green;*/
@@ -675,14 +712,22 @@
 #alphabetfilters {
   margin-bottom: 20px;
 }
-.dash-header nav {text-align:center;}
-.dash-header h2{text-align:center}
-.allcon {font-size:15px;    text-transform: uppercase;font-weight:bold}
+.dash-header nav {
+  text-align: center;
+}
+.dash-header h2 {
+  text-align: center;
+}
+.allcon {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 ul#letters-listing {
   overflow-wrap: break-word;
   padding: 0;
   margin: 0;
-  text-align:center;
+  text-align: center;
 }
 
 ul#letters-listing li {
@@ -1031,7 +1076,7 @@ ul#letters-listing li.disabled a {
   text-align: left;
 }
 .table#map-table {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 .table th {
   text-transform: capitalize;
@@ -1072,29 +1117,29 @@ ul#letters-listing li.disabled a {
   background-color: #666;
 }
 
-div.tooltip {	
-  position: absolute;			
-  text-align: center;			
-  width: 60px;					
-  height: 28px;					
-  padding: 2px;				
-  font: 12px sans-serif;		
-  background: lightsteelblue;	
-  border: 0px;		
-  border-radius: 8px;			
-  pointer-events: none;			
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
 }
 
 /*Chart color code*/
 .block.AIADMK-color {
-  background: #006837;	
+  background: #006837;
 }
 .block.DMK-color {
-  background: #b71c24;	
+  background: #b71c24;
 }
 .block.AMMK-color {
-  background: #00a2ab;	
+  background: #00a2ab;
 }
 .block.MNM-color {
-  background: #ffaa2e;	
+  background: #ffaa2e;
 }
