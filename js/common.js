@@ -33,6 +33,8 @@ $(".yearBtn").on("click", function(){
 	$('.yearBtn').removeClass('active');
     $(this).addClass('active');
     defaultYear = $(this).html();
+	// console.log("defaultYear", defaultYear);
+	constFilter(1, "data/const"+defaultYear+"data.json")
 	loadAllData();
 });
 // Search button filter
