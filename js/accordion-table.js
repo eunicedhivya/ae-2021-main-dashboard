@@ -51,16 +51,8 @@ function drawAccTable(data, selector, labels){
 
 $(document).ready(function(){
 
-  // $(".districtRow").hide();
-  // $(".alliance-list").hide();
-
   $('.alliance-list').click(function(){
     var selectedparty = $(this).data();
-    //console.log(selectedparty['party']);
   })
-  // $('.stateRow').click(function(){
-  //           $(this).nextUntil('tr.stateRow').slideToggle(200);
-  //           this.classList.toggle("active");
-  //       })
 
 });

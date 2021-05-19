@@ -17,6 +17,7 @@ jQuery("nav button.dashfilters").click(function() {
     btn_Value = $(this).attr("value");
     $(".section-block header h3 span.state_name").text(btn_Value + " |")
 	$('#letters-listing li').removeClass('active');
+	constFilter(1, "data/const2021data.json")
 	loadAllData();
 });
 // Alphabetic filter
@@ -318,13 +319,17 @@ function constFilter(filter_const2, dataSource) {
                 $(".const-box .trailingcandName").html(trailingname);
                 $(".const-box .winParty").html(leadingparty);
                 $(".const-box .trailParty").html(trailingparty);
-                $(".const-box .winMargin").html(leadingmargin);
+                $(".const-box .winMargin").html(parseInt(leadingmargin).toLocaleString('en-IN'));
             } 
         }
         });
        
     })();
 }
+
+// Default selection of TN on load
+constFilter(1, "data/const2021data.json")
+
 function createDropDown() {
     var stname  = btn_data;
     var  const_list1= [], const_no1= [];

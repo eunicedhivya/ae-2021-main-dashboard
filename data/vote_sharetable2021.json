@@ -1,7 +1,9 @@
 {
-    "tn_share": [{"party":"AIADMK","won":58,"total":58,"leading":0,"leading%":33.57,"status":"lead"},{"party":"DMK","won":22,"total":22,"leading":0,"leading%":37.14,"status":"lead"},{"party":"Others","won":19,"total":19,"leading":0,"leading%":14.12,"status":"lead"}], 
-    "as_share": [{"party":"BJP","won":134,"total":134,"leading":0,"leading%":31.9,"status":"lead"},{"party":"INC","leading":0,"won":89,"total":89,"leading%":28.74,"status":"lead"},{"party":"AGP","won":0,"leading":8,"leading%":8.1,"status":"lead"},{"party":"Others","won":0,"leading":1,"leading%":15.47,"status":"lead"}],
+    "tn_share": [{"party":"AIADMK","won":58,"total":58,"leading":0},{"party":"DMK","won":22,"total":22,"leading":0},{"party":"Others","won":19,"total":19,"leading":0}], 
+    "as_share": [{"party":"BJP","won":134,"total":134,"leading":0},{"party":"INC","leading":0,"won":89,"total":89},{"party":"AGP","won":0,"leading":8},{"party":"Others","won":0,"leading":1}],
     "kl_share": [{"party":"CPIM","leading":134,"leading%":25.81,"status":"lead"},{"party":"INC","leading":89,"leading%":24.1,"status":"lead"},{"party":"BJP","leading":8,"leading%":11.72,"status":"lead"},{"party":"Others","leading":1,"leading%":15.61,"status":"lead"}],
     "pd_share": [{"party":"INC","leading":60,"leading%":21.38,"status":"lead"},{"party":"AINRC","leading":26,"leading%":28.57,"status":"lead"},{"party":"Others","leading":1,"leading%":13.82,"status":null}],
     "wb_share": [{"party":"TMC","leading":134,"leading%":48.47,"status":"lead"},{"party":"INC","leading":89,"leading%":2.78,"status":"lead"},{"party":"BJP","leading":8,"leading%":37.59,"status":"lead"},{"party":"Others","leading":1,"leading%":3.93,"status":"lead"}]
 }
+
+

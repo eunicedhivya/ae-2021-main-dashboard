@@ -108,7 +108,7 @@ function carouselWidgetKeyCandidate(datasource, selector, statename, filter, let
 				//keycandidatename = keycandidatename.replace(/[^A-Z0-9]/ig, "");
                 var keycandidateplace = data[statn1][j].constname;
                 var keycandidateparty = data[statn1][j].candidateparty;
-                var keycandidateleading = data[statn1][j].age;
+                var keycandidateleading = data[statn1][j]["Leading and Trailing"];
                 var keycandidatevotes = data[statn1][j].education
                 
                 html = '<div class="candidate-items">'
@@ -116,7 +116,12 @@ function carouselWidgetKeyCandidate(datasource, selector, statename, filter, let
                 html += '<div class="cand-info">'
                 html += '<h4>'+ keycandidatename +'<span>'+ keycandidateparty +'</span></h4>'
                 html += '<p class="cand-cont">'+ keycandidateplace +'</p>'
-                html += '<p class="cand-votes"><span>'+keycandidateleading +'</span> '+keycandidatevotes +'</p>'
+                // html += '<p class="cand-votes"><span>'+keycandidateleading +'</span> '+keycandidatevotes +'</p>'
+                if(keycandidateleading !== "Won"){
+                    html += '<p class="cand-votes lost"><span>'+ keycandidateleading +'</span> </p>'
+                }else{
+                    html += '<p class="cand-votes won"><span>'+ keycandidateleading +'</span> </p>'
+                }
                 html += '</div>'
                 html += '</div>'
                 cand += html

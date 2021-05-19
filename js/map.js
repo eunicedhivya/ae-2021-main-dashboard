@@ -63,9 +63,9 @@ function drawAssemblyMap(selector, settings){
 						//d3.select(this).classed("focused", true);
                             //console.log(i, d.properties.AC_NAME)
                             if($("#conts-2016").hasClass("active")) {
-                                constFilter(d.properties.AC_NO, "data/data.json");
+                                constFilter(d.properties.AC_NO, "data/const2016data.json");
                             } else {
-                                constFilter(d.properties.AC_NO, "data/data2021.json");
+                                constFilter(d.properties.AC_NO, "data/const2021data.json");
                             }
                             $('#const-list').val(d.properties.AC_NO).trigger('change')
                             //var fd = constWiseData2016.filter(function(obj){
