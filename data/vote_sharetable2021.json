@@ -1,9 +1,9 @@
 {
-    "tn_share": [{"party":"AIADMK","won":58,"total":58,"leading":0},{"party":"DMK","won":22,"total":22,"leading":0},{"party":"Others","won":19,"total":19,"leading":0}], 
-    "as_share": [{"party":"BJP","won":134,"total":134,"leading":0},{"party":"INC","leading":0,"won":89,"total":89},{"party":"AGP","won":0,"leading":8},{"party":"Others","won":0,"leading":1}],
-    "kl_share": [{"party":"CPIM","leading":134,"leading%":25.81,"status":"lead"},{"party":"INC","leading":89,"leading%":24.1,"status":"lead"},{"party":"BJP","leading":8,"leading%":11.72,"status":"lead"},{"party":"Others","leading":1,"leading%":15.61,"status":"lead"}],
-    "pd_share": [{"party":"INC","leading":60,"leading%":21.38,"status":"lead"},{"party":"AINRC","leading":26,"leading%":28.57,"status":"lead"},{"party":"Others","leading":1,"leading%":13.82,"status":null}],
-    "wb_share": [{"party":"TMC","leading":134,"leading%":48.47,"status":"lead"},{"party":"INC","leading":89,"leading%":2.78,"status":"lead"},{"party":"BJP","leading":8,"leading%":37.59,"status":"lead"},{"party":"Others","leading":1,"leading%":3.93,"status":"lead"}]
+    "tn_share": [{"party": "AIADMK", "won": 134, "leading": 0, "total": 134}, {"party": "DMK", "won": 89, "leading": 0, "total": 89}, {"party": "INC", "won": 8, "leading": 0, "total": 8}, {"party": "IML", "won": 1, "leading": 0, "total": 1}], 
+    "as_share": [{"party": "BJP", "won": 60, "leading": 0, "total": 60}, {"party": "INC", "won": 26, "leading": 0, "total": 26}, {"party": "AGP", "won": 14, "leading": 0, "total": 14}, {"party": "AIUDF", "won": 13, "leading": 0, "total": 13}, {"party": "Others", "won": 13, "leading": 0, "total": 13}],
+    "kl_share": [{"party": "CPIM", "won": 58, "leading": 0, "total": 58}, {"party": "INC", "won": 22, "leading": 0, "total": 22}, {"party": "CPI", "won": 19, "leading": 0, "total": 19}, {"party": "IUML", "won": 18, "leading": 0, "total": 18}, {"party": "Others", "won": 23, "leading": 0, "total": 23}],
+    "pd_share": [{"party": "INC", "won": 15, "leading": 0, "total": 15}, {"party": "AINRC", "won": 8, "leading": 0, "total": 8}, {"party": "AIADMK", "won": 4, "leading": 0, "total": 4}, {"party": "DMK", "won": 2, "leading": 0, "total": 2}, {"party": "IND", "won": 1, "leading": 0, "total": 1}],
+    "wb_share": [{"party": "AITC", "won": 211, "leading": 0, "total": 211}, {"party": "INC", "won": 44, "leading": 0, "total": 44}, {"party": "CPI(M)", "won": 26, "leading": 0, "total": 26}, {"party": "BJP", "won": 3, "leading": 0, "total": 3}, {"party": "Others", "won": 10, "leading": 0, "total": 10}]
 }
 
 
