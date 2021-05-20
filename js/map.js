@@ -1,7 +1,5 @@
 function drawAssemblyMap(selector, settings){
-    var width = 430, height = 550, scale = 2000, center = [83, 23];
-    var indiaSource = 'map/india.json'
-    // var source = 'data/map/andhrapradesh-ac.json'
+    var width = 430, height = 550, scale = 2000, center = [83, 23]; 
     var state = settings.statecode;
     var source = settings.mapsource;
 
@@ -28,8 +26,6 @@ function drawAssemblyMap(selector, settings){
 
             var stateconst = topojson.feature(stateShape, stateShape.objects.collection).features;
 
-            //console.log("stateboundary", stateconst);
-
             svg.selectAll(".state")
                         .data(stateconst).enter().append("path")
                         .attr("d", geoPath)
@@ -37,18 +33,60 @@ function drawAssemblyMap(selector, settings){
                         .attr('stroke', "#ffffff")
                         .attr('stroke-width', "0.5")
                         .attr('fill', function(d,i){
-                            var fd = constWiseData2016.filter(function(obj){
-                                // console.log(obj);
-                                return obj["Const. No."] === d.properties.AC_NO;
-                            })
-
-                            //console.log("fd", fd[0]["Leading Party"]);
-            
-                            if(fd[0] !== undefined){
-                                return partycolors[fd[0]["Leading Party"]];
-                            }else{
-                                return "#FFFFFF";
+                           
+                            var fd;
+                            var filterdatastatewise;
+                            
+                            if(state === "S22"){
+                                filterdatastatewise = "tn_conswise";
+                            }else if(state === "S03"){
+                                filterdatastatewise = "as_conswise";
+                            }else if(state === "S11"){
+                                filterdatastatewise = "kl_conswise";
+                            }else if(state === "U07"){
+                                filterdatastatewise = "pd_conswise";
+                            }else if(state === "S25"){
+                                filterdatastatewise = "wb_conswise";
                             }
+                            
+                            
+                            if($("#conts-2016").hasClass("active")) {
+                                fd = constWiseData2016.filter(function(obj){
+                                    return obj["Const. No."] === d.properties.AC_NO;
+                                })
+
+                                if(fd[0] !== undefined){
+                                    return partycolors[fd[0]["Leading Party"]];
+                                }else{
+                                    return "#FFFFFF";
+                                }
+
+                            } else {
+                                fd = constWiseData2021[filterdatastatewise].filter(function(obj){
+                                    // console.log(obj)
+                                    return obj["constNo"] === d.properties.AC_NO;
+                                })
+
+                                if(fd[0] !== undefined){
+                                    if(state === "S22"){
+                                        return partycolors_tn[fd[0]["leadingParty"]];
+                                    }else if(state === "S03"){
+                                        return partycolors_as[fd[0]["leadingParty"]];
+                                    }else if(state === "S11"){
+                                        return partycolors_kl[fd[0]["leadingParty"]];
+                                    }else if(state === "U07"){
+                                        return partycolors_pd[fd[0]["leadingParty"]];
+                                    }else if(state === "S25"){
+                                        return partycolors_wb[fd[0]["leadingParty"]];
+                                    }
+                                }else{
+                                    return "#FFFFFF";
+                                }
+                            }
+                            
+                            // console.log(fd[0]["leadingParty"])
+                            
+                            
                         })
                         .attr('stroke-opacity', "1")
 						.attr("data-constcode", function(d,i){
@@ -58,10 +96,7 @@ function drawAssemblyMap(selector, settings){
                             return d['properties']['ST_CODE'];
                         })
                         .on("click", function(d, i){ 
-						//alert("CONST:"+d3.select(this).attr("data-statecode"));
-						//d3.selectAll('.state').classed("focused", false);
-						//d3.select(this).classed("focused", true);
-                            //console.log(i, d.properties.AC_NAME)
+                            
                             if($("#conts-2016").hasClass("active")) {
                                 constFilter(d.properties.AC_NO, "data/const2016data.json");
                             } else {
@@ -234,7 +269,6 @@ function drawAssemblyMap(selector, settings){
 //                 tool.attr("id", "tippBox2");
 
         }) // Statelevel Source
-//     }) //India Sources
  
 
 }

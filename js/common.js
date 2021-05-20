@@ -1,10 +1,73 @@
 var btn_data  = "tn", btn_Value = "Tamil Nadu";
 var defaultYear = '2021';
 var const_list = [], const_no= [];
+
+var partycolors_tn = {
+            "AIADMK": "#006837",
+            "BJP": "#006837",
+            "PMK": "#006837",
+            "DMK": "#b71c24",
+            "VCK": "#b71c24",
+            "INC": "#b71c24",
+            "CPI": "#797979",
+            "CPIM": "#797979",
+        }
+
+	// TMC: #006837, BJP+: #ffaa2e, Left: #b71c24, Others: 797979
+	var partycolors_wb = {
+		"AITC": "#006837",
+		"BJP": "#ffaa2e",
+		"IND": "#797979",
+		"RSMP": "#797979"
+	}
+	// Neda: #ffaa2e, Congress: #b71c24, AJP: #00a2ab , Others: 797979
+	var partycolors_as = {
+		"AITC": "#006837",
+		"INC": "#b71c24",
+		"BPF": "#b71c24",
+		"AIUDF": "#b71c24",
+		"CPIM": "#b71c24",
+		"BJP": "#ffaa2e",
+		"AGP": "#ffaa2e",
+		"UPPL": "#ffaa2e",
+		"IND": "#797979"
+	}
+	// UDF: #006837, LDF: #b71c24, NDA: #ffaa2e , Others: 797979
+var partycolors_kl = {
+            "CPI": "#b71c24",
+            "CPIM": "#b71c24",
+            "KCM": "#b71c24",
+            "NCP": "#b71c24",
+            "LJD": "#b71c24",
+            "KCB": "#b71c24",
+            "JDS": "#b71c24",
+            "BJP": "#ffaa2e",
+            "INC": "#006837",
+            "KCJ": "#006837",
+            "RMPI": "#006837",
+            "IUML": "#006837",
+            "IND": "#797979",
+            "KC": "#797979"
+        }
+
+	// UPA: #006837,  NDA: #ffaa2e , Others: 797979
+var partycolors_pd = {
+            "DMK": "#006837",
+            "AINRC": "#ffaa2e",
+            "BJP": "#ffaa2e",
+            "IND": "#797979",
+            "CS": "#797979",
+        }
+		
 var partycolors = {
             "AIADMK": "#006837",
+            "BJP": "#006837",
+            "PMK": "#006837",
             "DMK": "#b71c24",
+            "VCK": "#b71c24",
             "INC": "#b71c24",
+            "CPI": "#797979",
+            "CPIM": "#797979",
         }
 //initial call
 loadAllData();
@@ -97,6 +160,7 @@ function loadAllData() {
 		});
 		return indiaDistrictData;
     })();
+    
 	loadMap();	
 	createDropDown();
     consName = $('#const-list').find(":selected").val();
