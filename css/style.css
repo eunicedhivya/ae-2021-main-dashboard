@@ -326,24 +326,13 @@ path.state:hover {
   font-weight: 400;
   color: #999;
 }
-.candidate-items .cand-votes.won,
+.candidate-items .cand-votes,
 .candidate-items .cand-age {
   font-family: "Rubik", sans-serif;
   display: block;
   font-size: 11px;
   font-weight: 400;
   color: #008000;
-  margin: 5px 0;
-  position: relative;
-  padding: 0 16px;
-}
-.candidate-items .cand-votes.lost,
-.candidate-items .cand-age {
-  font-family: "Rubik", sans-serif;
-  display: block;
-  font-size: 11px;
-  font-weight: 400;
-  color: red;
   margin: 5px 0;
   position: relative;
   padding: 0 16px;
@@ -357,19 +346,9 @@ path.state:hover {
   margin-right: 10px;
   text-transform: uppercase;
 }
-.candidate-items .cand-votes.won::before {
+.candidate-items .cand-votes::before {
   content: "";
   background-color: #008000;
-  width: 6px;
-  height: 6px;
-  position: absolute;
-  top: 3px;
-  border-radius: 50%;
-  left: 6px;
-}
-.candidate-items .cand-votes.lost::before {
-  content: "";
-  background-color: red;
   width: 6px;
   height: 6px;
   position: absolute;
@@ -651,57 +630,6 @@ path.state:hover {
   border-radius: 100%;
   padding: 0px 3px;
   font-size: 12px;
-}
-
-.aap,
-.AAP,
-.aap .party-score {
-  fill: #4c9b7a;
-  color: #4c9b7a;
-}
-.AIADMK {
-  fill: #006837;
-  color: #006837;
-}
-.DMK {
-  fill: #b71c24;
-  color: #b71c24;
-  stroke: #b71c24;
-}
-.AMMK {
-  fill: #00a2ab;
-  color: #00a2ab;
-  stroke: #00a2ab;
-}
-.MNM {
-  fill: #ffaa2e;
-  color: #ffaa2e;
-  stroke: #ffaa2e;
-}
-.undeclared {
-  fill: #fff;
-  color: #fff;
-  stroke: #7c7c7c;
-}
-.bjp {
-  fill: #fa8601;
-  color: #fa8601;
-  stroke: #fa8601;
-}
-.INC {
-  fill: #945a19;
-  color: #945a19;
-  stroke: #945a19;
-}
-.IML {
-  fill: #194ab4;
-  color: #194ab4;
-  stroke: #194ab4;
-}
-.Others {
-  fill: #797979;
-  color: #797979;
-  stroke: #797979;
 }
 
 /*Poll-Dashboard styles*/
@@ -1128,18 +1056,4 @@ div.tooltip {
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
-}
-
-/*Chart color code*/
-.block.AIADMK-color {
-  background: #006837;
-}
-.block.DMK-color {
-  background: #b71c24;
-}
-.block.AMMK-color {
-  background: #00a2ab;
-}
-.block.MNM-color {
-  background: #ffaa2e;
 }

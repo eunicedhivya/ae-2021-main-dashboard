@@ -12,9 +12,10 @@
     font-size: 19px;
     text-align: center;
   }
-  .tf_wrap button.dashfilters, .tf_wrap button.searchBtn {
+  .tf_wrap button.dashfilters,
+  .tf_wrap button.searchBtn {
     font-size: 11px;
-    margin: 6px 4px;;
+    margin: 6px 4px;
     padding: 3px 5px;
     line-height: 13px;
   }
@@ -91,9 +92,9 @@
     top: -4px;
     width: 30px;
   }
-  .poll-candidate-items img {	
-    left: 0;	
-    overflow: hidden;	
+  .poll-candidate-items img {
+    left: 0;
+    overflow: hidden;
   }
   .poll-candidate-items .cand-meta li span {
     font-size: 12px;
