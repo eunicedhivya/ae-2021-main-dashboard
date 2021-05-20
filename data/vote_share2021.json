@@ -1,7 +1,7 @@
 {
-    "tn_share": [{"Party":"AIADMK","won":58,"total":58,"leading":0,"leading%":33.57,"status":"lead"},{"Party":"DMK","won":22,"total":22,"leading":0,"leading%":37.14,"status":"lead"},{"Party":"Others","won":19,"total":19,"leading":0,"leading%":14.12,"status":"lead"}], 
-    "as_share": [{"Party":"BJP","won":134,"total":134,"leading":0,"leading%":31.9,"status":"lead"},{"Party":"INC","leading":0,"won":89,"total":89,"leading%":28.74,"status":"lead"},{"Party":"AGP","won":0,"leading":8,"leading%":8.1,"status":"lead"},{"Party":"Others","won":0,"leading":1,"leading%":15.47,"status":"lead"}],
-    "kl_share": [{"Party":"CPIM","leading":134,"leading%":25.81,"status":"lead"},{"Party":"INC","leading":89,"leading%":24.1,"status":"lead"},{"Party":"BJP","leading":8,"leading%":11.72,"status":"lead"},{"Party":"Others","leading":1,"leading%":15.61,"status":"lead"}],
-    "pd_share": [{"Party":"INC","leading":60,"leading%":21.38,"status":"lead"},{"Party":"AINRC","leading":26,"leading%":28.57,"status":"lead"},{"Party":"Others","leading":1,"leading%":13.82,"status":null}],
-    "wb_share": [{"Party":"TMC","leading":134,"leading%":48.47,"status":"lead"},{"Party":"INC","leading":89,"leading%":2.78,"status":"lead"},{"Party":"BJP","leading":8,"leading%":37.59,"status":"lead"},{"Party":"Others","leading":1,"leading%":3.93,"status":"lead"}]
+    "tn_share": [{"Party":"DMK","leading%":38},{"Party":"AIADMK","leading%":33.5},{"Party":"INC","leading%":4.3},{"Party":"PMK","leading%":3.8},{"Party":"VCK","leading%":1},{"Party":"Others","leading%":19.4}], 
+    "as_share": [{"Party":"BJP","leading%":33.6},{"Party":"INC","leading%":30},{"Party":"AIUDF","leading%":9.4},{"Party":"AGP","leading%":8},{"Party":"UPPL","leading%":3.4},{"Party":"IND","leading%":6},{"Party":"Others","leading%":9.6}],
+    "kl_share": [{"Party":"CPIM","leading%":25.5},{"Party":"INC","leading%":25.2},{"Party":"CPI","leading%":7.6},{"Party":"IML","leading%":8.3},{"Party":"IND","leading%":5.8},{"Party":"Others","leading%":27.6}],
+    "pd_share": [{"Party":"AINRC","leading%":26.2},{"Party":"DMK","leading%":18.8},{"Party":"INC","leading%":15.9},{"Party":"BJP","leading%":13.8},{"Party":"AIADMK","leading%":4.2},{"Party":"Others","leading%":21.1}],
+    "wb_share": [{"Party":"AITC","leading%":48.5},{"Party":"BJP","leading%":38.5},{"Party":"CPIM","leading%":4.8},{"Party":"INC","leading%":3},{"Party":"RSMPA","leading%":1.4},{"Party":"Others","leading%":3.8}]
 }
