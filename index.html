@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css?v=12335570">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/colorscheme.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src='https://thefederal.com/embed/common-js/underscore-min.js' ></script>
     <script src='https://thefederal.com/embed/common-js/d3.v4.min.js' ></script>
@@ -189,4 +190,21 @@
 <script src="js/charts/carousel.js"></script>
 <script src="js/map.js"></script>
 <script src="js/common.js?v=12334555"></script>
+<script>
+    var constWiseData2021 = (function() {
+	     constWiseData2021 = null;
+        jQuery.ajax({
+            'async': false,
+            'global': false,
+            'dataType': 'json',
+            'cache': false,
+            'url': 'data/const2021data.json',
+            'success': function(data) {
+                constWiseData2021 = data;
+            }
+        });
+        return constWiseData2021;
+    })();
+
+</script>
 </html>
