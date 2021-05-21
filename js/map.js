@@ -5,12 +5,23 @@ function drawAssemblyMap(selector, settings){
 
     d3.select(selector).html(null)
 
+    
+
     var svg = d3.select(selector)
     .append("svg")
     .attr("class", settings.vhcode+"map")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("preserveAspectRatio", "xMinYMin")
     .append("g")
+
+    var tool_tip = d3.tip()
+        .attr("class", "map-tooltip")
+        .offset([-15, 0])
+        .html(function(d) { 
+            var html = "<p>"+d.properties.AC_NAME+"</p> "
+            return html; 
+        });
+    svg.call(tool_tip);
 
     var projection = d3.geoMercator()
     .scale(settings.scale)
@@ -100,6 +111,8 @@ function drawAssemblyMap(selector, settings){
                         .attr("data-statecode", function(d,i){
                             return d['properties']['ST_CODE'];
                         })
+                        .on('mouseover', tool_tip.show)
+                        .on('mouseout', tool_tip.hide)
                         .on("click", function(d, i){ 
                             
                             if($("#conts-2016").hasClass("active")) {

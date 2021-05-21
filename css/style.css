@@ -1115,3 +1115,17 @@ div.tooltip {
 .alliancemodal ul li:last-child {
   border-bottom: none !important;
 }
+
+.map-tooltip,
+.d3-tip {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
+.map-tooltip,
+p,
+.d3-tip p {
+  margin: 0;
+}
