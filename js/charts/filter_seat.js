@@ -19,7 +19,7 @@ function seatShare(stname, dataSource, selector, keyElem) {
                 var party_name = data[datafil][i]["Party"]
 
                 if(seat_percent > 5) {
-                    html = '<span class="block" title="'+party_name +'" style="width: '+ seat_percent +'%">'
+                    html = '<span class="block" data-chart="'+selector+'" title="'+party_name +'" style="width: '+ seat_percent +'%">'
                     html += '<span class="value">'+ seat_percent +'% </span>'
                     html += '<span class="label" data="'+seat_percent +'">'+ party_name +'</span>'
                     html += '</span>'
@@ -38,5 +38,21 @@ function seatShare(stname, dataSource, selector, keyElem) {
         return kl_seatshare;
 		$(selector).html('Loaded');
     })();
+
+
 }
     
+
+// $(document).on('mouseover','.block', function(e) {  
+//     // console.log("block", this.title)
+//     // console.log("block", this.style.width)
+//     var x = $(this).position();
+//     var wide = $(this).width()
+//     $(".tooltip").css("display", "block")
+//     $(".tooltip").css("top", x.top - 25)
+//     $(".tooltip").css("left", x.left + (wide/2))
+//     $(".tooltip").html("<p>"+this.title+": "+ this.style.width +"</p>")
+// });
+// $(document).on('mouseout','.block', function(e) {  
+//     $(".tooltip").css("display", "none")
+// });
