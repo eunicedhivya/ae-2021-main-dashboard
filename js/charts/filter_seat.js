@@ -43,16 +43,29 @@ function seatShare(stname, dataSource, selector, keyElem) {
 }
     
 
-// $(document).on('mouseover','.block', function(e) {  
-//     // console.log("block", this.title)
-//     // console.log("block", this.style.width)
-//     var x = $(this).position();
-//     var wide = $(this).width()
-//     $(".tooltip").css("display", "block")
-//     $(".tooltip").css("top", x.top - 25)
-//     $(".tooltip").css("left", x.left + (wide/2))
-//     $(".tooltip").html("<p>"+this.title+": "+ this.style.width +"</p>")
-// });
-// $(document).on('mouseout','.block', function(e) {  
-//     $(".tooltip").css("display", "none")
-// });
+$(document).on('mouseover','.block', function(e) {  
+    // console.log("block", this.title)
+    // console.log("block", this.style.width)
+    var x = $(this).position();
+    var wide = $(this).width();
+    var getId = $(this).data();
+    
+    if(getId.chart === "#voteSharechart"){
+        console.log("block", "test")
+        $(".tooltip2").css("display", "block")
+        $(".tooltip2").css("top", x.top - 25)
+        $(".tooltip2").css("left", x.left + (wide/2))
+        $(".tooltip2").html("<p>"+this.title+": "+ this.style.width +"</p>")
+    }else{
+        console.log("block", "test2")
+        $(".tooltip").css("display", "block")
+        $(".tooltip").css("top", x.top - 25)
+        $(".tooltip").css("left", x.left + (wide/2))
+        $(".tooltip").html("<p>"+this.title+": "+ this.style.width +"</p>")
+    }
+    
+});
+$(document).on('mouseout','.block', function(e) {  
+    $(".tooltip").css("display", "none")
+    $(".tooltip2").css("display", "none")
+});

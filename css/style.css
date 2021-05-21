@@ -1044,7 +1044,8 @@ ul#letters-listing li.disabled a {
   background-color: #666;
 }
 
-div.tooltip {
+div.tooltip,
+div.tooltip2 {
   position: absolute;
   text-align: center;
   width: fit-content;
