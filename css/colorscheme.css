@@ -11,8 +11,155 @@
 .block.MNM-color {
   background: #ffaa2e;
 }
+/* //tn AIADMK: #006837,  DMK: #b71c24 , AMMK:#00a2ab, Others: 797979 */
+/* //wb TMC: #006837, BJP+: #ffaa2e, Left: #b71c24, Others: 797979 */
+/* //as Neda: #ffaa2e, Congress: #b71c24, AJP: #00a2ab , Others: 797979 */
+/* //kl UDF: #006837, LDF: #b71c24, NDA: #ffaa2e , Others: 797979 */
+/* //pd UPA: #006837,  NDA: #ffaa2e , Others: 797979 */
 
-.aap,
+/* 2021 - Alliance Seatshare */
+/* ======================= */
+/* ======================= */
+.y2021.tn .AIADMK {
+  fill: #006837;
+}
+.y2021.tn .DMK {
+  fill: #b71c24;
+}
+
+.y2016.tn .AIADMK {
+  fill: #006837;
+}
+.y2016.tn .DMK {
+  fill: #b71c24;
+}
+.y2016.tn .INC {
+  fill: #b71c24;
+}
+.y2016.tn .IML {
+  fill: #b71c24;
+}
+
+/* ________________ */
+
+.y2021.as .BJP {
+  fill: #ffaa2e;
+}
+.y2021.as .INC {
+  fill: #b71c24;
+}
+.y2021.as .Others {
+  fill: #797979;
+}
+
+.y2016.as .BJP {
+  fill: #ffaa2e;
+}
+.y2016.as .INC {
+  fill: #b71c24;
+}
+
+.y2016.as .AGP {
+  fill: #ffaa2e;
+}
+.y2016.as .BOPF {
+  fill: #ffaa2e;
+}
+.y2016.as .AIUDF {
+  fill: #797979;
+}
+.y2016.as .Others {
+  fill: #797979;
+}
+.y2016.as .IND {
+  fill: #797979;
+}
+.y2016.as .IML {
+  fill: #797979;
+}
+
+/* ________________ */
+.y2021.wb .TMC {
+  fill: #006837;
+}
+.y2021.wb .BJP {
+  fill: #ffaa2e;
+}
+.y2021.wb .Others {
+  fill: #797979;
+}
+.y2016.wb .AITC,
+.y2016.wb .TMC {
+  fill: #006837;
+}
+.y2016.wb .INC {
+  fill: #b71c24;
+}
+.y2016.wb .CPIM {
+  fill: #b71c24;
+}
+.y2016.wb .Others {
+  fill: #797979;
+}
+
+.y2016.wb .BJP {
+  fill: #ffaa2e;
+}
+
+/* ________________ */
+.y2021.kl .CPIM {
+  fill: #b71c24;
+}
+.y2021.kl .INC {
+  fill: #006837;
+}
+
+.y2016.kl .CPIM {
+  fill: #b71c24;
+}
+.y2016.kl .CPI {
+  fill: #b71c24;
+}
+.y2016.kl .INC {
+  fill: #006837;
+}
+.y2016.kl .IUML {
+  fill: #006837;
+}
+.y2016.kl .IND,
+.y2016.kl .Others {
+  fill: #797979;
+}
+
+/* ________________ */
+.y2021.pd .INC {
+  fill: #006837;
+}
+.y2016.pd .INC {
+  fill: #006837;
+}
+.y2016.pd .AIADMK {
+  fill: #006837;
+}
+.y2021.pd .AINRC {
+  fill: #ffaa2e;
+}
+.y2016.pd .AINRC {
+  fill: #ffaa2e;
+}
+.y2021.pd .Others,
+.y2016.pd .IND {
+  fill: #797979;
+}
+.y2016.pd .DMK {
+  fill: #b71c24;
+}
+
+/* .y2021.pd .INC {
+  fill: #006837;
+} */
+
+/* .aap,
 .AAP,
 .aap .party-score {
   fill: #4c9b7a;
@@ -61,4 +208,4 @@
   fill: #797979;
   color: #797979;
   stroke: #797979;
-}
+} */ ;

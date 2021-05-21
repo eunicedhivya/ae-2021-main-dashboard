@@ -13,6 +13,6 @@ function drawParliamentaryChart(selector, year, data){
     
     d3.select(selector).datum(data).call(parliament);
 
- 
+    d3.select(".parliamentseats").attr("class", "parliamentseats "+btn_data+" y"+year)
 
 }
