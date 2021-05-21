@@ -169,6 +169,8 @@ function loadAllData() {
 	createDropDown();
     consName = $('#const-list').find(":selected").val();
 	constFilter(consName, "data/data.json");
+
+    
 }
 function loadMap() {
 	var mapData = 'maps/tamilnadu.json'
@@ -443,3 +445,4 @@ $('#const-list').on('change', function() {
     filValue = $(this).val();
 	constFilter(filValue, datasource);
 })
+
