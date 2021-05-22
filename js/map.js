@@ -63,7 +63,7 @@ function drawAssemblyMap(selector, settings){
                             
                             if($("#conts-2016").hasClass("active")) {
                                 fd = constWiseData2016.filter(function(obj){
-                                    return obj["Const. No."] === d.properties.AC_NO;
+                                    return obj["constNo"] === d.properties.AC_NO;
                                 })
 
                                 if(fd[0] !== undefined){
@@ -72,7 +72,7 @@ function drawAssemblyMap(selector, settings){
                                         console.log(fd[0]);
 
                                     }
-                                    return partycolors[fd[0]["Leading Party"]];
+                                    return partycolors[fd[0]["leadingParty"]];
                                 }else{
                                     return "#FFFFFF";
                                 }
@@ -116,9 +116,9 @@ function drawAssemblyMap(selector, settings){
                         .on("click", function(d, i){ 
                             
                             if($("#conts-2016").hasClass("active")) {
-                                constFilter(d.properties.AC_NO, "data/const2016data.json");
+                                constFilter(d.properties.AC_NO, "data/const2016data.json?v=1235");
                             } else {
-                                constFilter(d.properties.AC_NO, "data/const2021data.json");
+                                constFilter(d.properties.AC_NO, "data/const2021data.json?v=1235");
                             }
                             $('#const-list').val(d.properties.AC_NO).trigger('change')
                         })

@@ -80,7 +80,7 @@ jQuery("nav button.dashfilters").click(function() {
     btn_Value = $(this).attr("value");
     $(".section-block header h3 span.state_name").text(btn_Value + " |")
 	$('#letters-listing li').removeClass('active');
-	constFilter(1, "data/const2021data.json")
+	constFilter(1, "data/const2021data.json?v=1235")
 	loadAllData();
 });
 // Alphabetic filter
@@ -97,7 +97,7 @@ $(".yearBtn").on("click", function(){
     $(this).addClass('active');
     defaultYear = $(this).html();
 	// console.log("defaultYear", defaultYear);
-	constFilter(1, "data/const"+defaultYear+"data.json")
+	constFilter(1, "data/const"+defaultYear+"data.json?v=1235")
 	loadAllData();
 });
 // Search button filter
@@ -106,9 +106,9 @@ jQuery("#searchBtn").click(function(){
     searchFilter(btn_data);
     loadConstituencyCarousal(btn_data,btn_Value,'',searchTxt);
     if($("#conts-2016").hasClass("active")) {
-        constFilter(searchTxt, "data/data.json");
+        constFilter(searchTxt, "data/const2016data.json?v=1235");
     } else {
-        constFilter(searchTxt, "data/data2021.json");
+        constFilter(searchTxt, "data/const2021data.json?v=1235");
     }
 })
 function loadAllData() { 
@@ -156,10 +156,10 @@ function loadAllData() {
 			'global': false,
 			'dataType': 'json',
 			'cache': false,
-			'url': 'data/data.json',
+			'url': 'data/const2016data.json?v=1235',
 			'success': function(data) {
-				indiaDistrictData = data["tabledata"];
-				constWiseData2016 = data["all_constituencywise"]
+				//indiaDistrictData = data["tabledata"];
+				constWiseData2016 = data[btn_data+'_conswise']
 			}
 		});
 		return indiaDistrictData;
@@ -168,7 +168,7 @@ function loadAllData() {
 	loadMap();	
 	createDropDown();
     consName = $('#const-list').find(":selected").val();
-	constFilter(consName, "data/data.json");
+	constFilter(consName, "data/const2016data.json?v=1235");
 
     
 }
@@ -222,70 +222,70 @@ function getYearData(module) {
 		case 'constituency':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/const2016data.json";
+					yearData = "data/const2016data.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/const2021data.json";
+					yearData = "data/const2021data.json?v=1235";
 				break;
 			} 
 		break;
 		case 'partywise_seats':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/partywise_seats2016.json";
+					yearData = "data/partywise_seats2016.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/partywise_seats2021.json";
+					yearData = "data/partywise_seats2021.json?v=1235";
 				break;
 			}
 		break;
 		case 'seat_share':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/seat_share2016.json";
+					yearData = "data/seat_share2016.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/seat_share2021.json";
+					yearData = "data/seat_share2021.json?v=1235";
 				break;
 			}
 		break;
 		case 'vote_share':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/vote_share2016.json";
+					yearData = "data/vote_share2016.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/vote_share2021.json";
+					yearData = "data/vote_share2021.json?v=1235";
 				break;
 			}
 		break;
 		case 'table':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/vote_sharetable2016.json";
+					yearData = "data/vote_sharetable2016.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/vote_sharetable2021.json";
+					yearData = "data/vote_sharetable2021.json?v=1235";
 				break;
 			} 
 		break;
 		case 'voteshare':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/const2016data.json";
+					yearData = "data/const2016data.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/const2021data.json";
+					yearData = "data/const2021data.json?v=1235";
 				break;
 			} 
 		break;
 		case 'seatshare':
 			switch(defaultYear) {
 			  case '2016':
-					yearData = "data/const2016data.json";
+					yearData = "data/const2016data.json?v=1235";
 				break;
 			  case '2021':
-					yearData = "data/const2021data.json";
+					yearData = "data/const2021data.json?v=1235";
 				break;
 			} 
 		break;
@@ -294,7 +294,7 @@ function getYearData(module) {
 }
 function candidatesCarousal(btn_data,btn_Value,find_char='',find_let='') {
 	$("#owl-demo").html('Loading...');
-	carouselWidgetKeyCandidate('data/keycandidates-2021.json', "#owl-demo", btn_data,find_char,find_let,btn_Value,'')
+	carouselWidgetKeyCandidate('data/keycandidates-2021.json?v=1235', "#owl-demo", btn_data,find_char,find_let,btn_Value,'')
 }
 function loadConstituencyCarousal(btn_data,btn_Value,find_char='',find_let='') {
 	carousalData = getYearData('constituency');
@@ -400,7 +400,7 @@ function constFilter(filter_const2, dataSource) {
 }
 
 // Default selection of TN on load
-constFilter(1, "data/const2021data.json")
+constFilter(1, "data/const2021data.json?v=1235")
 
 function createDropDown() {
     var stname  = btn_data;
@@ -445,4 +445,3 @@ $('#const-list').on('change', function() {
     filValue = $(this).val();
 	constFilter(filValue, datasource);
 })
-

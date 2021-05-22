@@ -180,7 +180,7 @@ path.state:hover {
   grid-template-columns: 75% 25%;
   align-items: baseline;
   /* margin-bottom: 10px; */
-  margin-top: -18px;
+  /*margin-top: -18px;*/
 }
 .contituency-items .trailingcand {
   margin-top: 0;
