@@ -69,6 +69,50 @@ var partycolors = {
             "CPI": "#797979",
             "CPIM": "#797979",
         }
+var partycolors2016_wb = {
+            "AITC": "#006837",
+            "BJP": "#ffaa2e",
+            "GJM": "#ffaa2e",
+            "INC": "#b71c24",
+            "CPIM": "#b71c24",
+            "CPI": "#b71c24",
+            "Independent":"#797979",
+            "IND": "#797979"
+        }
+var partycolors2016_tn = {
+            "AIADMK": "#006837",
+            "DMK": "#b71c24",
+            "INC": "#b71c24",
+        }
+var partycolors2016_as = {
+            "AIADMK": "#006837",
+            "DMK": "#b71c24",
+            "INC": "#b71c24",
+            "BJP": "#ffaa2e",
+            "BPF": "#ffaa2e",
+            "AGP": "#ffaa2e",
+            "AIUDF": "#797979",
+            "Independent": "#797979"
+        }
+var partycolors2016_kl = {
+            "CPIM": "#b71c24",
+            "CPI": "#b71c24",
+            "INC": "#006837",
+            "KCM": "#006837",
+            "IUML": "#006837",
+            "JDS": "#797979",
+            "NCP": "#797979",
+            "AIUDF": "#797979",
+            "Independent": "#797979"
+}
+var partycolors2016_pd = {
+            "AINRC": "#ffaa2e",
+            "AIADMK": "#ffaa2e",
+            "DMK": "#006837",
+            "CPI": "#b71c24",
+            "INC": "#006837",
+            "Independent": "#797979"
+}
 //initial call
 loadAllData();
 candidatesCarousal();

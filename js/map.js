@@ -43,11 +43,44 @@ function drawAssemblyMap(selector, settings){
                         .attr("class", "state")
                         .attr('stroke', "#ffffff")
                         .attr('stroke-width', "0.5")
+                        .attr('data-party', function(d,i){
+                            var fd2016 = constWiseData2016.filter(function(obj){
+                                return obj["constNo"] === d.properties.AC_NO;
+                            })
+
+                            if(state === "S22"){
+                                filterdatastatewise = "tn_conswise";
+                            }else if(state === "S03"){
+                                filterdatastatewise = "as_conswise";
+                            }else if(state === "S11"){
+                                filterdatastatewise = "kl_conswise";
+                            }else if(state === "U07"){
+                                filterdatastatewise = "pd_conswise";
+                            }else if(state === "S25"){
+                                filterdatastatewise = "wb_conswise";
+                            }
+
+                            if(fd2016[0] !== undefined){
+                                if($("#conts-2016").hasClass("active")) {
+                                    return fd2016[0]["leadingParty"];
+                                }else{
+
+                                    var fd = constWiseData2021[filterdatastatewise].filter(function(obj){
+                                        return obj["constNo"] === d.properties.AC_NO;
+                                    })
+                                    return fd[0]["leadingParty"];
+                                }
+                            }
+
+                        })
                         .attr('fill', function(d,i){
-                           
-                            var fd;
+
+                            var fd2016 = constWiseData2016.filter(function(obj){
+                                return obj["constNo"] === d.properties.AC_NO;
+                            })
+
                             var filterdatastatewise;
-                            
+
                             if(state === "S22"){
                                 filterdatastatewise = "tn_conswise";
                             }else if(state === "S03"){
@@ -60,48 +93,48 @@ function drawAssemblyMap(selector, settings){
                                 filterdatastatewise = "wb_conswise";
                             }
                             
-                            
                             if($("#conts-2016").hasClass("active")) {
-                                fd = constWiseData2016.filter(function(obj){
-                                    return obj["constNo"] === d.properties.AC_NO;
-                                })
+                                var whichstate = $(".dashfilters.active").val();
+                                if(fd2016[0] !== undefined){
+                                    if(whichstate === "West Bengal"){
+                                        return partycolors2016_wb[fd2016[0]["leadingParty"]];
+                                    }else if(whichstate === "Tamil Nadu"){
+                                        return partycolors2016_tn[fd2016[0]["leadingParty"]];
+                                    }else if(whichstate === "Kerala"){
+                                        return partycolors2016_kl[fd2016[0]["leadingParty"]];
+                                    }else if(whichstate === "Assam"){
+                                        return partycolors2016_as[fd2016[0]["leadingParty"]];
+                                    }else if(whichstate === "Puducherry"){
+                                        return partycolors2016_pd[fd2016[0]["leadingParty"]];
+                                    }else{
 
-                                if(fd[0] !== undefined){
-                                    if(fd[0]["Const. No."] === 101){
-                                        console.log(fd[0]["Leading Party"], partycolors[fd[0]["Leading Party"]]);
-                                        console.log(fd[0]);
-
-                                    }
-                                    return partycolors[fd[0]["leadingParty"]];
-                                }else{
-                                    return "#FFFFFF";
-                                }
-
-                            } else {
-                                fd = constWiseData2021[filterdatastatewise].filter(function(obj){
-                                    // console.log(obj)
-                                    return obj["constNo"] === d.properties.AC_NO;
-                                })
-
-                                if(fd[0] !== undefined){
-                                    if(state === "S22"){
-                                        return partycolors_tn[fd[0]["leadingParty"]];
-                                    }else if(state === "S03"){
-                                        return partycolors_as[fd[0]["leadingParty"]];
-                                    }else if(state === "S11"){
-                                        return partycolors_kl[fd[0]["leadingParty"]];
-                                    }else if(state === "U07"){
-                                        return partycolors_pd[fd[0]["leadingParty"]];
-                                    }else if(state === "S25"){
-                                        return partycolors_wb[fd[0]["leadingParty"]];
+                                        return partycolors[fd2016[0]["leadingParty"]];
                                     }
                                 }else{
-                                    return "#FFFFFF";
+                                    return "#FFFFFF"
                                 }
-                            }
-                            
-                            // console.log(fd[0]["leadingParty"])
-                            
+                            }else{
+                                    fd = constWiseData2021[filterdatastatewise].filter(function(obj){
+                                        // console.log(obj)
+                                        return obj["constNo"] === d.properties.AC_NO;
+                                    })
+
+                                    if(fd[0] !== undefined){
+                                        if(state === "S22"){
+                                            return partycolors_tn[fd[0]["leadingParty"]];
+                                        }else if(state === "S03"){
+                                            return partycolors_as[fd[0]["leadingParty"]];
+                                        }else if(state === "S11"){
+                                            return partycolors_kl[fd[0]["leadingParty"]];
+                                        }else if(state === "U07"){
+                                            return partycolors_pd[fd[0]["leadingParty"]];
+                                        }else if(state === "S25"){
+                                            return partycolors_wb[fd[0]["leadingParty"]];
+                                        }
+                                    }else{
+                                        return "#FFFFFF";
+                                    }
+                            }     
                             
                         })
                         .attr('stroke-opacity', "1")
